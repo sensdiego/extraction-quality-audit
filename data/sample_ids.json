@@ -1,0 +1,602 @@
+[
+  {
+    "decision_id": 1,
+    "tribunal": "STJ",
+    "numero_processo": "2379853",
+    "text_length": 29678
+  },
+  {
+    "decision_id": 2,
+    "tribunal": "STJ",
+    "numero_processo": "1810205",
+    "text_length": 28404
+  },
+  {
+    "decision_id": 3,
+    "tribunal": "STJ",
+    "numero_processo": "6347",
+    "text_length": 51975
+  },
+  {
+    "decision_id": 4,
+    "tribunal": "STJ",
+    "numero_processo": "2754216",
+    "text_length": 27842
+  },
+  {
+    "decision_id": 5,
+    "tribunal": "STJ",
+    "numero_processo": "2633124",
+    "text_length": 14267
+  },
+  {
+    "decision_id": 6,
+    "tribunal": "STJ",
+    "numero_processo": "2453641",
+    "text_length": 52902
+  },
+  {
+    "decision_id": 7,
+    "tribunal": "STJ",
+    "numero_processo": "2324110",
+    "text_length": 13677
+  },
+  {
+    "decision_id": 8,
+    "tribunal": "STJ",
+    "numero_processo": "REsp 1657156",
+    "text_length": 188405
+  },
+  {
+    "decision_id": 9,
+    "tribunal": "STJ",
+    "numero_processo": "2126709",
+    "text_length": 81740
+  },
+  {
+    "decision_id": 10,
+    "tribunal": "STJ",
+    "numero_processo": "REsp 1112416",
+    "text_length": 11885
+  },
+  {
+    "decision_id": 11,
+    "tribunal": "STJ",
+    "numero_processo": "1849236",
+    "text_length": 61606
+  },
+  {
+    "decision_id": 12,
+    "tribunal": "STJ",
+    "numero_processo": "1834182",
+    "text_length": 29273
+  },
+  {
+    "decision_id": 13,
+    "tribunal": "STJ",
+    "numero_processo": "2159296",
+    "text_length": 38392
+  },
+  {
+    "decision_id": 14,
+    "tribunal": "STJ",
+    "numero_processo": "2595324",
+    "text_length": 56777
+  },
+  {
+    "decision_id": 15,
+    "tribunal": "STJ",
+    "numero_processo": "2702739",
+    "text_length": 26079
+  },
+  {
+    "decision_id": 16,
+    "tribunal": "STJ",
+    "numero_processo": "REsp 1353016",
+    "text_length": 27304
+  },
+  {
+    "decision_id": 17,
+    "tribunal": "STJ",
+    "numero_processo": "1811170",
+    "text_length": 14896
+  },
+  {
+    "decision_id": 18,
+    "tribunal": "STJ",
+    "numero_processo": "REsp 1704520",
+    "text_length": 207566
+  },
+  {
+    "decision_id": 19,
+    "tribunal": "STJ",
+    "numero_processo": "2540446",
+    "text_length": 27977
+  },
+  {
+    "decision_id": 20,
+    "tribunal": "STJ",
+    "numero_processo": "REsp 1111157",
+    "text_length": 8578
+  },
+  {
+    "decision_id": 21,
+    "tribunal": "STJ",
+    "numero_processo": "2596824",
+    "text_length": 29933
+  },
+  {
+    "decision_id": 22,
+    "tribunal": "STJ",
+    "numero_processo": "REsp 1133690",
+    "text_length": 12552
+  },
+  {
+    "decision_id": 23,
+    "tribunal": "STJ",
+    "numero_processo": "947427",
+    "text_length": 14750
+  },
+  {
+    "decision_id": 24,
+    "tribunal": "STJ",
+    "numero_processo": "1539389",
+    "text_length": 59529
+  },
+  {
+    "decision_id": 25,
+    "tribunal": "STJ",
+    "numero_processo": "2490911",
+    "text_length": 28198
+  },
+  {
+    "decision_id": 26,
+    "tribunal": "STJ",
+    "numero_processo": "AgInt no REsp 1961882",
+    "text_length": 113910
+  },
+  {
+    "decision_id": 27,
+    "tribunal": "STJ",
+    "numero_processo": "2484450",
+    "text_length": 29739
+  },
+  {
+    "decision_id": 28,
+    "tribunal": "STJ",
+    "numero_processo": "2591267",
+    "text_length": 55625
+  },
+  {
+    "decision_id": 29,
+    "tribunal": "STJ",
+    "numero_processo": "AgInt no REsp 1837435",
+    "text_length": 43600
+  },
+  {
+    "decision_id": 30,
+    "tribunal": "STJ",
+    "numero_processo": "EREsp 1910729",
+    "text_length": 27647
+  },
+  {
+    "decision_id": 31,
+    "tribunal": "TJPR",
+    "numero_processo": "0002698-63.2024.8.16.0083",
+    "text_length": 8734
+  },
+  {
+    "decision_id": 32,
+    "tribunal": "TJPR",
+    "numero_processo": "0015146-89.2025.8.16.0194",
+    "text_length": 8944
+  },
+  {
+    "decision_id": 33,
+    "tribunal": "TJPR",
+    "numero_processo": "0085462-30.2025.8.16.0000",
+    "text_length": 19998
+  },
+  {
+    "decision_id": 34,
+    "tribunal": "TJPR",
+    "numero_processo": "0013076-64.2025.8.16.0044",
+    "text_length": 20324
+  },
+  {
+    "decision_id": 35,
+    "tribunal": "TJPR",
+    "numero_processo": "0052674-60.2025.8.16.0000",
+    "text_length": 4245
+  },
+  {
+    "decision_id": 36,
+    "tribunal": "TJPR",
+    "numero_processo": "0006311-83.2020.8.16.0131",
+    "text_length": 63517
+  },
+  {
+    "decision_id": 37,
+    "tribunal": "TJPR",
+    "numero_processo": "0078786-66.2025.8.16.0000",
+    "text_length": 17855
+  },
+  {
+    "decision_id": 38,
+    "tribunal": "TJPR",
+    "numero_processo": "0001819-40.2024.8.16.0056",
+    "text_length": 14344
+  },
+  {
+    "decision_id": 39,
+    "tribunal": "TJPR",
+    "numero_processo": "0068307-14.2025.8.16.0000",
+    "text_length": 5938
+  },
+  {
+    "decision_id": 40,
+    "tribunal": "TJPR",
+    "numero_processo": "0033374-15.2025.8.16.0000",
+    "text_length": 13018
+  },
+  {
+    "decision_id": 41,
+    "tribunal": "TJPR",
+    "numero_processo": "0044377-64.2025.8.16.0000",
+    "text_length": 19477
+  },
+  {
+    "decision_id": 42,
+    "tribunal": "TJPR",
+    "numero_processo": "0003058-84.2023.8.16.0001",
+    "text_length": 19542
+  },
+  {
+    "decision_id": 43,
+    "tribunal": "TJPR",
+    "numero_processo": "0123197-97.2025.8.16.0000",
+    "text_length": 22452
+  },
+  {
+    "decision_id": 44,
+    "tribunal": "TJPR",
+    "numero_processo": "0098162-38.2025.8.16.0000",
+    "text_length": 14361
+  },
+  {
+    "decision_id": 45,
+    "tribunal": "TJPR",
+    "numero_processo": "0018233-94.2024.8.16.0030",
+    "text_length": 9400
+  },
+  {
+    "decision_id": 46,
+    "tribunal": "TJPR",
+    "numero_processo": "0002421-89.2025.8.16.0090",
+    "text_length": 14050
+  },
+  {
+    "decision_id": 47,
+    "tribunal": "TJPR",
+    "numero_processo": "0046211-05.2025.8.16.0000",
+    "text_length": 11967
+  },
+  {
+    "decision_id": 48,
+    "tribunal": "TJPR",
+    "numero_processo": "0008313-76.2024.8.16.0069",
+    "text_length": 12772
+  },
+  {
+    "decision_id": 49,
+    "tribunal": "TJPR",
+    "numero_processo": "0081636-93.2025.8.16.0000",
+    "text_length": 14974
+  },
+  {
+    "decision_id": 50,
+    "tribunal": "TJPR",
+    "numero_processo": "0055456-40.2025.8.16.0000",
+    "text_length": 12815
+  },
+  {
+    "decision_id": 51,
+    "tribunal": "TJPR",
+    "numero_processo": "0054412-83.2025.8.16.0000",
+    "text_length": 9434
+  },
+  {
+    "decision_id": 52,
+    "tribunal": "TJPR",
+    "numero_processo": "0091239-93.2025.8.16.0000",
+    "text_length": 9409
+  },
+  {
+    "decision_id": 53,
+    "tribunal": "TJPR",
+    "numero_processo": "0087966-09.2025.8.16.0000",
+    "text_length": 13740
+  },
+  {
+    "decision_id": 54,
+    "tribunal": "TJPR",
+    "numero_processo": "0016035-84.2024.8.16.0030",
+    "text_length": 6373
+  },
+  {
+    "decision_id": 55,
+    "tribunal": "TJPR",
+    "numero_processo": "0048731-35.2025.8.16.0000",
+    "text_length": 13737
+  },
+  {
+    "decision_id": 56,
+    "tribunal": "TJPR",
+    "numero_processo": "0004676-17.2023.8.16.0146",
+    "text_length": 26144
+  },
+  {
+    "decision_id": 57,
+    "tribunal": "TJPR",
+    "numero_processo": "0065641-40.2025.8.16.0000",
+    "text_length": 12815
+  },
+  {
+    "decision_id": 58,
+    "tribunal": "TJPR",
+    "numero_processo": "0002320-86.2025.8.16.0014",
+    "text_length": 11751
+  },
+  {
+    "decision_id": 59,
+    "tribunal": "TJPR",
+    "numero_processo": "0001826-81.2015.8.16.0077",
+    "text_length": 18779
+  },
+  {
+    "decision_id": 60,
+    "tribunal": "TJPR",
+    "numero_processo": "0060138-38.2025.8.16.0000",
+    "text_length": 17844
+  },
+  {
+    "decision_id": 61,
+    "tribunal": "TJSP",
+    "numero_processo": "4002353-37.2026.8.26.0000",
+    "text_length": 14257
+  },
+  {
+    "decision_id": 62,
+    "tribunal": "TJSP",
+    "numero_processo": "4003586-06.2025.8.26.0000",
+    "text_length": 10410
+  },
+  {
+    "decision_id": 63,
+    "tribunal": "TJSP",
+    "numero_processo": "4000447-88.2025.8.26.0180",
+    "text_length": 12759
+  },
+  {
+    "decision_id": 64,
+    "tribunal": "TJSP",
+    "numero_processo": "4002442-94.2025.8.26.0000",
+    "text_length": 11305
+  },
+  {
+    "decision_id": 65,
+    "tribunal": "TJSP",
+    "numero_processo": "4000935-64.2026.8.26.0000",
+    "text_length": 8148
+  },
+  {
+    "decision_id": 66,
+    "tribunal": "TJSP",
+    "numero_processo": "4005527-88.2025.8.26.0000",
+    "text_length": 10764
+  },
+  {
+    "decision_id": 67,
+    "tribunal": "TJSP",
+    "numero_processo": "4003310-72.2025.8.26.0000",
+    "text_length": 10251
+  },
+  {
+    "decision_id": 68,
+    "tribunal": "TJSP",
+    "numero_processo": "4007766-65.2025.8.26.0000",
+    "text_length": 11905
+  },
+  {
+    "decision_id": 69,
+    "tribunal": "TJSP",
+    "numero_processo": "4005087-92.2025.8.26.0000",
+    "text_length": 10841
+  },
+  {
+    "decision_id": 70,
+    "tribunal": "TJSP",
+    "numero_processo": "4001554-91.2026.8.26.0000",
+    "text_length": 6340
+  },
+  {
+    "decision_id": 71,
+    "tribunal": "TJSP",
+    "numero_processo": "4005209-08.2025.8.26.0000",
+    "text_length": 11429
+  },
+  {
+    "decision_id": 72,
+    "tribunal": "TJSP",
+    "numero_processo": "4004732-82.2025.8.26.0000",
+    "text_length": 8756
+  },
+  {
+    "decision_id": 73,
+    "tribunal": "TJSP",
+    "numero_processo": "4002037-24.2026.8.26.0000",
+    "text_length": 20177
+  },
+  {
+    "decision_id": 74,
+    "tribunal": "TJSP",
+    "numero_processo": "4002934-86.2025.8.26.0000",
+    "text_length": 7659
+  },
+  {
+    "decision_id": 75,
+    "tribunal": "TJSP",
+    "numero_processo": "4000349-27.2026.8.26.0000",
+    "text_length": 7039
+  },
+  {
+    "decision_id": 76,
+    "tribunal": "TJSP",
+    "numero_processo": "4001608-67.2025.8.26.0590",
+    "text_length": 20517
+  },
+  {
+    "decision_id": 77,
+    "tribunal": "TJSP",
+    "numero_processo": "4015203-60.2025.8.26.0000",
+    "text_length": 11011
+  },
+  {
+    "decision_id": 78,
+    "tribunal": "TJSP",
+    "numero_processo": "4002715-39.2026.8.26.0000",
+    "text_length": 17121
+  },
+  {
+    "decision_id": 79,
+    "tribunal": "TJSP",
+    "numero_processo": "4007875-86.2025.8.26.0224",
+    "text_length": 20238
+  },
+  {
+    "decision_id": 80,
+    "tribunal": "TJSP",
+    "numero_processo": "4003115-63.2025.8.26.0008",
+    "text_length": 8926
+  },
+  {
+    "decision_id": 81,
+    "tribunal": "TJSP",
+    "numero_processo": "4020455-44.2025.8.26.0000",
+    "text_length": 15383
+  },
+  {
+    "decision_id": 82,
+    "tribunal": "TJSP",
+    "numero_processo": "4002097-31.2025.8.26.0000",
+    "text_length": 9004
+  },
+  {
+    "decision_id": 83,
+    "tribunal": "TJSP",
+    "numero_processo": "4004148-15.2025.8.26.0000",
+    "text_length": 6224
+  },
+  {
+    "decision_id": 84,
+    "tribunal": "TJSP",
+    "numero_processo": "1176951-80.2024.8.26.0100",
+    "text_length": 24748
+  },
+  {
+    "decision_id": 85,
+    "tribunal": "TJSP",
+    "numero_processo": "4002419-17.2026.8.26.0000",
+    "text_length": 6380
+  },
+  {
+    "decision_id": 86,
+    "tribunal": "TJSP",
+    "numero_processo": "1049398-19.2025.8.26.0002",
+    "text_length": 19724
+  },
+  {
+    "decision_id": 87,
+    "tribunal": "TJSP",
+    "numero_processo": "4003952-36.2025.8.26.0100",
+    "text_length": 8859
+  },
+  {
+    "decision_id": 88,
+    "tribunal": "TJSP",
+    "numero_processo": "4006100-29.2025.8.26.0000",
+    "text_length": 11256
+  },
+  {
+    "decision_id": 89,
+    "tribunal": "TJSP",
+    "numero_processo": "4002964-24.2025.8.26.0000",
+    "text_length": 10613
+  },
+  {
+    "decision_id": 90,
+    "tribunal": "TJSP",
+    "numero_processo": "4000319-89.2026.8.26.0000",
+    "text_length": 12427
+  },
+  {
+    "decision_id": 91,
+    "tribunal": "TRF4",
+    "numero_processo": "0001329-57.2025.8.16.0161",
+    "text_length": 66176
+  },
+  {
+    "decision_id": 92,
+    "tribunal": "TRF4",
+    "numero_processo": "0090978-31.2025.8.16.0000",
+    "text_length": 6553
+  },
+  {
+    "decision_id": 93,
+    "tribunal": "TRF4",
+    "numero_processo": "5061073-17.2016.4.04.7100",
+    "text_length": 22679
+  },
+  {
+    "decision_id": 94,
+    "tribunal": "TRF4",
+    "numero_processo": "5025794-04.2015.4.04.7100",
+    "text_length": 71037
+  },
+  {
+    "decision_id": 95,
+    "tribunal": "TRF4",
+    "numero_processo": "4001361-13.2025.8.26.0000",
+    "text_length": 9468
+  },
+  {
+    "decision_id": 96,
+    "tribunal": "TRF4",
+    "numero_processo": "4001209-25.2025.8.26.0271",
+    "text_length": 7000
+  },
+  {
+    "decision_id": 97,
+    "tribunal": "TRF4",
+    "numero_processo": "0026355-23.2023.8.16.0001",
+    "text_length": 8784
+  },
+  {
+    "decision_id": 98,
+    "tribunal": "TRF4",
+    "numero_processo": "2158435",
+    "text_length": 28875
+  },
+  {
+    "decision_id": 99,
+    "tribunal": "TRF4",
+    "numero_processo": "2160534",
+    "text_length": 32824
+  },
+  {
+    "decision_id": 100,
+    "tribunal": "TRF4",
+    "numero_processo": "2160762",
+    "text_length": 32435
+  }
+]

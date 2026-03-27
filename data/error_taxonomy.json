@@ -1,0 +1,50 @@
+{
+  "version": "2.0",
+  "date": "2026-03-27",
+  "note": "7-type taxonomy. v2.0 merges QUA (qualifier loss) into GRA (granularity mismatch).",
+  "codes": [
+    {
+      "code": "HAL",
+      "name": "Hallucination",
+      "definition": "Extracted concept does not exist in the decision text",
+      "source": "Huang et al. (2025) faithfulness hallucination"
+    },
+    {
+      "code": "OMI",
+      "name": "Omission",
+      "definition": "Concept exists in source but extraction is incomplete",
+      "source": "ErrorAtlas 'Omission' + 'Partial Fulfillment'"
+    },
+    {
+      "code": "GRA",
+      "name": "Granularity mismatch",
+      "definition": "Concept at wrong level of specificity — either wrong abstraction level (e.g., generic principle instead of specific criterion) or missing essential qualifier (e.g., 'improvido' instead of 'parcialmente conhecido e não provido')",
+      "source": "Domain-specific. Emerged during pilot classification.",
+      "note": "Subsumes former QUA (qualifier loss) code from v1.0"
+    },
+    {
+      "code": "MIS",
+      "name": "Misattribution",
+      "definition": "Content attributed to wrong party or court",
+      "source": "ErrorAtlas 'Incorrect Claim' (specialized)"
+    },
+    {
+      "code": "ANC",
+      "name": "Anchoring failure",
+      "definition": "Content linked to wrong legal provision",
+      "source": "Domain-specific. Emerged during pilot classification."
+    },
+    {
+      "code": "DUP",
+      "name": "Duplication",
+      "definition": "Same concept extracted multiple times",
+      "source": "ErrorAtlas 'Redundancy'"
+    },
+    {
+      "code": "TYP",
+      "name": "Type error",
+      "definition": "Content placed in wrong structured field",
+      "source": "ErrorAtlas 'Wrong Format'"
+    }
+  ]
+}
