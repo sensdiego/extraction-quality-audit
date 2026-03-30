@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "auditor": "Diego Sens (OAB/PR)",
+    "date": "2026-03-24",
+    "version": 2,
+    "decisions_audited": 10,
+    "tribunal": "mixed",
+    "tribunals_detail": {"TJPR": [91], "TRF4": [92, 93, 94, 97, 99], "TJSP": [95, 96], "STJ": [98, 100]},
+    "batch": "091-100"
+  },
+  "calibration": {
+    "check_3": [
+      {"decision": 91, "tribunal": "TJPR", "status": "FAIL", "verdict": "DISCORDA", "reason": "Crit 3 'materialidade' overlap=0.00 mas materialidade é discutida extensamente (portaria, laudo necroscópico). Falso negativo lexical.", "causa_raiz": "check_limitation"},
+      {"decision": 92, "tribunal": "TRF4", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 93, "tribunal": "TRF4", "status": "N/A", "verdict": "CONCORDA"},
+      {"decision": 94, "tribunal": "TRF4", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 95, "tribunal": "TJSP", "status": "N/A", "verdict": "CONCORDA"},
+      {"decision": 96, "tribunal": "TJSP", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 97, "tribunal": "TRF4", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 98, "tribunal": "STJ", "status": "N/A", "verdict": "CONCORDA"},
+      {"decision": 99, "tribunal": "TRF4", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 100, "tribunal": "STJ", "status": "N/A", "verdict": "CONCORDA"}
+    ],
+    "check_4": [
+      {"decision": 91, "tribunal": "TJPR", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 92, "tribunal": "TRF4", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 93, "tribunal": "TRF4", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 94, "tribunal": "TRF4", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 95, "tribunal": "TJSP", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 96, "tribunal": "TJSP", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 97, "tribunal": "TRF4", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 98, "tribunal": "STJ", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 99, "tribunal": "TRF4", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 100, "tribunal": "STJ", "status": "PASS", "verdict": "CONCORDA"}
+    ]
+  },
+  "audit_items": [
+    {"decision": 91, "tribunal": "TJPR", "stage": "A", "field": "dispositivo_legal", "idx": "1-3", "item": "CP 121 §2º I/IV; Lei 10.826 art. 12; Lei 10.826 art. 15", "verdict": "OK"},
+    {"decision": 91, "tribunal": "TJPR", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 91, "tribunal": "TJPR", "stage": "A", "field": "categorias", "idx": 1, "item": "Penal, Crimes contra vida, Homicídio qualificado, Estatuto Desarmamento, Júri, RESE", "verdict": "OK"},
+    {"decision": 91, "tribunal": "TJPR", "stage": "B", "field": "criterio_juridico", "idx": "1-6", "item": "Admissibilidade; correlação denúncia/pronúncia; materialidade; indícios autoria; qualificadoras não improcedentes; [6º se existir]", "verdict": "OK"},
+    {"decision": 91, "tribunal": "TJPR", "stage": "B", "field": "tese", "idx": "1-4", "item": "Nulidade correlação; absolvição/impronúncia; decote qualificadoras; atuação conjunta", "verdict": "OK"},
+    {"decision": 91, "tribunal": "TJPR", "stage": "B", "field": "interpretacao_dispositivo", "idx": "1-2", "item": "CPP 413; CPP 414/415", "verdict": "OMI", "reason": "Sem conteúdo."},
+
+    {"decision": 92, "tribunal": "TRF4", "stage": "A", "field": "dispositivo_legal", "idx": "1-4", "item": "Lei 9.656/98 art. 10 §13; CPC 300; CPC 1.015 II; CPC 1.017 §5º", "verdict": "OK"},
+    {"decision": 92, "tribunal": "TRF4", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 92, "tribunal": "TRF4", "stage": "A", "field": "categorias", "idx": 1, "item": "Dir. Civil, Saúde, Planos de Saúde, Tutela Urgência", "verdict": "OK"},
+    {"decision": 92, "tribunal": "TRF4", "stage": "B", "field": "criterio_juridico", "idx": "1-3", "item": "Evidência científica eficácia; fumus boni iuris; periculum in mora", "verdict": "OK"},
+    {"decision": 92, "tribunal": "TRF4", "stage": "B", "field": "tese", "idx": "1-3", "item": "Operadora não deve custear; EMT eficaz; urgência demonstrada", "verdict": "OK"},
+    {"decision": 92, "tribunal": "TRF4", "stage": "B", "field": "interpretacao_dispositivo", "idx": "1-2", "item": "Lei 9.656 art. 10 §13 I; CPC 1.017 §5º", "verdict": "OMI", "reason": "Sem conteúdo."},
+
+    {"decision": 93, "tribunal": "TRF4", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "CPP art. 619", "verdict": "OK"},
+    {"decision": 93, "tribunal": "TRF4", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "QUA", "reason": "Embargos rejeitados na parte principal, acolhidos quanto a erro material. Resultado misto não capturado."},
+    {"decision": 93, "tribunal": "TRF4", "stage": "A", "field": "categorias", "idx": 1, "item": "Proc. Penal, Recursos, EDcl", "verdict": "OK"},
+    {"decision": 93, "tribunal": "TRF4", "stage": "B", "field": "criterio_juridico", "idx": "1-2", "item": "Omissão/contradição/obscuridade; erro material", "verdict": "OK"},
+    {"decision": 93, "tribunal": "TRF4", "stage": "B", "field": "tese", "idx": "1-3", "item": "Contradição tiatino; omissões mérito; erro material", "verdict": "OK"},
+    {"decision": 93, "tribunal": "TRF4", "stage": "B", "field": "interpretacao_dispositivo", "idx": "1-2", "item": "CPP 619; CPP 385", "verdict": "OMI", "reason": "Sem conteúdo."},
+
+    {"decision": 94, "tribunal": "TRF4", "stage": "A", "field": "dispositivo_legal", "idx": "1-5", "item": "Lei 8.213 art. 120; CF 7º XXVIII; CF 154 I; CF 195 §4º; Decreto 20.910 art. 1º", "verdict": "OK"},
+    {"decision": 94, "tribunal": "TRF4", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 94, "tribunal": "TRF4", "stage": "A", "field": "categorias", "idx": 1, "item": "Dir. Administrativo, Previdenciário, Trabalho, Acidente", "verdict": "OK"},
+    {"decision": 94, "tribunal": "TRF4", "stage": "B", "field": "criterio_juridico", "idx": "1-6", "item": "Prescrição quinquenal; resp. subjetiva; PPRA NR9; proteção coletiva NR18; EPI NR6; treinamento 40min vs 6h NR18.28.2", "verdict": "OK"},
+    {"decision": 94, "tribunal": "TRF4", "stage": "B", "field": "tese", "idx": "1-4", "item": "Culpa exclusiva vítima; sem motivação subir; cumprimento NRs; constitucionalidade art.120", "verdict": "OK"},
+    {"decision": 94, "tribunal": "TRF4", "stage": "B", "field": "interpretacao_dispositivo", "idx": "1-5", "item": "Lei 8.213 art. 120; NR9; NR18; NR6; CC 186/927", "verdict": "OMI", "reason": "Sem conteúdo (x5)."},
+
+    {"decision": 95, "tribunal": "TJSP", "stage": "A", "field": "dispositivo_legal", "idx": "1-2", "item": "RITJSP 103; Resolução 623/2013 art. 5º I.23", "verdict": "OK"},
+    {"decision": 95, "tribunal": "TJSP", "stage": "A", "field": "resultado", "idx": 1, "item": "não conhecido", "verdict": "OK"},
+    {"decision": 95, "tribunal": "TJSP", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+    {"decision": 95, "tribunal": "TJSP", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Competência por matéria", "verdict": "OK"},
+    {"decision": 95, "tribunal": "TJSP", "stage": "B", "field": "tese", "idx": "1-2", "item": "Teses 1-2", "verdict": "OK"},
+    {"decision": 95, "tribunal": "TJSP", "stage": "B", "field": "interpretacao_dispositivo", "idx": "1-2", "item": "Interps 1-2", "verdict": "OMI", "reason": "Sem conteúdo."},
+
+    {"decision": 96, "tribunal": "TJSP", "stage": "A", "field": "dispositivo_legal", "idx": 0, "item": "NENHUM EXTRAÍDO", "verdict": "OK", "note": "Texto não cita artigos específicos (decisão principiológica). Stage A vazia é aceitável."},
+    {"decision": 96, "tribunal": "TJSP", "stage": "A", "field": "resultado", "idx": 1, "item": "provido", "verdict": "OK"},
+    {"decision": 96, "tribunal": "TJSP", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+    {"decision": 96, "tribunal": "TJSP", "stage": "B", "field": "criterio_juridico", "idx": "1-2", "item": "Cadastro informatizado; primazia mérito", "verdict": "OK"},
+    {"decision": 96, "tribunal": "TJSP", "stage": "B", "field": "tese", "idx": "1-2", "item": "Cancelamento formalismo; serventia cadastra", "verdict": "OK"},
+
+    {"decision": 97, "tribunal": "TRF4", "stage": "A", "field": "dispositivo_legal", "idx": "1-3", "item": "CPC 385 §1º; CPC 85 §11; CPC 98 §3º", "verdict": "OK"},
+    {"decision": 97, "tribunal": "TRF4", "stage": "A", "field": "resultado", "idx": 1, "item": "(resultado)", "verdict": "OK"},
+    {"decision": 97, "tribunal": "TRF4", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+    {"decision": 97, "tribunal": "TRF4", "stage": "B", "field": "criterio_juridico", "idx": "1-4", "item": "Confissão ficta; provas relação jurídica; comportamento incompatível fraude; endereço divergente", "verdict": "OK"},
+    {"decision": 97, "tribunal": "TRF4", "stage": "B", "field": "tese", "idx": "1-3", "item": "Faturas unilaterais; confissão conjugada; inscrição indevida", "verdict": "OK"},
+    {"decision": 97, "tribunal": "TRF4", "stage": "B", "field": "interpretacao_dispositivo", "idx": 1, "item": "CPC 385", "verdict": "OMI", "reason": "Sem conteúdo."},
+
+    {"decision": 98, "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": "1-4", "item": "CPC 932 III/IV; CPC 1.021 §1º; CPC 1.003 §5º; Portaria 23/2021", "verdict": "OK"},
+    {"decision": 98, "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "(resultado)", "verdict": "OK"},
+    {"decision": 98, "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+
+    {"decision": 99, "tribunal": "TRF4", "stage": "A", "field": "dispositivo_legal", "idx": "1-2", "item": "CPC 487 I; CC 1.583 §5º", "verdict": "OK"},
+    {"decision": 99, "tribunal": "TRF4", "stage": "A", "field": "resultado", "idx": 1, "item": "(resultado)", "verdict": "OK"},
+    {"decision": 99, "tribunal": "TRF4", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+    {"decision": 99, "tribunal": "TRF4", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Dever de prestar contas da verba alimentar", "verdict": "OK"},
+    {"decision": 99, "tribunal": "TRF4", "stage": "B", "field": "tese", "idx": 1, "item": "Dever prestação contas — rejeitada", "verdict": "OK"},
+    {"decision": 99, "tribunal": "TRF4", "stage": "B", "field": "interpretacao_dispositivo", "idx": 1, "item": "CPC 487 I", "verdict": "OMI", "reason": "Sem conteúdo."},
+
+    {"decision": 100, "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": "1-6", "item": "CF 105 III a/c; CC 422; Lei 9.656 art. 10 §§3º/4º VI; Lei 9.656 art. 10 §13 I; Lei 14.454/2022; Lei 11.419 art. 1º §2º III", "verdict": "OK"},
+    {"decision": 100, "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "(resultado)", "verdict": "OK"},
+    {"decision": 100, "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+    {"decision": 100, "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Prequestionamento", "verdict": "GRA", "reason": "Critério genérico de admissibilidade, não específico desta decisão."},
+    {"decision": 100, "tribunal": "STJ", "stage": "B", "field": "tese", "idx": "1-2", "item": "Sem argumentos novos; limitação Omalizumabe legítima", "verdict": "OK"}
+  ],
+  "omissions": [
+    {"decision": 91, "items": [
+      {"stage": "A", "description": "CPP art. 413 — 2x, fundamento central pronúncia, não extraído"},
+      {"stage": "A", "description": "CPP arts. 414 e 415 — expressamente mencionados, não extraídos"}
+    ]},
+    {"decision": 92, "items": [
+      {"stage": "A", "description": "RN 465/2021 ANS — citada pela operadora"}
+    ]},
+    {"decision": 93, "items": [
+      {"stage": "A", "description": "CPP art. 385 — expressamente mencionado, não extraído"}
+    ]},
+    {"decision": 94, "items": [
+      {"stage": "A", "description": "NR 9, NR 18, NR 6 — todas expressamente citadas, nas interpretações mas não como dispositivos Stage A"},
+      {"stage": "A", "description": "CC arts. 186 e 927 — expressamente mencionados, não extraídos"}
+    ]},
+    {"decision": 95, "items": []},
+    {"decision": 96, "items": []},
+    {"decision": 97, "items": []},
+    {"decision": 98, "items": [
+      {"stage": "A", "description": "Lei 9.656/98 art. 10 §13 — norma central no voto, não extraída"},
+      {"stage": "A", "description": "Súmula 568/STJ — mencionada no texto"},
+      {"stage": "B", "description": "Todas as holdings sobre cobertura de medicamentos não incorporados — nenhuma extraída. Stage B completamente vazia apesar de texto extenso (28k chars)"}
+    ]},
+    {"decision": 99, "items": [
+      {"stage": "B", "description": "Holding: prestação de contas sobre verba alimentar não é automática — parcialmente capturada no critério"}
+    ]},
+    {"decision": 100, "items": [
+      {"stage": "B", "description": "Irretroatividade vs. aplicação imediata da Lei 14.454/2022 — discussão central não capturada"},
+      {"stage": "B", "description": "Critério sobre evidência científica para cobertura off-label (Lei 9.656 art. 10 §13) — não extraído"}
+    ]}
+  ],
+  "quality_notes": [
+    {"decision": 91, "note": "Decisão penal com extração excepcional na Stage B. 5 critérios pertinentes, 4 teses corretas. Falha apenas Stage A sem dispositivos processuais penais."},
+    {"decision": 94, "note": "Melhor extração de Stage B de todo o lote de 100. 6 critérios precisos e quantificáveis, 4 teses corretas. Pipeline tem capacidade sofisticada quando texto é bem estruturado."},
+    {"decision": 98, "note": "Stage B completamente vazia apesar de texto extenso (28k chars) com fundamentação detalhada. Falha completa."}
+  ]
+}

@@ -1,0 +1,4589 @@
+{
+  "model": "llama-3.3-70b-versatile",
+  "stage": "AB",
+  "n_per_tribunal": 10,
+  "total_decisions": 40,
+  "total_tokens": {
+    "input": 506366,
+    "output": 44261
+  },
+  "results": [
+    {
+      "decision_num": 21,
+      "tribunal": "STJ",
+      "processo": "2596824",
+      "original_model": "xai/grok-3-mini",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "improvido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "Agravo Interno",
+        "tipo_recurso": "Agravo em Recurso Especial",
+        "questao_central": "Negativa de Prestação Jurisdicional",
+        "resumo_deliberacao": "Inadmissibilidade do recurso especial",
+        "relator": {
+          "nome": "MINISTRO ANTONIO CARLOS FERREIRA",
+          "cargo": "Ministro"
+        },
+        "orgao_julgador": "STJ",
+        "categorias": [],
+        "perfil_partes": [
+          {
+            "tipo": "Pessoa Jurídica",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "Pessoa Jurídica",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "CPC",
+            "artigo": "489",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "CPC",
+            "artigo": "1.022",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "CPC",
+            "artigo": "370",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "CPC",
+            "artigo": "371",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [
+          {
+            "numero": "Súmula 7 do STJ",
+            "contexto_citacao": null
+          },
+          {
+            "numero": "Súmula 83 do STJ",
+            "contexto_citacao": null
+          },
+          {
+            "numero": "Súmula 568 do STJ",
+            "contexto_citacao": null
+          }
+        ],
+        "temas_fundamentacao": []
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A decisão se baseia na aplicação das Súmulas n. 7, 83 e 568 do STJ, que estabelecem que o recurso especial não comporta exame de questões que impliquem revolvimento do contexto fático-probatório dos autos, e que o entendimento adotado pelo Tribunal de origem coincide com a jurisprudência do STJ.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Súmula n. 7 do STJ",
+            "tipo": "Súmula",
+            "resultado": "Inadmissibilidade do recurso especial",
+            "peso": "Precedente",
+            "condicoes_aplicabilidade": "Recurso especial que implica revolvimento do contexto fático-probatório dos autos",
+            "como_demonstrar": "Análise do acórdão recorrido e do recurso especial"
+          },
+          {
+            "criterio": "Súmula n. 83 do STJ",
+            "tipo": "Súmula",
+            "resultado": "Inadmissibilidade do recurso especial",
+            "peso": "Precedente",
+            "condicoes_aplicabilidade": "Entendimento adotado pelo Tribunal de origem que coincide com a jurisprudência do STJ",
+            "como_demonstrar": "Análise do acórdão recorrido e do recurso especial"
+          },
+          {
+            "criterio": "Súmula n. 568 do STJ",
+            "tipo": "Súmula",
+            "resultado": "Inadmissibilidade do recurso especial",
+            "peso": "Precedente",
+            "condicoes_aplicabilidade": "Entendimento adotado pelo Tribunal de origem que coincide com a jurisprudência do STJ",
+            "como_demonstrar": "Análise do acórdão recorrido e do recurso especial"
+          },
+          {
+            "criterio": "Art. 370 do CPC",
+            "tipo": "Lei",
+            "resultado": "Liberdade do magistrado para examinar o conjunto fático-probatório produzido nos autos",
+            "peso": "Lei processual civil",
+            "condicoes_aplicabilidade": "Sistema da persuasão racional",
+            "como_demonstrar": "Análise do acórdão recorrido e do recurso especial"
+          },
+          {
+            "criterio": "Art. 371 do CPC",
+            "tipo": "Lei",
+            "resultado": "Liberdade do magistrado para firmar sua convicção",
+            "peso": "Lei processual civil",
+            "condicoes_aplicabilidade": "Sistema da persuasão racional",
+            "como_demonstrar": "Análise do acórdão recorrido e do recurso especial"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Art. 489 do CPC",
+            "justificativa": "Inexiste afronta ao art. 489 do CPC quando a Corte local pronunciou-se de forma clara e suficiente sobre as questões suscitadas",
+            "fundamento_legal": "Súmula n. 7 do STJ"
+          },
+          {
+            "criterio": "Art. 1.022 do CPC",
+            "justificativa": "Inexiste afronta ao art. 1.022 do CPC quando a Corte local pronunciou-se de forma clara e suficiente sobre as questões suscitadas",
+            "fundamento_legal": "Súmula n. 7 do STJ"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A pessoa jurídica faz jus ao benefício da justiça gratuita se demonstrar sua impossibilidade de arcar com os encargos processuais",
+            "resultado": "Inadmissibilidade do recurso especial",
+            "fundamento": "Súmula n. 481 do STJ",
+            "tipo_rejeicao": "Rejeição do recurso especial",
+            "peso": "Precedente",
+            "fonte": "STJ"
+          },
+          {
+            "conteudo": "A presunção de hipossuficiência é relativa e não se aplica automaticamente a pessoas jurídicas",
+            "resultado": "Inadmissibilidade do recurso especial",
+            "fundamento": "Súmula n. 83 do STJ",
+            "tipo_rejeicao": "Rejeição do recurso especial",
+            "peso": "Precedente",
+            "fonte": "STJ"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "CPC",
+            "artigo": "370",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "O magistrado é livre para examinar o conjunto fático-probatório produzido nos autos e firmar sua convicção",
+            "contexto": "Sistema da persuasão racional"
+          },
+          {
+            "norma": "CPC",
+            "artigo": "371",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "O magistrado é livre para firmar sua convicção",
+            "contexto": "Sistema da persuasão racional"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 4,
+      "tribunal": "STJ",
+      "processo": "2754216",
+      "original_model": "xai/grok-3-mini",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "provido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "decisão monocrática",
+        "tipo_recurso": "agrávio interno",
+        "questao_central": "penhora do faturamento da empresa",
+        "resumo_deliberacao": "Reconsiderada a deliberação da Presidência desta Corte para nova apreciação do agravo",
+        "relator": {
+          "nome": "Marco Aurélio Gastaldi Buzzi",
+          "cargo": "Ministro"
+        },
+        "orgao_julgador": "STJ",
+        "categorias": [],
+        "perfil_partes": [
+          {
+            "tipo": "pessoa física",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "pessoa física",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "Súmula 83/STJ",
+            "artigo": null,
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": "nulidades processuais"
+          },
+          {
+            "norma": "Súmula 7/STJ",
+            "artigo": null,
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": "reexame dos fatos e das provas dos autos"
+          }
+        ],
+        "precedentes_citados": [
+          {
+            "numero": "AgInt no REsp 1811869/SC",
+            "contexto_citacao": "penhora recair sobre o faturamento da empresa"
+          }
+        ],
+        "temas_fundamentacao": []
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A penhora de faturamento da empresa é cabível em caráter excepcional, desde que observadas as condições previstas na legislação processual e que o percentual fixado não torne inviável o exercício da atividade empresarial.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Demonstração de efetivo prejuízo às partes",
+            "tipo": "Requisito processual",
+            "resultado": "Necessária para a configuração de nulidade processual",
+            "peso": "Fundamental",
+            "condicoes_aplicabilidade": "Deve ser demonstrado que a parte sofreu prejuízo efetivo",
+            "como_demonstrar": "Por meio de provas e argumentos que comprovem o prejuízo"
+          },
+          {
+            "criterio": "Penhora de faturamento da empresa",
+            "tipo": "Medida executiva",
+            "resultado": "Pode ser fixada em percentual do faturamento líquido da sociedade empresária devedora",
+            "peso": "Excepcional",
+            "condicoes_aplicabilidade": "Deve ser observadas as condições previstas na legislação processual e o percentual fixado não pode tornar inviável o exercício da atividade empresarial",
+            "como_demonstrar": "Por meio de provas e argumentos que comprovem a necessidade e a proporcionalidade da medida"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Reexame de fatos e provas dos autos",
+            "justificativa": "Vedado pela Súmula 7/STJ",
+            "fundamento_legal": "Súmula 7/STJ"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A penhora de faturamento da empresa é cabível em caráter excepcional",
+            "resultado": "Provido",
+            "fundamento": "Súmula 83/STJ",
+            "tipo_rejeicao": null,
+            "peso": "Fundamental",
+            "fonte": "STJ"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "835",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "Penhora de faturamento da empresa",
+            "contexto": "Execução de título extrajudicial"
+          },
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "866",
+            "tipo_interpretacao": "Interpretação sistemática",
+            "conteudo": "Penhora de faturamento da empresa",
+            "contexto": "Execução de título extrajudicial"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 1,
+      "tribunal": "STJ",
+      "processo": "2379853",
+      "original_model": "xai/grok-3-mini",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "improvido",
+        "unanimidade": true,
+        "placar": "unânime",
+        "tipo_decisao": "Agravo Interno",
+        "tipo_recurso": "Agravo em Recurso Especial",
+        "questao_central": "Conformidade do acórdão recorrido com tema do STJ",
+        "resumo_deliberacao": "Negado provimento ao recurso",
+        "relator": {
+          "nome": "Maria Isabel Gallotti",
+          "cargo": "Ministra"
+        },
+        "orgao_julgador": "Quarta Turma do Superior Tribunal de Justiça",
+        "categorias": [
+          "Direito Processual Civil",
+          "Recuperação Judicial",
+          "Gratuidade de Justiça"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "Pessoa Jurídica",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "Pessoa Física",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "1.030",
+            "paragrafo": "§ 2º",
+            "inciso": null,
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [
+          {
+            "numero": "Súmula 7/STJ",
+            "contexto_citacao": "Reexame de fatos e provas"
+          }
+        ],
+        "temas_fundamentacao": [
+          "Recuperação Judicial",
+          "Gratuidade de Justiça",
+          "Reexame de fatos e provas"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A decisão se baseia na aplicação do art. 1.030, § 2º, do Código de Processo Civil, que estabelece o recurso cabível da decisão que nega seguimento a recurso especial contrário a orientação firmada em julgamento de recurso repetitivo é o agravo interno. Além disso, a concessão do benefício de gratuidade da justiça a pessoa jurídica somente é possível quando comprovada a precariedade de sua situação financeira, inexistindo, em seu favor, presunção de insuficiência de recursos.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Recurso cabível",
+            "tipo": "Normativo",
+            "resultado": "Agravo interno",
+            "peso": "Preponderante",
+            "condicoes_aplicabilidade": "Decisão que nega seguimento a recurso especial contrário a orientação firmada em julgamento de recurso repetitivo",
+            "como_demonstrar": "Art. 1.030, § 2º, do Código de Processo Civil"
+          },
+          {
+            "criterio": "Concessão de gratuidade da justiça",
+            "tipo": "Normativo",
+            "resultado": "Somente possível quando comprovada a precariedade da situação financeira",
+            "peso": "Preponderante",
+            "condicoes_aplicabilidade": "Pessoa jurídica",
+            "como_demonstrar": "Súmula 481/STJ"
+          },
+          {
+            "criterio": "Reexame de provas",
+            "tipo": "Normativo",
+            "resultado": "Vedado em recurso especial",
+            "peso": "Preponderante",
+            "condicoes_aplicabilidade": "Súmula 7/STJ",
+            "como_demonstrar": "Súmula 7/STJ"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Reexame de fatos e provas",
+            "justificativa": "Súmula 7/STJ",
+            "fundamento_legal": "Súmula 7/STJ"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A concessão do benefício de gratuidade da justiça a pessoa jurídica somente é possível quando comprovada a precariedade de sua situação financeira",
+            "resultado": "Negado",
+            "fundamento": "Súmula 481/STJ",
+            "tipo_rejeicao": "Impossibilidade de reexame de provas",
+            "peso": "Preponderante",
+            "fonte": "STJ"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "1.030",
+            "tipo_interpretacao": "Literal",
+            "conteudo": "Recurso cabível da decisão que nega seguimento a recurso especial contrário a orientação firmada em julgamento de recurso repetitivo é o agravo interno",
+            "contexto": "Recurso especial"
+          },
+          {
+            "norma": "Súmula 481/STJ",
+            "artigo": null,
+            "tipo_interpretacao": "Literal",
+            "conteudo": "Concessão do benefício de gratuidade da justiça a pessoa jurídica somente é possível quando comprovada a precariedade de sua situação financeira",
+            "contexto": "Gratuidade da justiça"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 24,
+      "tribunal": "STJ",
+      "processo": "1539389",
+      "original_model": "xai/grok-3-mini",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "improvido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "agravo em recurso especial",
+        "tipo_recurso": "recurso especial",
+        "questao_central": "responsabilidade civil e nexo de causalidade",
+        "resumo_deliberacao": "o tribunal de origem analisou expressamente a ausência de interesse e o pedido genérico constante na petição inicial, e o acórdão recorrido está com fundamentação suficiente",
+        "relator": {
+          "nome": "MINISTRO HUMBERTO MARTINS",
+          "cargo": "ministro"
+        },
+        "orgao_julgador": "STJ",
+        "categorias": [
+          "civil",
+          "processual civil"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "pessoa física",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "pessoa jurídica",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "CPC",
+            "artigo": "489",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "CPC",
+            "artigo": "1.022",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [
+          {
+            "numero": "Súmula n. 7/STJ",
+            "contexto_citacao": "requisitos para inversão do ônus da prova"
+          }
+        ],
+        "temas_fundamentacao": [
+          "responsabilidade civil",
+          "nexo de causalidade",
+          "fundamentação per relationem"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A responsabilidade da concessionária de energia elétrica pressupõe a comprovação do nexo de causalidade entre o ato indigitado e o dano sofrido. A fundamentação per relationem é válida, desde que os fundamentos existentes sejam reproduzidos no julgado definitivo. A Súmula n. 7/STJ impede o reexame do contexto fático-probatório dos autos em recurso especial.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Responsabilidade civil da concessionária de energia elétrica",
+            "tipo": "Objetiva",
+            "resultado": "Improcedente",
+            "peso": "Preponderante",
+            "condicoes_aplicabilidade": "Comprovação do nexo de causalidade",
+            "como_demonstrar": "Laudo pericial e prova testemunhal"
+          },
+          {
+            "criterio": "Fundamentação per relationem",
+            "tipo": "Válida",
+            "resultado": "Procedente",
+            "peso": "Relevante",
+            "condicoes_aplicabilidade": "Reprodução dos fundamentos no julgado definitivo",
+            "como_demonstrar": "Acórdão recorrido"
+          },
+          {
+            "criterio": "Súmula n. 7/STJ",
+            "tipo": "Impeditiva",
+            "resultado": "Improcedente",
+            "peso": "Preponderante",
+            "condicoes_aplicabilidade": "Reexame do contexto fático-probatório",
+            "como_demonstrar": "Recurso especial"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Inversão do ônus da prova",
+            "justificativa": "Reexame do contexto fático-probatório",
+            "fundamento_legal": "Súmula n. 7/STJ"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A responsabilidade da concessionária de energia elétrica pressupõe a comprovação do nexo de causalidade",
+            "resultado": "Improcedente",
+            "fundamento": "Art. 37, § 6º, da Constituição da República",
+            "tipo_rejeicao": "Improvimento",
+            "peso": "Preponderante",
+            "fonte": "Acórdão recorrido"
+          },
+          {
+            "conteudo": "A fundamentação per relationem é válida",
+            "resultado": "Procedente",
+            "fundamento": "Jurisprudência do STJ",
+            "tipo_rejeicao": "Improcedente",
+            "peso": "Relevante",
+            "fonte": "Precedentes"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "489",
+            "tipo_interpretacao": "Válida",
+            "conteudo": "Fundamentação per relationem",
+            "contexto": "Acórdão recorrido"
+          },
+          {
+            "norma": "Código de Defesa do Consumidor",
+            "artigo": "6º, VIII",
+            "tipo_interpretacao": "Válida",
+            "conteudo": "Inversão do ônus da prova",
+            "contexto": "Reexame do contexto fático-probatório"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 9,
+      "tribunal": "STJ",
+      "processo": "2126709",
+      "original_model": "xai/grok-3-mini",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "improvido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "Agravo Interno",
+        "tipo_recurso": "Recurso Especial",
+        "questao_central": "PROMESSA DE COMPRA E VENDA DE IMÓVEL. RESCISÃO. INICIATIVA DO COMPRADOR. RETENÇÃO. PERCENTUAL.",
+        "resumo_deliberacao": "DECISÃO MANTIDA. INADMISSIBILIDADE. SÚMULAS N. 5 E 7 DO STJ.",
+        "relator": {
+          "nome": "MINISTRO ANTONIO CARLOS FERREIRA",
+          "cargo": "MINISTRO"
+        },
+        "orgao_julgador": "STJ",
+        "categorias": [
+          "CIVIL",
+          "PROCESSUAL CIVIL"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "SSI ENGENHARIA LTDA",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "LORENA RODRIGUES SOARES",
+            "polo": "passivo"
+          },
+          {
+            "tipo": "VALDEMIR GOMES SOARES",
+            "polo": "passivo"
+          },
+          {
+            "tipo": "MARIA LUCIA RODRIGUES SOARES",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "Lei 13.786/2018",
+            "artigo": null,
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "Súmula n. 5 do STJ",
+            "artigo": null,
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "Súmula n. 7 do STJ",
+            "artigo": null,
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [
+          {
+            "numero": "REsp n. 1.723.519/SP",
+            "contexto_citacao": "percentual de retenção de 25% (vinte e cinco por cento) dos valores pagos pelos adquirentes"
+          }
+        ],
+        "temas_fundamentacao": [
+          "PROMESSA DE COMPRA E VENDA DE IMÓVEL",
+          "RESCISÃO",
+          "INICIATIVA DO COMPRADOR",
+          "RETENÇÃO",
+          "PERCENTUAL"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A Segunda Seção do STJ firmou o entendimento de que, nos contratos firmados antes da Lei n. 13.786/2018, deve prevalecer o percentual de 25% (vinte e cinco por cento) de retenção, definido anteriormente no julgamento dos EAg n. 1.138.183/PE, por ser adequado e suficiente para indenizar o construtor das despesas gerais e do rompimento unilateral do contrato.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Percentual de retenção em contrato de compra e venda de imóvel",
+            "tipo": "Normativo",
+            "resultado": "25% (vinte e cinco por cento) dos valores pagos",
+            "peso": "Adequado e suficiente para indenizar o construtor das despesas gerais e do rompimento unilateral do contrato",
+            "condicoes_aplicabilidade": "Contratos firmados antes da Lei n. 13.786/2018",
+            "como_demonstrar": "Análise do contrato e do caso concreto"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Reexame do contrato e do conjunto fático-probatório dos autos",
+            "justificativa": "Inadmissibilidade de acordo com as Súmulas n. 5 e 7 do STJ",
+            "fundamento_legal": "Súmulas n. 5 e 7 do STJ"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A devolução do valor pelo promitente vendedor permite a retenção de 10% a 25% das prestações pagas, a título de indenização pelas despesas decorrentes do próprio negócio",
+            "resultado": "Parcialmente provido",
+            "fundamento": "Jurisprudência do STJ",
+            "tipo_rejeicao": null,
+            "peso": null,
+            "fonte": "STJ"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Lei 13.786/2018",
+            "artigo": null,
+            "tipo_interpretacao": "Sistemática",
+            "conteudo": "A Lei 13.786/2018 estabelece regras para a compra e venda de imóveis",
+            "contexto": "Contratos de compra e venda de imóveis"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 8,
+      "tribunal": "STJ",
+      "processo": "REsp 1657156",
+      "original_model": "xai/grok-4",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": null,
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": null,
+        "tipo_recurso": "Recurso Especial",
+        "questao_central": "Fornecimento de medicamentos não constantes dos atos normativos do SUS",
+        "resumo_deliberacao": "Julgamento sobre a possibilidade de fornecimento de medicamentos não incorporados em atos normativos do SUS",
+        "relator": {
+          "nome": "Ministro Benedito Gonçalves",
+          "cargo": "Relator"
+        },
+        "orgao_julgador": "STJ",
+        "categorias": [
+          "Administrativo"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "Estado",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "Pessoa Física",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "CPC/2015",
+            "artigo": "1.036",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": "Rito do art. 1.036 do CPC/2015"
+          }
+        ],
+        "precedentes_citados": [],
+        "temas_fundamentacao": [
+          "Fornecimento de medicamentos",
+          "SUS",
+          "Protocolos Clínicos"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A concessão dos medicamentos não incorporados em atos normativos do SUS exige a presença cumulativa dos seguintes requisitos: (i) Comprovação, por meio de laudo médico fundamentado e circunstanciado expedido por médico que assiste o paciente, da imprescindibilidade ou necessidade do medicamento, assim como da ineficácia, para o tratamento da moléstia, dos fármacos fornecidos pelo SUS; (ii) incapacidade financeira de arcar com o custo do medicamento prescrito; e (iii) existência de registro na ANVISA do medicamento.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Comprovação da imprescindibilidade ou necessidade do medicamento",
+            "tipo": "Requisito",
+            "resultado": "Obrigação do Poder Público de fornecer o medicamento",
+            "peso": "Fundamental",
+            "condicoes_aplicabilidade": "Laudo médico fundamentado e circunstanciado",
+            "como_demonstrar": "Laudo médico que ateste a imprescindibilidade do fármaco para o tratamento da doença"
+          },
+          {
+            "criterio": "Incapacidade financeira de arcar com o custo do medicamento",
+            "tipo": "Requisito",
+            "resultado": "Obrigação do Poder Público de fornecer o medicamento",
+            "peso": "Importante",
+            "condicoes_aplicabilidade": "Comprovação da incapacidade financeira",
+            "como_demonstrar": "Comprovação da incapacidade financeira do paciente"
+          },
+          {
+            "criterio": "Existência de registro na ANVISA do medicamento",
+            "tipo": "Requisito",
+            "resultado": "Obrigação do Poder Público de fornecer o medicamento",
+            "peso": "Essencial",
+            "condicoes_aplicabilidade": "Registro na ANVISA",
+            "como_demonstrar": "Registro na ANVISA do medicamento"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Violação ao art. 1.022 do CPC/2015",
+            "justificativa": "O acórdão recorrido não incorreu em qualquer omissão",
+            "fundamento_legal": "Art. 1.022 do CPC/2015"
+          },
+          {
+            "criterio": "Violação à cláusula de reserva de plenário",
+            "justificativa": "O acórdão recorrido não declarou a inconstitucionalidade de dispositivos legais",
+            "fundamento_legal": "Art. 97 da Constituição Federal"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A concessão dos medicamentos não incorporados em atos normativos do SUS exige a presença cumulativa dos requisitos",
+            "resultado": "Obrigação do Poder Público de fornecer o medicamento",
+            "fundamento": "Art. 196 da Constituição Federal",
+            "tipo_rejeicao": "Rejeição da tese",
+            "peso": "Fundamental",
+            "fonte": "STJ"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Lei 8.080/1990",
+            "artigo": "19-M",
+            "tipo_interpretacao": "Interpretação teleológica",
+            "conteudo": "A assistência terapêutica integral consiste em dispensação de medicamentos e produtos de interesse para a saúde",
+            "contexto": "Sistema Único de Saúde (SUS)"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 25,
+      "tribunal": "STJ",
+      "processo": "2490911",
+      "original_model": "xai/grok-3-mini",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "improvido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "Agravo Interno",
+        "tipo_recurso": "Agravo em Recurso Especial",
+        "questao_central": "Cumprimento de Sentença e Excesso de Execução",
+        "resumo_deliberacao": "Agravo interno desprovido, pois o Tribunal de Justiça verificou a cobrança de encargos em desconformidade com o título judicial executado",
+        "relator": {
+          "nome": "MINISTRO RAUL ARAÚJO",
+          "cargo": "Relator"
+        },
+        "orgao_julgador": "STJ",
+        "categorias": [
+          "Processual Civil",
+          "Cumprimento de Sentença",
+          "Excesso de Execução"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "Sindicato",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "Sindicato",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "Súmula 83/STJ",
+            "artigo": null,
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": "A jurisprudência do STJ se consolidou no sentido de que eventuais erros materiais nos cálculos apresentados para o cumprimento de sentença não estão sujeitos à preclusão"
+          }
+        ],
+        "precedentes_citados": [
+          {
+            "numero": "AgInt nos EAREsp 1.572.319/PR",
+            "contexto_citacao": "A jurisprudência do STJ se consolidou no sentido de que eventuais erros materiais nos cálculos apresentados para o cumprimento de sentença não estão sujeitos à preclusão"
+          }
+        ],
+        "temas_fundamentacao": [
+          "Cumprimento de Sentença",
+          "Excesso de Execução",
+          "Encargos Moratórios"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A jurisprudência do STJ se consolidou no sentido de que eventuais erros materiais nos cálculos apresentados para o cumprimento de sentença não estão sujeitos à preclusão, sendo possível ao magistrado, inclusive, encaminhar os autos à contadoria, de ofício, para apurar se os cálculos estão em conformidade com o título em execução.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Preclusão",
+            "tipo": "Inexistência",
+            "resultado": "Não se aplica",
+            "peso": "Preponderante",
+            "condicoes_aplicabilidade": "Erros materiais nos cálculos apresentados para o cumprimento de sentença",
+            "como_demonstrar": "Análise dos cálculos apresentados e do título judicial executado"
+          },
+          {
+            "criterio": "Ajuste dos cálculos",
+            "tipo": "Possibilidade",
+            "resultado": "Ajuste dos cálculos",
+            "peso": "Preponderante",
+            "condicoes_aplicabilidade": "Erros materiais nos cálculos apresentados para o cumprimento de sentença",
+            "como_demonstrar": "Análise dos cálculos apresentados e do título judicial executado"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Preclusão da matéria",
+            "justificativa": "A jurisprudência do STJ se consolidou no sentido de que eventuais erros materiais nos cálculos apresentados para o cumprimento de sentença não estão sujeitos à preclusão",
+            "fundamento_legal": "Súmula 83/STJ"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A tentativa de discutir a atualização dos valores devidos somente em 2022 é intempestiva",
+            "resultado": "Rejeitada",
+            "fundamento": "Preclusão da matéria",
+            "tipo_rejeicao": "Improcedência",
+            "peso": "Não preponderante",
+            "fonte": "Acórdão do Tribunal de Justiça do Estado de São Paulo"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Súmula 83/STJ",
+            "artigo": null,
+            "tipo_interpretacao": "Aplicação",
+            "conteudo": "A jurisprudência do STJ se consolidou no sentido de que eventuais erros materiais nos cálculos apresentados para o cumprimento de sentença não estão sujeitos à preclusão",
+            "contexto": "Cumprimento de sentença e excesso de execução"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 5,
+      "tribunal": "STJ",
+      "processo": "2633124",
+      "original_model": "xai/grok-3-mini",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "improvido",
+        "unanimidade": true,
+        "placar": "unanimidade",
+        "tipo_decisao": "Agravo Interno",
+        "tipo_recurso": "Agravo em Recurso Especial",
+        "questao_central": "Deserção do recurso especial por falta de comprovação do preparo",
+        "resumo_deliberacao": "Agravo interno desprovido por unanimidade, em razão da ausência de comprovação do preparo",
+        "relator": {
+          "nome": "Daniela Teixeira",
+          "cargo": "Ministra"
+        },
+        "orgao_julgador": "Terceira Turma do Superior Tribunal de Justiça",
+        "categorias": [
+          "Direito Processual Civil"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "Pessoa Jurídica",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "Pessoa Jurídica",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "Súmula 187 do STJ",
+            "artigo": null,
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": "Deserção do recurso especial por falta de comprovação do preparo"
+          }
+        ],
+        "precedentes_citados": [],
+        "temas_fundamentacao": [
+          "Deserção do recurso especial",
+          "Preparo",
+          "Súmula 187 do STJ"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A ausência de comprovação do preparo implica a deserção do recurso especial, conforme a Súmula 187 do STJ",
+        "criterios_juridicos": [
+          {
+            "criterio": "Comprovação do preparo",
+            "tipo": "Requisito processual",
+            "resultado": "Deserção do recurso especial",
+            "peso": "Fundamental",
+            "condicoes_aplicabilidade": "A ausência de comprovação do preparo após regular intimação para sanar o vício",
+            "como_demonstrar": "Juntada de documento de pagamento que contenha vinculação ao processo"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Intimação pessoal da parte",
+            "justificativa": "A intimação pessoal da parte não é necessária quando o advogado constituído foi regularmente intimado para sanar o vício",
+            "fundamento_legal": "Art. 1.021, § 2º, do Código de Processo Civil"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A ausência de comprovação do preparo implica a deserção do recurso especial",
+            "resultado": "Deserção do recurso especial",
+            "fundamento": "Súmula 187 do STJ",
+            "tipo_rejeicao": null,
+            "peso": "Fundamental",
+            "fonte": "Jurisprudência do STJ"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "1.007",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "A ausência de comprovação do preparo implica a deserção do recurso especial",
+            "contexto": "Recurso especial"
+          },
+          {
+            "norma": "Súmula 187 do STJ",
+            "artigo": null,
+            "tipo_interpretacao": "Interpretação sistemática",
+            "conteudo": "A ausência de comprovação do preparo implica a deserção do recurso especial",
+            "contexto": "Recurso especial"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 29,
+      "tribunal": "STJ",
+      "processo": "AgInt no REsp 1837435",
+      "original_model": "xai/grok-3-mini",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": null,
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": null,
+        "tipo_recurso": "Recurso Especial",
+        "questao_central": "Sucessão empresarial irregular e embargos à execução",
+        "resumo_deliberacao": null,
+        "relator": {
+          "nome": "Luis Felipe Salomão",
+          "cargo": "Ministro"
+        },
+        "orgao_julgador": "STJ",
+        "categorias": [],
+        "perfil_partes": [
+          {
+            "tipo": "Pessoa Jurídica",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "Pessoa Jurídica",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "CPC",
+            "artigo": "941",
+            "paragrafo": "3",
+            "inciso": null,
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [],
+        "temas_fundamentacao": [
+          "Sucessão empresarial",
+          "Embargos à execução"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A caracterização da sucessão empresarial não exige a comprovação formal da transferência de bens, direitos e obrigações à nova sociedade, admitindo-se sua presunção quando os elementos indiquem que houve o prosseguimento na exploração da mesma atividade econômica, no mesmo endereço e com o mesmo objeto social.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Art. 941, § 3º, do CPC",
+            "tipo": "Norma processual",
+            "resultado": "Revaloração dos fatos",
+            "peso": "Preponderante",
+            "condicoes_aplicabilidade": "Existência de elementos contundentes nos autos",
+            "como_demonstrar": "Análise do voto vencedor e vencido"
+          },
+          {
+            "criterio": "Sucessão empresarial irregular",
+            "tipo": "Instituto de direito civil",
+            "resultado": "Responsabilidade da sucessora",
+            "peso": "Preponderante",
+            "condicoes_aplicabilidade": "Existência de elementos que indiquem a continuidade da atividade econômica",
+            "como_demonstrar": "Análise dos elementos fáticos-probatórios"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Súmula 7 do STJ",
+            "justificativa": "Não se aplica quando há revaloração jurídica das provas e dos fatos",
+            "fundamento_legal": "Art. 941, § 3º, do CPC"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A sucessão empresarial irregular pode ser caracterizada pela presunção da transferência de bens, direitos e obrigações à nova sociedade",
+            "resultado": "Responsabilidade da sucessora",
+            "fundamento": "Art. 1.142 e 1.143 do CC",
+            "tipo_rejeicao": null,
+            "peso": "Preponderante",
+            "fonte": "Jurisprudência do STJ"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "CPC",
+            "artigo": "941",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "O voto vencido será necessariamente declarado e considerado parte integrante do acórdão para todos os fins legais, inclusive de pré-questionamento",
+            "contexto": "Revaloração dos fatos"
+          },
+          {
+            "norma": "CC",
+            "artigo": "1.142",
+            "tipo_interpretacao": "Interpretação sistemática",
+            "conteudo": "O estabelecimento comercial é um complexo de bens materiais e imateriais organizados para o exercício da atividade empresarial",
+            "contexto": "Sucessão empresarial irregular"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 18,
+      "tribunal": "STJ",
+      "processo": "REsp 1704520",
+      "original_model": "xai/grok-3-mini",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": null,
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": null,
+        "tipo_recurso": "Recurso Especial",
+        "questao_central": "Natureza jurídica do rol do art. 1.015 do CPC/2015 e possibilidade de interpretação extensiva",
+        "resumo_deliberacao": null,
+        "relator": {
+          "nome": "Ministra Nancy Andighi",
+          "cargo": null
+        },
+        "orgao_julgador": "STJ",
+        "categorias": [],
+        "perfil_partes": [
+          {
+            "tipo": "Pessoa Jurídica",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "Pessoa Jurídica",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "CPC/2015",
+            "artigo": "1.015",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [],
+        "temas_fundamentacao": [
+          "Direito Processual Civil",
+          "Recurso Especial",
+          "Interpretação do CPC/2015"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "O rol do art. 1.015 do CPC é de taxatividade mitigada, por isso admite a interposição de agravo de instrumento quando verificada a urgência decorrente da inutilidade do julgamento da questão no recurso de apelação.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Taxatividade mitigada",
+            "tipo": "Recurso",
+            "resultado": "Admissibilidade do agravo de instrumento",
+            "peso": "Urgência decorrente da inutilidade do julgamento da questão no recurso de apelação",
+            "condicoes_aplicabilidade": "Decisões interlocutórias que não se enquadram nas hipóteses do art. 1.015 do CPC",
+            "como_demonstrar": "Demonstração da urgência e da inutilidade do julgamento da questão no recurso de apelação"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Interpretação extensiva ou analógica",
+            "justificativa": "Não é cabível a interpretação extensiva ou analógica das hipóteses previstas no art. 1.015 do CPC",
+            "fundamento_legal": "Art. 1.015 do CPC"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "O rol do art. 1.015 do CPC é de taxatividade mitigada",
+            "resultado": "Admissibilidade do agravo de instrumento",
+            "fundamento": "Urgência decorrente da inutilidade do julgamento da questão no recurso de apelação",
+            "tipo_rejeicao": "Rejeição da interpretação extensiva ou analógica",
+            "peso": "Urgência decorrente da inutilidade do julgamento da questão no recurso de apelação",
+            "fonte": "Art. 1.015 do CPC"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "CPC",
+            "artigo": "1.015",
+            "tipo_interpretacao": "Taxatividade mitigada",
+            "conteudo": "O rol do art. 1.015 do CPC é de taxatividade mitigada, por isso admite a interposição de agravo de instrumento quando verificada a urgência decorrente da inutilidade do julgamento da questão no recurso de apelação",
+            "contexto": "Decisões interlocutórias que não se enquadram nas hipóteses do art. 1.015 do CPC"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 33,
+      "tribunal": "TJPR",
+      "processo": "0085462-30.2025.8.16.0000",
+      "original_model": "groq/llama-3.3-70b-versatile",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "improvido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "Agravo De Instrumento",
+        "tipo_recurso": "Agravo",
+        "questao_central": "Reintegração de Posse",
+        "resumo_deliberacao": "Não comprovação do esbulho possessório",
+        "relator": {
+          "nome": null,
+          "cargo": null
+        },
+        "orgao_julgador": "TJPR",
+        "categorias": [
+          "Direito Civil",
+          "Direito Processual Civil"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "Autor",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "Réu",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "Lei n. 13.105/2015 (Código de Processo Civil)",
+            "artigo": "561",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "Lei n. 13.105/2015 (Código de Processo Civil)",
+            "artigo": "562",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "Lei n. 13.105/2015 (Código de Processo Civil)",
+            "artigo": "85",
+            "paragrafo": "11",
+            "inciso": null,
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [],
+        "temas_fundamentacao": [
+          "Reintegração de Posse",
+          "Esbulho Possessório",
+          "Prova"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A decisão se baseia na falta de comprovação do esbulho possessório e na necessidade de instrução processual para verificar a ocorrência do suposto esbulho.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Art. 561 da Lei n. 13.105/2015 (Código de Processo Civil)",
+            "tipo": "Norma processual",
+            "resultado": "Não comprovado",
+            "peso": "Fundamental",
+            "condicoes_aplicabilidade": "Deve ser comprovada a posse anterior, o esbulho praticado dentro de ano e dia e a data do esbulho",
+            "como_demonstrar": "Com documentos que demonstrem a posse anterior, como contas de luz, correspondências, fotografias, entre outros"
+          },
+          {
+            "criterio": "Art. 562 da Lei n. 13.105/2015 (Código de Processo Civil)",
+            "tipo": "Norma processual",
+            "resultado": "Não aplicado",
+            "peso": "Importante",
+            "condicoes_aplicabilidade": "Deve ser comprovada a posse anterior e o esbulho praticado dentro de ano e dia",
+            "como_demonstrar": "Com documentos que demonstrem a posse anterior e o esbulho praticado"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Art. 300 da Lei n. 13.105/2015 (Código de Processo Civil)",
+            "justificativa": "Não se aplica ao caso concreto",
+            "fundamento_legal": "Não há necessidade de comprovação de urgência para a concessão de liminar de reintegração de posse"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A reintegração de posse deve ser concedida liminarmente se comprovada a posse anterior e o esbulho praticado dentro de ano e dia",
+            "resultado": "Não comprovada",
+            "fundamento": "Art. 561 da Lei n. 13.105/2015 (Código de Processo Civil)",
+            "tipo_rejeicao": "Falta de comprovação",
+            "peso": "Fundamental",
+            "fonte": "Código de Processo Civil"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Lei n. 13.105/2015 (Código de Processo Civil)",
+            "artigo": "561",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "A posse anterior deve ser comprovada com documentos que demonstrem a posse anterior, como contas de luz, correspondências, fotografias, entre outros",
+            "contexto": "A comprovação da posse anterior é fundamental para a concessão de liminar de reintegração de posse"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 49,
+      "tribunal": "TJPR",
+      "processo": "0081636-93.2025.8.16.0000",
+      "original_model": "groq/llama-3.3-70b-versatile",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "não provido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "decisão monocrática",
+        "tipo_recurso": "agravo de instrumento",
+        "questao_central": "validade da assinatura digital em contrato celebrado",
+        "resumo_deliberacao": "decisão reformada, recurso conhecido e não provido",
+        "relator": {
+          "nome": null,
+          "cargo": null
+        },
+        "orgao_julgador": "Tribunal de Justiça do Paraná",
+        "categorias": [],
+        "perfil_partes": [
+          {
+            "tipo": "instituição financeira",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "pessoa física",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "Código Civil",
+            "artigo": "107",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "Medida Provisória nº 2.200-2/2001",
+            "artigo": "10",
+            "paragrafo": "2º",
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "321",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [],
+        "temas_fundamentacao": []
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A validade da assinatura digital em contrato celebrado não depende de credenciamento na Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil), desde que as partes admitam a validade da assinatura ou a pessoa a quem o documento for oposto a aceite.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Validade da assinatura digital",
+            "tipo": "Normativo",
+            "resultado": "Validade reconhecida",
+            "peso": "Preponderante",
+            "condicoes_aplicabilidade": "Admissão pelas partes ou aceitação pela pessoa a quem o documento for oposto",
+            "como_demonstrar": "Comprovação da autoria e integridade do documento eletrônico"
+          },
+          {
+            "criterio": "Uso de outros meios de comprovação da autoria e integridade de documentos eletrônicos",
+            "tipo": "Normativo",
+            "resultado": "Admissibilidade",
+            "peso": "Relevante",
+            "condicoes_aplicabilidade": "Aceitação pelas partes ou pela pessoa a quem o documento for oposto",
+            "como_demonstrar": "Utilização de plataformas de assinatura eletrônica não credenciadas no ICP-Brasil"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Credenciamento na Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil)",
+            "justificativa": "Desnecessidade de credenciamento para validar a assinatura eletrônica",
+            "fundamento_legal": "Medida Provisória nº 2.200-2/2001, art. 10, § 2º"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A assinatura eletrônica é válida desde que assegure a autenticidade e integridade do documento",
+            "resultado": "Validade reconhecida",
+            "fundamento": "Medida Provisória nº 2.200-2/2001, art. 10, § 2º",
+            "tipo_rejeicao": null,
+            "peso": "Preponderante",
+            "fonte": "Superior Tribunal de Justiça, Recurso Especial nº 2159442 – PR"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Medida Provisória nº 2.200-2/2001",
+            "artigo": "10",
+            "tipo_interpretacao": "Extensiva",
+            "conteudo": "Admissibilidade de outros meios de comprovação da autoria e integridade de documentos eletrônicos",
+            "contexto": "Validade da assinatura digital em contrato celebrado"
+          },
+          {
+            "norma": "Código Civil",
+            "artigo": "107",
+            "tipo_interpretacao": "Sistemática",
+            "conteudo": "Validade da declaração de vontade independentemente de forma especial",
+            "contexto": "Contratação eletrônica de serviços e produtos"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 44,
+      "tribunal": "TJPR",
+      "processo": "0098162-38.2025.8.16.0000",
+      "original_model": "groq/llama-3.3-70b-versatile",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "provido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "Agravo de Instrumento",
+        "tipo_recurso": "Agravo de Instrumento",
+        "questao_central": "Assistência judiciária gratuita",
+        "resumo_deliberacao": "Recurso conhecido e provido, concedendo assistência judiciária gratuita ao autor",
+        "relator": {
+          "nome": null,
+          "cargo": null
+        },
+        "orgao_julgador": "21ª Vara Cível de Curitiba",
+        "categorias": [
+          "Direito Processual Civil",
+          "Assistência Judiciária Gratuita"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "pessoa física",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "pessoa jurídica",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "NCPC",
+            "artigo": "290",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [],
+        "temas_fundamentacao": [
+          "Hipossuficiência financeira",
+          "Presunção relativa de veracidade",
+          "Renda inferior a dois salários-mínimos"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A hipossuficiência financeira do agravante é demonstrada por sua renda inferior a três salários-mínimos, o que justifica a concessão integral da assistência judiciária gratuita.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Hipossuficiência financeira",
+            "tipo": "Requisito normativo operacional",
+            "resultado": "Concessão da assistência judiciária gratuita",
+            "peso": "Fundamental",
+            "condicoes_aplicabilidade": "Renda inferior a três salários-mínimos",
+            "como_demonstrar": "Comprovação de renda e documentos que atestam a hipossuficiência"
+          },
+          {
+            "criterio": "Presunção relativa de veracidade da declaração de hipossuficiência",
+            "tipo": "Presunção juris tantum",
+            "resultado": "Concessão da assistência judiciária gratuita",
+            "peso": "Importante",
+            "condicoes_aplicabilidade": "Declaração de hipossuficiência firmada pela pessoa natural",
+            "como_demonstrar": "Declaração de hipossuficiência e comprovação de renda"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Comprovação de documentos complementares",
+            "justificativa": "Não é necessário para a concessão da assistência judiciária gratuita",
+            "fundamento_legal": "Art. 99, § 3º do CPC"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "É assegurado o direito à assistência judiciária gratuita à parte que comprovar hipossuficiência financeira",
+            "resultado": "Concessão da assistência judiciária gratuita",
+            "fundamento": "Art. 99 do CPC",
+            "tipo_rejeicao": null,
+            "peso": "Fundamental",
+            "fonte": "TJPR, 14ª C.Cível, 0021407-75.2022.8.16.0000"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "CPC",
+            "artigo": "99",
+            "tipo_interpretacao": "Interpretação autêntica",
+            "conteudo": "A presunção de veracidade da declaração de hipossuficiência é relativa e pode ser afastada por elementos concretos em sentido contrário",
+            "contexto": "Concessão da assistência judiciária gratuita"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 32,
+      "tribunal": "TJPR",
+      "processo": "0015146-89.2025.8.16.0194",
+      "original_model": "groq/llama-3.3-70b-versatile",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "parcialmente provido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "apelação cível",
+        "tipo_recurso": "recurso parcialmente conhecido e não provido",
+        "questao_central": "penhora de indenização por danos morais",
+        "resumo_deliberacao": "A apelante alegou que a indenização por danos morais é de sua titularidade exclusiva, mas o recurso foi parcialmente conhecido e não provido.",
+        "relator": {
+          "nome": null,
+          "cargo": null
+        },
+        "orgao_julgador": "TJPR",
+        "categorias": [
+          "direito civil",
+          "direito processual civil"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "pessoa física",
+            "polo": "ativo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "CPC",
+            "artigo": "487",
+            "paragrafo": null,
+            "inciso": "III",
+            "texto_referencia": "julgo extinto o processo com resolução de mérito, com base no artigo 487, inciso III, alínea \"b\", do CPC"
+          }
+        ],
+        "precedentes_citados": [],
+        "temas_fundamentacao": [
+          "indenização por danos morais",
+          "penhora",
+          "acordo homologado"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A penhora dos valores decorrentes da indenização por danos morais é devida, pois os danos morais foram fixados separadamente para cada autor, e a apelante não pode se beneficiar de comportamento contraditório",
+        "criterios_juridicos": [
+          {
+            "criterio": "Princípio da boa-fé",
+            "tipo": "Princípio",
+            "resultado": "Desprovimento do recurso",
+            "peso": "Fundamental",
+            "condicoes_aplicabilidade": "Comportamento contraditório da apelante",
+            "como_demonstrar": "Análise do comportamento processual da apelante"
+          },
+          {
+            "criterio": "Vedação ao enriquecimento ilícito",
+            "tipo": "Princípio",
+            "resultado": "Desprovimento do recurso",
+            "peso": "Fundamental",
+            "condicoes_aplicabilidade": "Comportamento contraditório da apelante",
+            "como_demonstrar": "Análise do comportamento processual da apelante"
+          },
+          {
+            "criterio": "Coisa julgada",
+            "tipo": "Instituto processual",
+            "resultado": "Desprovimento do recurso",
+            "peso": "Fundamental",
+            "condicoes_aplicabilidade": "Sentença anterior que fixou os danos morais",
+            "como_demonstrar": "Análise da sentença anterior"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Antecipação de tutela na apelação",
+            "justificativa": "Não foi formulada em apartado",
+            "fundamento_legal": "Art. 1.012, § 3º, I, do CPC"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A penhora dos valores decorrentes da indenização por danos morais é indevida",
+            "resultado": "Rejeitada",
+            "fundamento": "Princípio da boa-fé, vedação ao enriquecimento ilícito e coisa julgada",
+            "tipo_rejeicao": "Desprovimento do recurso",
+            "peso": "Fundamental",
+            "fonte": "Sentença anterior que fixou os danos morais"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "CPC",
+            "artigo": "487",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "Julgamento extinto com resolução de mérito",
+            "contexto": "Sentença que homologou o acordo"
+          },
+          {
+            "norma": "CPC",
+            "artigo": "1.012",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "Antecipação de tutela na apelação",
+            "contexto": "Requisito de formulação em apartado"
+          },
+          {
+            "norma": "CPC",
+            "artigo": "85",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "Honorários advocatícios",
+            "contexto": "Sentença que não condenou a apelante em honorários sucumbenciais"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 31,
+      "tribunal": "TJPR",
+      "processo": "0002698-63.2024.8.16.0083",
+      "original_model": "groq/llama-3.3-70b-versatile",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "não provido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "apelação cível",
+        "tipo_recurso": "apelação",
+        "questao_central": "taxa de juros remuneratórios",
+        "resumo_deliberacao": "a taxa de juros remuneratórios contratada não é abusiva",
+        "relator": {
+          "nome": null,
+          "cargo": null
+        },
+        "orgao_julgador": "TJPR",
+        "categorias": [],
+        "perfil_partes": [
+          {
+            "tipo": "pessoa física",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "instituição financeira",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "Código Civil",
+            "artigo": null,
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [
+          {
+            "numero": "AGRAVO EM RECURSO ESPECIAL Nº 257176",
+            "contexto_citacao": "Superior Tribunal de Justiça"
+          }
+        ],
+        "temas_fundamentacao": [
+          "juros remuneratórios",
+          "abusividade",
+          "contrato de adesão"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A taxa de juros remuneratórios não é abusiva se não ultrapassar o triplo da taxa média de mercado, considerando as peculiaridades do caso concreto, como a baixa liquidez da garantia e a depreciação do bem",
+        "criterios_juridicos": [
+          {
+            "criterio": "Taxa de juros remuneratórios",
+            "tipo": "Norma jurídica",
+            "resultado": "Não abusiva",
+            "peso": "Triplo da taxa média de mercado",
+            "condicoes_aplicabilidade": "Peculiaridades do caso concreto",
+            "como_demonstrar": "Análise da taxa de juros contratada em relação à taxa média de mercado"
+          },
+          {
+            "criterio": "Princípio da imutabilidade contratual (pacta sunt servanda)",
+            "tipo": "Princípio jurídico",
+            "resultado": "Mitigação",
+            "peso": "Equilíbrio contratual",
+            "condicoes_aplicabilidade": "Relação de consumo e abusividade",
+            "como_demonstrar": "Análise da relação contratual e das condições de contratação"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Preliminar de ofensa ao princípio da dialeticidade",
+            "justificativa": "Razões do recurso interposto são suficientes para constatar os tópicos de inconformidade do apelante",
+            "fundamento_legal": "Art. 85, § 11, do CPC"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A taxa de juros remuneratórios contratada é abusiva",
+            "resultado": "Não acolhida",
+            "fundamento": "Taxa contratada é inferior ao triplo da taxa média de mercado",
+            "tipo_rejeicao": "Rejeição da tese",
+            "peso": "Triplo da taxa média de mercado",
+            "fonte": "Súmula nº 382 do Superior Tribunal de Justiça"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Código de Defesa do Consumidor",
+            "artigo": null,
+            "tipo_interpretacao": "Interpretação sistemática",
+            "conteudo": "Relação contratual deve ser revisada sob o pálio do Código de Defesa do Consumidor",
+            "contexto": "Relação de consumo e abusividade"
+          },
+          {
+            "norma": "Súmula nº 382 do Superior Tribunal de Justiça",
+            "artigo": null,
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "A estipulação de juros remuneratórios superiores a 12% ao ano, por si só, não indica abusividade",
+            "contexto": "Taxa de juros remuneratórios"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 60,
+      "tribunal": "TJPR",
+      "processo": "0060138-38.2025.8.16.0000",
+      "original_model": "groq/llama-3.3-70b-versatile",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "provido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "Agravo de Instrumento",
+        "tipo_recurso": "Agravo de Instrumento",
+        "questao_central": "Exceção de pré-executividade em execução de título extrajudicial",
+        "resumo_deliberacao": "O tribunal julgou procedente o agravo de instrumento, entendendo que a análise da liquidez, certeza e exigibilidade do título pode ser realizada com base na documentação já constante dos autos",
+        "relator": {
+          "nome": null,
+          "cargo": null
+        },
+        "orgao_julgador": "Tribunal de Justiça do Paraná",
+        "categorias": [],
+        "perfil_partes": [
+          {
+            "tipo": "parte executada",
+            "polo": "ativo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "CPC",
+            "artigo": "1.013",
+            "paragrafo": "3º",
+            "inciso": "III e IV",
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [],
+        "temas_fundamentacao": [
+          "exceção de pré-executividade",
+          "título extrajudicial",
+          "duplicata sem aceite",
+          "matéria de ordem pública"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A exceção de pré-executividade é cabível quando atendidos simultaneamente dois requisitos: (i) a matéria arguida deve ser passível de conhecimento de ofício pelo juiz; e (ii) não pode demandar dilação probatória, devendo ser aferível de plano, com base nos elementos constantes dos autos.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Exceção de pré-executividade",
+            "tipo": "Instituto processual",
+            "resultado": "Cabível",
+            "peso": "Relevante",
+            "condicoes_aplicabilidade": "Matéria de ordem pública e não demandar dilação probatória",
+            "como_demonstrar": "Análise da documentação constante dos autos"
+          },
+          {
+            "criterio": "Requisitos para o cabimento da exceção de pré-executividade",
+            "tipo": "Requisitos legais",
+            "resultado": "Cumulativos",
+            "peso": "Essenciais",
+            "condicoes_aplicabilidade": "Matéria de ordem pública e não demandar dilação probatória",
+            "como_demonstrar": "Análise da legislação processual"
+          },
+          {
+            "criterio": "Duplicata sem aceite",
+            "tipo": "Título executivo extrajudicial",
+            "resultado": "Não é documento hábil para embasar execução",
+            "peso": "Relevante",
+            "condicoes_aplicabilidade": "Ausência de protesto e documentos comprobatórios",
+            "como_demonstrar": "Análise da documentação constante dos autos"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Notificação do devedor acerca da cessão de crédito",
+            "justificativa": "Não é requisito essencial para a execução",
+            "fundamento_legal": "Art. 290 do Código Civil"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A exceção de pré-executividade é cabível quando atendidos simultaneamente dois requisitos: (i) a matéria arguida deve ser passível de conhecimento de ofício pelo juiz; e (ii) não pode demandar dilação probatória, devendo ser aferível de plano, com base nos elementos constantes dos autos.",
+            "resultado": "Cabível",
+            "fundamento": "Jurisprudência do STJ",
+            "tipo_rejeicao": null,
+            "peso": "Relevante",
+            "fonte": "STJ, REsp n. 1.507.856/RS"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "1.013",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "A exceção de pré-executividade é cabível quando atendidos simultaneamente dois requisitos: (i) a matéria arguida deve ser passível de conhecimento de ofício pelo juiz; e (ii) não pode demandar dilação probatória, devendo ser aferível de plano, com base nos elementos constantes dos autos.",
+            "contexto": "Processo de execução de título extrajudicial"
+          },
+          {
+            "norma": "Lei de Duplicatas",
+            "artigo": "15",
+            "tipo_interpretacao": "Interpretação sistemática",
+            "conteudo": "A duplicata sem aceite é título executivo extrajudicial, desde que devidamente protestada e acompanhada de documentos comprobatórios",
+            "contexto": "Processo de execução de título extrajudicial"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 37,
+      "tribunal": "TJPR",
+      "processo": "0078786-66.2025.8.16.0000",
+      "original_model": "groq/llama-3.3-70b-versatile",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "improvido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "Agravo de Instrumento",
+        "tipo_recurso": "Agravo de Instrumento",
+        "questao_central": "Penhora de imóvel gravado com alienação fiduciária em execução de dívida condominial",
+        "resumo_deliberacao": "A existência de alienação fiduciária não impede a penhora do imóvel",
+        "relator": {
+          "nome": null,
+          "cargo": null
+        },
+        "orgao_julgador": "TJPR",
+        "categorias": [
+          "Direito Civil",
+          "Direito Processual Civil"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "executado",
+            "polo": "passivo"
+          },
+          {
+            "tipo": "exequente",
+            "polo": "ativo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [],
+        "precedentes_citados": [],
+        "temas_fundamentacao": [
+          "Penhora",
+          "Alienação Fiduciária",
+          "Dívida Condominial"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A penhora de imóvel gravado com alienação fiduciária em execução de dívida condominial não é admitida, pois o bem não integra o patrimônio do devedor fiduciante, mas sim do credor fiduciário. No entanto, é possível a penhora dos direitos do devedor sobre o contrato com pacto de alienação fiduciária.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Art. 1.345 do Código Civil",
+            "tipo": "Norma",
+            "resultado": "Despesas de origem condominiais possuem natureza propter rem",
+            "peso": "Alto",
+            "condicoes_aplicabilidade": "Imóvel objeto de alienação fiduciária",
+            "como_demonstrar": "Análise do contrato de alienação fiduciária e da legislação aplicável"
+          },
+          {
+            "criterio": "Art. 835, XII, do CPC",
+            "tipo": "Norma",
+            "resultado": "Penhora dos direitos do devedor sobre o contrato com pacto de alienação fiduciária",
+            "peso": "Alto",
+            "condicoes_aplicabilidade": "Imóvel objeto de alienação fiduciária",
+            "como_demonstrar": "Análise do contrato de alienação fiduciária e da legislação aplicável"
+          },
+          {
+            "criterio": "Art. 1.368-B do Código Civil",
+            "tipo": "Norma",
+            "resultado": "Responsabilidade do credor fiduciário pelo pagamento dos tributos sobre a propriedade e a posse",
+            "peso": "Alto",
+            "condicoes_aplicabilidade": "Consolidação da propriedade em nome do credor fiduciário",
+            "como_demonstrar": "Análise do contrato de alienação fiduciária e da legislação aplicável"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Preclusão pro judicato",
+            "justificativa": "Não aplicável ao caso",
+            "fundamento_legal": "Não aplicável"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A penhora de imóvel gravado com alienação fiduciária em execução de dívida condominial é inadmissível",
+            "resultado": "Negado provimento ao recurso",
+            "fundamento": "Art. 1.345 do Código Civil e Art. 835, XII, do CPC",
+            "tipo_rejeicao": "Impossibilidade de penhora do bem",
+            "peso": "Alto",
+            "fonte": "Superior Tribunal de Justiça"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Código Civil",
+            "artigo": "1.345",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "Despesas de origem condominiais possuem natureza propter rem",
+            "contexto": "Imóvel objeto de alienação fiduciária"
+          },
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "835, XII",
+            "tipo_interpretacao": "Interpretação sistemática",
+            "conteudo": "Penhora dos direitos do devedor sobre o contrato com pacto de alienação fiduciária",
+            "contexto": "Imóvel objeto de alienação fiduciária"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 38,
+      "tribunal": "TJPR",
+      "processo": "0001819-40.2024.8.16.0056",
+      "original_model": "groq/llama-3.3-70b-versatile",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "parcialmente provido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "apelação cível",
+        "tipo_recurso": "apelação",
+        "questao_central": "validade da procuração",
+        "resumo_deliberacao": "teoria acolhida sobre a validade da procuração",
+        "relator": {
+          "nome": null,
+          "cargo": null
+        },
+        "orgao_julgador": "TJPR",
+        "categorias": [],
+        "perfil_partes": [
+          {
+            "tipo": "pessoa física",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "pessoa jurídica",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "CPC",
+            "artigo": "76",
+            "paragrafo": "§ 1º",
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "CPC",
+            "artigo": "321",
+            "paragrafo": "par. ún.",
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "CPC",
+            "artigo": "330",
+            "paragrafo": null,
+            "inciso": "III",
+            "texto_referencia": null
+          },
+          {
+            "norma": "CPC",
+            "artigo": "485",
+            "paragrafo": null,
+            "inciso": "IV e VI",
+            "texto_referencia": null
+          },
+          {
+            "norma": "CPC",
+            "artigo": "105",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "Código Civil",
+            "artigo": "654",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [],
+        "temas_fundamentacao": []
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A procuração geral para o foro, outorgada por instrumento público ou particular assinado pela parte, habilita o advogado a praticar todos os atos do processo, exceto receber citação, confessar, reconhecer a procedência do pedido, transigir, desistir, renunciar ao direito sobre o qual se funda a ação, receber, dar quitação, firmar compromisso e assinar declaração de hipossuficiência econômica, que devem constar de cláusula específica.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Procuração geral para o foro",
+            "tipo": "Requisito processual",
+            "resultado": "Habilita o advogado a praticar todos os atos do processo",
+            "peso": "Indispensável",
+            "condicoes_aplicabilidade": "Deve conter o nome do advogado, seu número de inscrição na Ordem dos Advogados do Brasil e endereço completo",
+            "como_demonstrar": "Deve ser anexada aos autos"
+          },
+          {
+            "criterio": "Validade da procuração",
+            "tipo": "Requisito processual",
+            "resultado": "Permite a habilitação do Patrono para praticar todos os atos do processo",
+            "peso": "Fundamental",
+            "condicoes_aplicabilidade": "Deve ser outorgada por instrumento público ou particular assinado pela parte",
+            "como_demonstrar": "Deve ser apresentada em juízo"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Exigência de procuração atualizada",
+            "justificativa": "Não há exigência legal de procuração por instrumento público, procuração atualizada com finalidade da constituição ou com firma reconhecida",
+            "fundamento_legal": "Art. 105 do CPC"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A procuração geral para o foro, outorgada por instrumento público ou particular assinado pela parte, habilita o advogado a praticar todos os atos do processo",
+            "resultado": "Reformada a sentença recorrida",
+            "fundamento": "Art. 105 do CPC",
+            "tipo_rejeicao": null,
+            "peso": "Preponderante",
+            "fonte": "TJPR"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "105",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "A procuração geral para o foro, outorgada por instrumento público ou particular assinado pela parte, habilita o advogado a praticar todos os atos do processo",
+            "contexto": "Processo civil"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 47,
+      "tribunal": "TJPR",
+      "processo": "0046211-05.2025.8.16.0000",
+      "original_model": "groq/llama-3.3-70b-versatile",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "improvido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "decisão de agravo de instrumento",
+        "tipo_recurso": "agravo de instrumento",
+        "questao_central": "impenhorabilidade de quantia bloqueada e nulidade da constrição por ausência de intimação prévia",
+        "resumo_deliberacao": "A decisão de 1º grau que rejeitou as alegações de impenhorabilidade da quantia bloqueada e de nulidade da constrição por ausência de intimação prévia foi mantida.",
+        "relator": {
+          "nome": null,
+          "cargo": null
+        },
+        "orgao_julgador": "TJPR",
+        "categorias": [],
+        "perfil_partes": [
+          {
+            "tipo": "pessoa jurídica",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "Estado",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "833",
+            "paragrafo": null,
+            "inciso": "X",
+            "texto_referencia": null
+          },
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "854",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [],
+        "temas_fundamentacao": [
+          "impenhorabilidade",
+          "nulidade da constrição",
+          "intimação prévia"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A impenhorabilidade da quantia bloqueada não se sustenta, pois o artigo 833, inciso X, do Código de Processo Civil, não se aplica a pessoas jurídicas. Além disso, a constrição judicial, determinada pelo Sisbajud, sem a prévia intimação do executado, não viola os princípios do contraditório e da ampla defesa, conforme o artigo 854 do Código de Processo Civil.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Impenhorabilidade da quantia bloqueada",
+            "tipo": "Norma processual",
+            "resultado": "Não se sustenta",
+            "peso": "Preponderante",
+            "condicoes_aplicabilidade": "Artigo 833, inciso X, do Código de Processo Civil",
+            "como_demonstrar": "Análise da legislação processual e jurisprudência"
+          },
+          {
+            "criterio": "Constrição judicial sem prévia intimação do executado",
+            "tipo": "Norma processual",
+            "resultado": "Não viola os princípios do contraditório e da ampla defesa",
+            "peso": "Preponderante",
+            "condicoes_aplicabilidade": "Artigo 854 do Código de Processo Civil",
+            "como_demonstrar": "Análise da legislação processual e jurisprudência"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Nulidade da constrição por ausência de intimação prévia",
+            "justificativa": "Artigo 854 do Código de Processo Civil",
+            "fundamento_legal": "Código de Processo Civil"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A impenhorabilidade da quantia bloqueada é aplicável a pessoas jurídicas",
+            "resultado": "Não se sustenta",
+            "fundamento": "Artigo 833, inciso X, do Código de Processo Civil e jurisprudência",
+            "tipo_rejeicao": "Rejeição da tese",
+            "peso": "Preponderante",
+            "fonte": "Código de Processo Civil e jurisprudência"
+          },
+          {
+            "conteudo": "A constrição judicial sem prévia intimação do executado viola os princípios do contraditório e da ampla defesa",
+            "resultado": "Não se sustenta",
+            "fundamento": "Artigo 854 do Código de Processo Civil",
+            "tipo_rejeicao": "Rejeição da tese",
+            "peso": "Preponderante",
+            "fonte": "Código de Processo Civil"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "833",
+            "tipo_interpretacao": "Interpretação restritiva",
+            "conteudo": "A impenhorabilidade da quantia bloqueada não se aplica a pessoas jurídicas",
+            "contexto": "Análise da legislação processual e jurisprudência"
+          },
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "854",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "A constrição judicial sem prévia intimação do executado não viola os princípios do contraditório e da ampla defesa",
+            "contexto": "Análise da legislação processual e jurisprudência"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 50,
+      "tribunal": "TJPR",
+      "processo": "0055456-40.2025.8.16.0000",
+      "original_model": "groq/llama-3.3-70b-versatile",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "provido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "decisão de agravo de instrumento",
+        "tipo_recurso": "agrávio de instrumento",
+        "questao_central": "concessão de tutela de urgência em embargos de terceiro",
+        "resumo_deliberacao": "recurso conhecido e provido para reformar decisão que indeferiu tutela de urgência para suspensão de mandado de reintegração de posse",
+        "relator": {
+          "nome": null,
+          "cargo": null
+        },
+        "orgao_julgador": "TJPR",
+        "categorias": [
+          "direito processual civil",
+          "embargos de terceiro",
+          "tutela provisória"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "embargante",
+            "polo": "ativo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "CPC",
+            "artigo": "678",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [],
+        "temas_fundamentacao": [
+          "posse",
+          "tutela de urgência",
+          "embargos de terceiro"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A comprovação da posse ou do domínio do bem constrito, nos termos do art. 678 do CPC, é suficiente para a suspensão das medidas constritivas sobre o imóvel litigioso",
+        "criterios_juridicos": [
+          {
+            "criterio": "Comprovação da posse ou do domínio do bem",
+            "tipo": "Requisito normativo operacional",
+            "resultado": "Suspensão das medidas constritivas sobre o imóvel",
+            "peso": "Fundamental",
+            "condicoes_aplicabilidade": "Em embargos de terceiro",
+            "como_demonstrar": "Por meio de prova sumária"
+          }
+        ],
+        "criterios_dispensados": [],
+        "teses": [
+          {
+            "conteudo": "A comprovação da posse ou do domínio do bem constrito, nos termos do art. 678 do CPC, é suficiente para a suspensão das medidas constritivas sobre o imóvel litigioso",
+            "resultado": "Procedente",
+            "fundamento": "Art. 678 do CPC",
+            "tipo_rejeicao": null,
+            "peso": "Precedente",
+            "fonte": "TJPR"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "678",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "A decisão que reconhecer suficientemente provado o domínio ou a posse determinará a suspensão das medidas constritivas sobre os bens litigiosos objeto dos embargos",
+            "contexto": "Em embargos de terceiro"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 61,
+      "tribunal": "TJSP",
+      "processo": "4002353-37.2026.8.26.0000",
+      "original_model": "claude-sonnet-4-20250514",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "denegado",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "decisão monocrática",
+        "tipo_recurso": "Agravo de Instrumento",
+        "questao_central": "Reintegração de posse",
+        "resumo_deliberacao": "A decisão manteve a liminar indeferida, pois não foram demonstrados os requisitos do art. 561 e 562 do CPC para autorizar o deferimento da medida",
+        "relator": {
+          "nome": "Desembargador FRANCISCO GIAQUINTO",
+          "cargo": "Desembargador"
+        },
+        "orgao_julgador": "13ª Câmara de Direito Privado do Tribunal de Justiça do Estado de São Paulo",
+        "categorias": [
+          "Direito Civil",
+          "Reintegração de Posse"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "pessoa física",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "pessoa física",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "Código Civil",
+            "artigo": "1.196",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": "ato inequívoco de exercício da posse exclusiva"
+          },
+          {
+            "norma": "Código Civil",
+            "artigo": "1.207",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": "posse não se extingue com a alienação do bem"
+          },
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "561",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": "requisitos para autorizar o deferimento da medida"
+          },
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "562",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": "requisitos para autorizar o deferimento da medida"
+          },
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "300",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": "tutela de urgência"
+          }
+        ],
+        "precedentes_citados": [],
+        "temas_fundamentacao": [
+          "Reintegração de posse",
+          "Posse anterior",
+          "Esbulho",
+          "Tutela de urgência"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A tutela possessória liminar exige a demonstração dos requisitos previstos no art. 561 do Código de Processo Civil, notadamente a posse, o esbulho, a data do esbulho e a perda da posse.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Posse anterior",
+            "tipo": "Requisito",
+            "resultado": "Não demonstrada",
+            "peso": "Fundamental",
+            "condicoes_aplicabilidade": "Art. 561 do Código de Processo Civil",
+            "como_demonstrar": "Comprovação da posse exercida pelo autor"
+          },
+          {
+            "criterio": "Esbulho",
+            "tipo": "Requisito",
+            "resultado": "Não demonstrado",
+            "peso": "Fundamental",
+            "condicoes_aplicabilidade": "Art. 561 do Código de Processo Civil",
+            "como_demonstrar": "Comprovação do ato de agressão à posse"
+          },
+          {
+            "criterio": "Data do esbulho",
+            "tipo": "Requisito",
+            "resultado": "Não demonstrada",
+            "peso": "Fundamental",
+            "condicoes_aplicabilidade": "Art. 561 do Código de Processo Civil",
+            "como_demonstrar": "Comprovação da data em que ocorreu o esbulho"
+          },
+          {
+            "criterio": "Perigo de dano ou risco ao resultado útil do processo",
+            "tipo": "Requisito",
+            "resultado": "Não demonstrado",
+            "peso": "Fundamental",
+            "condicoes_aplicabilidade": "Art. 300 do Código de Processo Civil",
+            "como_demonstrar": "Comprovação do perigo de dano ou risco ao resultado útil do processo"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Tutela de urgência",
+            "justificativa": "Ausência dos requisitos do art. 300 do Código de Processo Civil",
+            "fundamento_legal": "Art. 300 do Código de Processo Civil"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A posse anterior não precisa ser física ou iniciada pela adquirente, bastando a comprovação da posse exercida pelo alienante",
+            "resultado": "Rejeitada",
+            "fundamento": "Art. 1.196 e 1.207 do Código Civil",
+            "tipo_rejeicao": "Fundamento legal",
+            "peso": "Relevante",
+            "fonte": "Código Civil"
+          },
+          {
+            "conteudo": "A tutela possessória liminar pode ser concedida sem a demonstração do periculum in mora",
+            "resultado": "Rejeitada",
+            "fundamento": "Art. 561 e 562 do Código de Processo Civil",
+            "tipo_rejeicao": "Fundamento legal",
+            "peso": "Relevante",
+            "fonte": "Código de Processo Civil"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "561",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "A tutela possessória liminar exige a demonstração dos requisitos previstos no art. 561 do Código de Processo Civil",
+            "contexto": "Ação de reintegração de posse"
+          },
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "562",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "A tutela possessória liminar pode ser concedida sem a demonstração do periculum in mora",
+            "contexto": "Ação de reintegração de posse"
+          },
+          {
+            "norma": "Código Civil",
+            "artigo": "1.196",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "A posse é exercida de forma exclusiva e com ânimo de dono",
+            "contexto": "Ação de reintegração de posse"
+          },
+          {
+            "norma": "Código Civil",
+            "artigo": "1.207",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "A posse não se extingue com a alienação do bem",
+            "contexto": "Ação de reintegração de posse"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 78,
+      "tribunal": "TJSP",
+      "processo": "4002715-39.2026.8.26.0000",
+      "original_model": "claude-sonnet-4-20250514",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "improvido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "Agravo de Instrumento",
+        "tipo_recurso": "Agravo de Instrumento",
+        "questao_central": "Mora do devedor e concessão de liminar de busca e apreensão",
+        "resumo_deliberacao": "O Tribunal decidiu que a mora do devedor foi demonstrada e que a concessão da liminar de busca e apreensão foi legítima",
+        "relator": {
+          "nome": "Desembargador Themistocles Barbosa Ferreira Neto",
+          "cargo": "Desembargador"
+        },
+        "orgao_julgador": "29ª Câmara de Direito Privado do Tribunal de Justiça do Estado de São Paulo",
+        "categorias": [
+          "Direito Civil",
+          "Direito Processual Civil"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "Pessoa Física",
+            "polo": "passivo"
+          },
+          {
+            "tipo": "Instituição Financeira",
+            "polo": "ativo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "Decreto-lei nº 911/69",
+            "artigo": "3º",
+            "paragrafo": "1º",
+            "inciso": null,
+            "texto_referencia": "Concessão de liminar de busca e apreensão"
+          }
+        ],
+        "precedentes_citados": [
+          {
+            "numero": "Tema 1132",
+            "contexto_citacao": "Recurso Repetitivo do STJ"
+          }
+        ],
+        "temas_fundamentacao": [
+          "Mora do devedor",
+          "Concessão de liminar de busca e apreensão",
+          "Alienação fiduciária"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A mora do devedor pode ser comprovada por carta registrada com aviso de recebimento, não se exigindo que a assinatura constante do referido aviso seja a do próprio destinatário, conforme art. 2º, § 2º, do Decreto-Lei nº 911/69",
+        "criterios_juridicos": [
+          {
+            "criterio": "Comprovação da mora",
+            "tipo": "Normativo",
+            "resultado": "Concessão da liminar de busca e apreensão",
+            "peso": "Preponderante",
+            "condicoes_aplicabilidade": "Envio de notificação extrajudicial ao endereço do devedor indicado no contrato",
+            "como_demonstrar": "Comprovante do envio da notificação com aviso de recebimento ao endereço do devedor indicado no contrato"
+          },
+          {
+            "criterio": "Purga da mora",
+            "tipo": "Normativo",
+            "resultado": "Restituição do bem",
+            "peso": "Relevante",
+            "condicoes_aplicabilidade": "Pagamento da integralidade da dívida pendente",
+            "como_demonstrar": "Pagamento da integralidade da dívida pendente no prazo de 5 dias após a execução da liminar"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Abusividade das cláusulas contratuais",
+            "justificativa": "A discussão armada acerca da abusividade das cláusulas contratuais e juros, neste momento processual, não tem razão de ser",
+            "fundamento_legal": "Art. 2º, § 2º, do Decreto-Lei nº 911/69"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A mora do devedor pode ser comprovada por carta registrada com aviso de recebimento",
+            "resultado": "Concessão da liminar de busca e apreensão",
+            "fundamento": "Art. 2º, § 2º, do Decreto-Lei nº 911/69",
+            "tipo_rejeicao": null,
+            "peso": "Preponderante",
+            "fonte": "STJ, REsp 1.951.622"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Decreto-Lei nº 911/69",
+            "artigo": "2º, § 2º",
+            "tipo_interpretacao": "Literal",
+            "conteudo": "A mora decorrerá do simples vencimento do prazo para pagamento e poderá ser comprovada por carta registrada com aviso de recebimento",
+            "contexto": "Comprovação da mora do devedor"
+          },
+          {
+            "norma": "Decreto-Lei nº 911/69",
+            "artigo": "3º, § 1º",
+            "tipo_interpretacao": "Sistemática",
+            "conteudo": "Sem o pagamento, ficam consolidadas, desde logo, a favor do autor, a posse e a propriedade plena do bem",
+            "contexto": "Consolidação da propriedade do bem"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 67,
+      "tribunal": "TJSP",
+      "processo": "4003310-72.2025.8.26.0000",
+      "original_model": "claude-sonnet-4-20250514",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "provido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "Agravo de Instrumento",
+        "tipo_recurso": "Agravo de Instrumento",
+        "questao_central": "Tutela possessória em embargos de terceiro",
+        "resumo_deliberacao": "Concessão da tutela antecipada para suspensão dos atos executórios sobre o bem litigioso",
+        "relator": {
+          "nome": "Juiz JOSÉ WILSON GONÇALVES",
+          "cargo": "Juiz"
+        },
+        "orgao_julgador": "11ª Câmara de Direito Privado do Tribunal de Justiça do Estado de São Paulo",
+        "categorias": [
+          "Direito Civil",
+          "Tutela Possessória",
+          "Embargos de Terceiro"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "Embargante",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "Banco Bradesco S/A",
+            "polo": "passivo"
+          },
+          {
+            "tipo": "Construtora Incon Industrialização da Construção S/A",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "300",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": "Art. 300 do CPC"
+          }
+        ],
+        "precedentes_citados": [],
+        "temas_fundamentacao": [
+          "Tutela antecipada",
+          "Posse",
+          "Prescrição quinquenal"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A decisão se baseia na aplicação do art. 678 do CPC, que estabelece a suspensão das medidas constritivas sobre os bens litigiosos quando está suficientemente comprovado o domínio ou a posse.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Posse suficientemente comprovada",
+            "tipo": "Requisito para a concessão da tutela possessória",
+            "resultado": "Suspensão dos atos executórios sobre o bem litigioso",
+            "peso": "Indispensável",
+            "condicoes_aplicabilidade": "Deve estar comprovada a posse exercida pelo embargante",
+            "como_demonstrar": "Por meio de documentos e provas que comprovem a posse"
+          },
+          {
+            "criterio": "Aplicação do art. 678 do CPC",
+            "tipo": "Norma processual",
+            "resultado": "Suspensão das medidas constritivas sobre os bens litigiosos",
+            "peso": "Obrigatório",
+            "condicoes_aplicabilidade": "Deve estar comprovado o domínio ou a posse",
+            "como_demonstrar": "Por meio da análise da documentação acostada aos autos"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Quitação integral do contrato",
+            "justificativa": "A ausência de termo de quitação emitido pela Construtora INCON compromete a probabilidade do direito invocado",
+            "fundamento_legal": "Art. 373, inciso I, do Código de Processo Civil"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A embargante tem direito à tutela possessória em embargos de terceiro",
+            "resultado": "Procedente",
+            "fundamento": "Art. 678 do CPC",
+            "tipo_rejeicao": null,
+            "peso": "Indispensável",
+            "fonte": "Código de Processo Civil"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "678",
+            "tipo_interpretacao": "Literal",
+            "conteudo": "Estabelece a suspensão das medidas constritivas sobre os bens litigiosos quando está suficientemente comprovado o domínio ou a posse",
+            "contexto": "Embargos de terceiro"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 83,
+      "tribunal": "TJSP",
+      "processo": "4004148-15.2025.8.26.0000",
+      "original_model": "claude-sonnet-4-20250514",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "não conhecido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "Agravo de Instrumento",
+        "tipo_recurso": "Agravo de Instrumento",
+        "questao_central": "Concessão de gratuidade processual",
+        "resumo_deliberacao": "Recurso não conhecido devido à ausência de recolhimento do preparo e deserção",
+        "relator": {
+          "nome": "Juiz JOSÉ AUGUSTO GENOFRE MARTINS",
+          "cargo": "Juiz"
+        },
+        "orgao_julgador": "29ª Câmara de Direito Privado do Tribunal de Justiça do Estado de São Paulo",
+        "categorias": [],
+        "perfil_partes": [
+          {
+            "tipo": "Pessoa Física",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "Pessoa Jurídica",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "1.007",
+            "paragrafo": "2º",
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "1.015",
+            "paragrafo": null,
+            "inciso": "V",
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [],
+        "temas_fundamentacao": []
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A ausência de recolhimento do preparo é um requisito de admissibilidade recursal que, não cumprido, impede o conhecimento do recurso.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Recolhimento do preparo",
+            "tipo": "Requisito de admissibilidade recursal",
+            "resultado": "Deserção do recurso",
+            "peso": "Obrigatório",
+            "condicoes_aplicabilidade": "Artigo 1.007, §2º, do Código de Processo Civil",
+            "como_demonstrar": "Recolhimento do preparo no prazo estabelecido"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Análise dos documentos apresentados",
+            "justificativa": "Já realizada pelo juiz",
+            "fundamento_legal": "Artigo 1.015, V, do Código de Processo Civil"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A ausência de recolhimento do preparo impede o conhecimento do recurso",
+            "resultado": "Deserção do recurso",
+            "fundamento": "Artigo 1.007, §2º, do Código de Processo Civil",
+            "tipo_rejeicao": "Deserção",
+            "peso": "Obrigatório",
+            "fonte": "TJSP; Apelação Cível 1017204-91.2020.8.26.0405"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "1.007",
+            "tipo_interpretacao": "Literal",
+            "conteudo": "A ausência de recolhimento do preparo é um requisito de admissibilidade recursal que, não cumprido, impede o conhecimento do recurso.",
+            "contexto": "Deserção do recurso"
+          },
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "1.015",
+            "tipo_interpretacao": "Sistemática",
+            "conteudo": "O recolhimento do preparo é um requisito de admissibilidade recursal",
+            "contexto": "Processamento do agravo de instrumento"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 81,
+      "tribunal": "TJSP",
+      "processo": "4020455-44.2025.8.26.0000",
+      "original_model": "claude-sonnet-4-20250514",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "improvido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "Agravo de Instrumento",
+        "tipo_recurso": "Agravo de Instrumento",
+        "questao_central": "Comprovação da mora nos contratos garantidos por alienação fiduciária",
+        "resumo_deliberacao": "Decisão que deferiu a liminar de busca e apreensão de veículo mantida, pois os requisitos para a liminar foram devidamente preenchidos",
+        "relator": {
+          "nome": "Desembargadora ROSANGELA MARIA TELLES",
+          "cargo": "Desembargadora"
+        },
+        "orgao_julgador": "31ª Câmara de Direito Privado do Tribunal de Justiça do Estado de São Paulo",
+        "categorias": [
+          "Direito Civil",
+          "Alienação Fiduciária"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "Instituição Financeira",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "Devedor",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "CPC",
+            "artigo": "927",
+            "paragrafo": "III",
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "Decreto-Lei nº 911/69",
+            "artigo": "2º",
+            "paragrafo": "§ 2º",
+            "inciso": null,
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [
+          {
+            "numero": "1.951.888/RS",
+            "contexto_citacao": "Julgamento do Superior Tribunal de Justiça"
+          },
+          {
+            "numero": "1.951.662/RS",
+            "contexto_citacao": "Julgamento do Superior Tribunal de Justiça"
+          }
+        ],
+        "temas_fundamentacao": [
+          "Mora",
+          "Alienação Fiduciária",
+          "Notificação Extrajudicial"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A mora nos contratos garantidos por alienação fiduciária pode ser comprovada pelo envio de notificação extrajudicial ao devedor no endereço indicado no instrumento contratual, dispensando-se a prova do recebimento, quer seja pelo próprio destinatário, quer por terceiros.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Comprovação da mora",
+            "tipo": "Normativo",
+            "resultado": "Mora configurada",
+            "peso": "Preponderante",
+            "condicoes_aplicabilidade": "Envio de notificação extrajudicial ao devedor no endereço indicado no instrumento contratual",
+            "como_demonstrar": "Anotação de 'ausente' na devolução da notificação"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Recebimento da notificação",
+            "justificativa": "Entendimento do Superior Tribunal de Justiça",
+            "fundamento_legal": "Art. 2º, § 2º, do Decreto-Lei nº 911/69"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A mora nos contratos garantidos por alienação fiduciária pode ser comprovada pelo envio de notificação extrajudicial ao devedor no endereço indicado no instrumento contratual",
+            "resultado": "Mora configurada",
+            "fundamento": "Tema Repetitivo 1.132 do C. STJ",
+            "tipo_rejeicao": null,
+            "peso": "Preponderante",
+            "fonte": "Superior Tribunal de Justiça"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Decreto-Lei nº 911/69",
+            "artigo": "2º",
+            "tipo_interpretacao": "Interpretação autêntica",
+            "conteudo": "A mora decorrerá do simples vencimento do prazo para pagamento e poderá ser comprovada por carta registrada com aviso de recebimento, não se exigindo que a assinatura constante do referido aviso seja a do próprio destinatário",
+            "contexto": "Contratos garantidos por alienação fiduciária"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 87,
+      "tribunal": "TJSP",
+      "processo": "4003952-36.2025.8.26.0100",
+      "original_model": "claude-sonnet-4-20250514",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "provido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "decisão de apelação",
+        "tipo_recurso": "apelação",
+        "questao_central": "nulidade de deliberação assemblear e alteração de fachada",
+        "resumo_deliberacao": "sentença anulada devido a cerceamento de defesa e necessidade de dilação probatória",
+        "relator": {
+          "nome": "Maria Lúcia Ribeiro de Castro Pizzotti Mendes",
+          "cargo": "Desembargador"
+        },
+        "orgao_julgador": "30ª Câmara de Direito Privado do Tribunal de Justiça do Estado de São Paulo",
+        "categorias": [
+          "direito civil",
+          "direito de propriedade"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "condomínio",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "proprietário",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "Código Civil",
+            "artigo": "1.336",
+            "paragrafo": "III",
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "Código Civil",
+            "artigo": "1.342",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "355",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "370",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "371",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [],
+        "temas_fundamentacao": [
+          "nulidade de deliberação assemblear",
+          "alteração de fachada",
+          "cerceamento de defesa",
+          "dilação probatória"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "O julgamento antecipado somente se justifica quando a causa prescinde de dilação probatória, o que não se verifica quando subsiste dúvida técnica relevante acerca de fato que pode influenciar a solução da lide.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Cerceamento de defesa",
+            "tipo": "Processual",
+            "resultado": "Anulação da sentença",
+            "peso": "Fundamental",
+            "condicoes_aplicabilidade": "Quando há pedido expresso de perícia e a prova é necessária para esclarecer ponto controvertido",
+            "como_demonstrar": "Demonstração de que a prova pericial era necessária e que a sua não realização prejudicou a defesa"
+          },
+          {
+            "criterio": "Dilação probatória",
+            "tipo": "Processual",
+            "resultado": "Reabertura da instrução",
+            "peso": "Importante",
+            "condicoes_aplicabilidade": "Quando há dúvida técnica relevante acerca de fato que pode influenciar a solução da lide",
+            "como_demonstrar": "Demonstração de que a prova pericial é necessária para esclarecer ponto controvertido"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Quórum qualificado para alteração de fachada",
+            "justificativa": "Não se aplica ao caso concreto",
+            "fundamento_legal": "Art. 1.336, III do CC"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A assembleia realizada em 10/04/2025 é nula por não ter observado o quórum qualificado exigido para alteração de fachada",
+            "resultado": "Procedente",
+            "fundamento": "Art. 1.336, III do CC",
+            "tipo_rejeicao": null,
+            "peso": "Relevante",
+            "fonte": "Código Civil"
+          },
+          {
+            "conteudo": "A instalação de suportes metálicos externos para aparelhos de ar-condicionado não configura alteração de fachada",
+            "resultado": "Improcedente",
+            "fundamento": "Art. 1.342 do CC",
+            "tipo_rejeicao": "Não se aplica ao caso concreto",
+            "peso": "Importante",
+            "fonte": "Código Civil"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "355",
+            "tipo_interpretacao": "Literal",
+            "conteudo": "O juiz julgará antecipadamente o mérito quando não houver necessidade de produzir provas em audiência",
+            "contexto": "Julgamento antecipado"
+          },
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "370",
+            "tipo_interpretacao": "Sistemática",
+            "conteudo": "A prova pericial é destinada a esclarecer pontos controvertidos",
+            "contexto": "Dilação probatória"
+          },
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "371",
+            "tipo_interpretacao": "Teleológica",
+            "conteudo": "A prova pericial deve ser realizada quando necessário para esclarecer ponto controvertido",
+            "contexto": "Cerceamento de defesa"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 89,
+      "tribunal": "TJSP",
+      "processo": "4002964-24.2025.8.26.0000",
+      "original_model": "claude-sonnet-4-20250514",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "improvido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "Agravo de Instrumento",
+        "tipo_recurso": "Agravo de Instrumento",
+        "questao_central": "Imissão na posse e desocupação de imóvel",
+        "resumo_deliberacao": "Recurso desprovido, mantendo a tutela de urgência para desocupação e entrega do imóvel",
+        "relator": {
+          "nome": "Desembargador FERNANDO PASTORELO KFOURI",
+          "cargo": "Desembargador"
+        },
+        "orgao_julgador": "7ª Câmara de Direito Privado do Tribunal de Justiça do Estado de São Paulo",
+        "categorias": [
+          "Direito Civil",
+          "Imissão na Posse"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "Agravantes",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "Agravados",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "Código Civil",
+            "artigo": "476",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "Código Civil",
+            "artigo": "490",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "Código Civil",
+            "artigo": "1245",
+            "paragrafo": "1º",
+            "inciso": null,
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [],
+        "temas_fundamentacao": [
+          "Imissão na posse",
+          "Desocupação de imóvel",
+          "Tutela de urgência"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A probabilidade do direito e o perigo de dano justificam a manutenção da tutela de urgência. A desocupação em 15 dias é razoável para organização das agravantes.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Probabilidade do direito",
+            "tipo": null,
+            "resultado": "Manutenção da tutela de urgência",
+            "peso": null,
+            "condicoes_aplicabilidade": null,
+            "como_demonstrar": null
+          },
+          {
+            "criterio": "Perigo de dano",
+            "tipo": null,
+            "resultado": "Manutenção da tutela de urgência",
+            "peso": null,
+            "condicoes_aplicabilidade": null,
+            "como_demonstrar": null
+          },
+          {
+            "criterio": "Razoabilidade do prazo de desocupação",
+            "tipo": null,
+            "resultado": "Desocupação em 15 dias é razoável",
+            "peso": null,
+            "condicoes_aplicabilidade": null,
+            "como_demonstrar": null
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Erro de julgamento ao interpretar a nota de devolução do cartório de imóveis",
+            "justificativa": "A nota de devolução não caracterizava impossibilidade de registro nem erro dos agravados, mas sim falha das agravantes",
+            "fundamento_legal": null
+          },
+          {
+            "criterio": "Titularidade incerta do imóvel",
+            "justificativa": "A titularidade do imóvel de matrícula 93.927 jamais foi incerta, encontrando-se devidamente amparada na matrícula e por meio de título aquisitivo hábil",
+            "fundamento_legal": null
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A probabilidade do direito e o perigo de dano justificam a manutenção da tutela de urgência",
+            "resultado": "Manutenção da tutela de urgência",
+            "fundamento": "CC, art. 476, 490, 1.245, §1º",
+            "tipo_rejeicao": null,
+            "peso": null,
+            "fonte": null
+          },
+          {
+            "conteudo": "A desocupação em 15 dias é razoável para organização das agravantes",
+            "resultado": "Desocupação em 15 dias é razoável",
+            "fundamento": null,
+            "tipo_rejeicao": null,
+            "peso": null,
+            "fonte": null
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Código Civil",
+            "artigo": "476",
+            "tipo_interpretacao": null,
+            "conteudo": "Exceção do contrato não cumprido",
+            "contexto": null
+          },
+          {
+            "norma": "Código Civil",
+            "artigo": "490",
+            "tipo_interpretacao": null,
+            "conteudo": "Responsabilidade pela regularização do imóvel",
+            "contexto": null
+          },
+          {
+            "norma": "Código Civil",
+            "artigo": "1245",
+            "paragrafo": "1º",
+            "tipo_interpretacao": null,
+            "conteudo": "Registro da escritura de permuta na matrícula do imóvel",
+            "contexto": null
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 74,
+      "tribunal": "TJSP",
+      "processo": "4002934-86.2025.8.26.0000",
+      "original_model": "claude-sonnet-4-20250514",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "provido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "Agravo de Instrumento",
+        "tipo_recurso": "Agravo de Instrumento",
+        "questao_central": "Quitação da dívida e extinção da ação principal por perda superveniente do interesse de agir",
+        "resumo_deliberacao": "O tribunal reconheceu a quitação da dívida e extinguiu a ação principal por perda superveniente do interesse de agir, revogando a liminar de busca e apreensão e determinando a restituição dos veículos à ré",
+        "relator": {
+          "nome": "Desembargador ANTONIO CARLOS MORAIS PUCCI",
+          "cargo": "Desembargador"
+        },
+        "orgao_julgador": "26ª Câmara de Direito Privado do Tribunal de Justiça do Estado de São Paulo",
+        "categorias": [
+          "Direito Civil",
+          "Alienação Fiduciária"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "Pessoa Jurídica",
+            "polo": "passivo"
+          },
+          {
+            "tipo": "Instituição Financeira",
+            "polo": "ativo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "Decreto-Lei nº 911/69",
+            "artigo": "3º",
+            "paragrafo": "§2º",
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "485",
+            "paragrafo": null,
+            "inciso": "VI",
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [],
+        "temas_fundamentacao": [
+          "Quitação da dívida",
+          "Extinção da ação principal",
+          "Perda superveniente do interesse de agir"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "O reconhecimento da quitação da dívida e a extinção da ação principal por perda superveniente do interesse de agir, nos termos do art. 485, VI do CPC, quando o devedor efetua o depósito integral do valor da dívida indicado pelo credor fiduciário, nos termos do art. 3º, §2º, do Decreto-Lei nº 911/69",
+        "criterios_juridicos": [
+          {
+            "criterio": "Depósito integral do valor da dívida",
+            "tipo": "Requisito normativo operacional",
+            "resultado": "Reconhecimento da quitação da dívida",
+            "peso": "Fundamental",
+            "condicoes_aplicabilidade": "Depósito realizado nos exatos termos do pedido inicial",
+            "como_demonstrar": "Comprovação do depósito integral do valor da dívida"
+          },
+          {
+            "criterio": "Perda superveniente do interesse de agir",
+            "tipo": "Requisito normativo operacional",
+            "resultado": "Extinção da ação principal",
+            "peso": "Fundamental",
+            "condicoes_aplicabilidade": "Quitação da dívida",
+            "como_demonstrar": "Comprovação da quitação da dívida"
+          }
+        ],
+        "criterios_dispensados": [],
+        "teses": [
+          {
+            "conteudo": "A quitação da dívida é reconhecida quando o devedor efetua o depósito integral do valor da dívida indicado pelo credor fiduciário",
+            "resultado": "Reconhecimento da quitação da dívida",
+            "fundamento": "Art. 3º, §2º, do Decreto-Lei nº 911/69",
+            "tipo_rejeicao": null,
+            "peso": "Fundamental",
+            "fonte": "Legislação"
+          },
+          {
+            "conteudo": "A ação principal é extinta por perda superveniente do interesse de agir quando a dívida é quitada",
+            "resultado": "Extinção da ação principal",
+            "fundamento": "Art. 485, VI do CPC",
+            "tipo_rejeicao": null,
+            "peso": "Fundamental",
+            "fonte": "Legislação"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Decreto-Lei nº 911/69",
+            "artigo": "3º",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "O depósito integral do valor da dívida é condição suficiente para o reconhecimento da quitação da dívida",
+            "contexto": "Alienação fiduciária"
+          },
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "485",
+            "tipo_interpretacao": "Interpretação sistemática",
+            "conteudo": "A perda superveniente do interesse de agir é causa de extinção da ação principal",
+            "contexto": "Processo civil"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 68,
+      "tribunal": "TJSP",
+      "processo": "4007766-65.2025.8.26.0000",
+      "original_model": "claude-sonnet-4-20250514",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "provido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "Agravo de Instrumento",
+        "tipo_recurso": "Agravo de Instrumento",
+        "questao_central": "Fixação do valor da causa em ação de rescisão contratual c/c restituição de valores",
+        "resumo_deliberacao": "O valor da causa deve refletir o proveito econômico efetivamente buscado, consistente na devolução dos valores pagos, e não o valor integral do contrato.",
+        "relator": {
+          "nome": "Antonio Carlos Santoro Filho",
+          "cargo": "Juiz"
+        },
+        "orgao_julgador": "1ª Câmara de Direito Privado do Tribunal de Justiça do Estado de São Paulo",
+        "categorias": [
+          "Direito Processual Civil",
+          "Rescisão Contratual",
+          "Restituição de Valores"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "Agravante",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "Agravado",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "CPC",
+            "artigo": "292",
+            "paragrafo": "II e §3º",
+            "inciso": null,
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [
+          {
+            "numero": "Agravo de Instrumento 2031263-79.2024.8.26.0000",
+            "contexto_citacao": "TJSP, Rel. Enéas Costa Garcia, 1ª Câmara de Direito Privado, j. 23.02.2024"
+          },
+          {
+            "numero": "Agravo de Instrumento 2329601-07.2024.8.26.0000",
+            "contexto_citacao": "TJSP, Rel. Claudio Godoy, 1ª Câmara de Direito Privado, j. 12.02.2025"
+          },
+          {
+            "numero": "Agravo de Instrumento 2034323-26.2025.8.26.0000",
+            "contexto_citacao": "TJSP, Rel. Augusto Rezende, 1ª Câmara de Direito Privado, j. 16.06.2025"
+          }
+        ],
+        "temas_fundamentacao": [
+          "Valor da causa",
+          "Proveito econômico",
+          "Rescisão contratual",
+          "Restituição de valores"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "O valor da causa em ações de rescisão contratual deve corresponder ao proveito econômico efetivamente perseguido, e não ao valor integral do contrato.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Art. 292, II e §3º, do CPC",
+            "tipo": "Norma processual",
+            "resultado": "Valor da causa deve refletir o proveito econômico efetivamente buscado",
+            "peso": "Preponderante",
+            "condicoes_aplicabilidade": "Ações de rescisão contratual c.c. restituição de valores",
+            "como_demonstrar": "Análise do proveito econômico efetivamente perseguido pelo autor"
+          }
+        ],
+        "criterios_dispensados": [],
+        "teses": [
+          {
+            "conteudo": "O valor da causa em ações de rescisão contratual deve corresponder ao proveito econômico efetivamente perseguido",
+            "resultado": "Recurso provido",
+            "fundamento": "Art. 292, II e §3º, do CPC e jurisprudência pacífica do STJ e TJSP",
+            "tipo_rejeicao": null,
+            "peso": "Preponderante",
+            "fonte": "TJSP, Agravo de Instrumento 2031263-79.2024.8.26.0000, Rel. Enéas Costa Garcia, 1ª Câmara de Direito Privado, j. 23.02.2024"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "CPC",
+            "artigo": "292",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "O valor da causa deve refletir o proveito econômico efetivamente buscado",
+            "contexto": "Ações de rescisão contratual c.c. restituição de valores"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 75,
+      "tribunal": "TJSP",
+      "processo": "4000349-27.2026.8.26.0000",
+      "original_model": "claude-sonnet-4-20250514",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "improvido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "Agravo de Instrumento",
+        "tipo_recurso": "Agravo de Instrumento",
+        "questao_central": "Tutela de urgência para adequar juros remuneratórios à taxa média do mercado",
+        "resumo_deliberacao": "Negaram provimento ao agravo, mantendo a decisão que indeferiu a tutela de urgência",
+        "relator": {
+          "nome": "Desembargador RICARDO PESSOA DE MELLO BELLI",
+          "cargo": "Desembargador"
+        },
+        "orgao_julgador": "19ª Câmara de Direito Privado do Tribunal de Justiça do Estado de São Paulo",
+        "categorias": [
+          "Direito Civil",
+          "Direito Bancário"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "Pessoa Física",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "Instituição Financeira",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "300",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": "Concessão da tutela de urgência"
+          }
+        ],
+        "precedentes_citados": [],
+        "temas_fundamentacao": [
+          "Tutela de urgência",
+          "Juros remuneratórios",
+          "Taxa média do mercado"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A concessão da tutela de urgência reclama \"elementos que evidenciem a probabilidade do direito\" e o \"perigo de dano ou o risco ao resultado útil do processo\" (art. 300 do CPC)",
+        "criterios_juridicos": [
+          {
+            "criterio": "Probabilidade do direito",
+            "tipo": "Requisito para concessão de tutela de urgência",
+            "resultado": "Não demonstrada",
+            "peso": "Fundamental",
+            "condicoes_aplicabilidade": "Deve ser demonstrada a probabilidade do direito do autor",
+            "como_demonstrar": "Com base nos elementos dos autos"
+          },
+          {
+            "criterio": "Perigo de dano ou risco ao resultado útil do processo",
+            "tipo": "Requisito para concessão de tutela de urgência",
+            "resultado": "Não demonstrado",
+            "peso": "Fundamental",
+            "condicoes_aplicabilidade": "Deve ser demonstrado o perigo de dano ou risco ao resultado útil do processo",
+            "como_demonstrar": "Com base nos elementos dos autos"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Princípio do contraditório",
+            "justificativa": "A concessão de tutela de urgência pode ser feita sem a observância do princípio do contraditório em situações excepcionalíssimas",
+            "fundamento_legal": "RT 735/359, 764/221, 808/383"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A taxa de juros remuneratórios excedeu em muito a média da taxa de mercado divulgada pelo Bacen",
+            "resultado": "Não acolhida",
+            "fundamento": "A circunstância de o mútuo em questão ter sido contraído em 2021 e a ação revisional ter sido proposta em 2025 enfraquece a alegada premência do pleito",
+            "tipo_rejeicao": "Não demonstração de premência",
+            "peso": "Relevante",
+            "fonte": "Voto do relator"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "300",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "A concessão da tutela de urgência reclama \"elementos que evidenciem a probabilidade do direito\" e o \"perigo de dano ou o risco ao resultado útil do processo\"",
+            "contexto": "Concessão de tutela de urgência em ação revisional de contrato de mútuo bancário"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 100,
+      "tribunal": "TRF4",
+      "processo": "2160762",
+      "original_model": "claude-sonnet-4-20250514",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "improvido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "decisão monocrática",
+        "tipo_recurso": "agracio interno no recurso especial",
+        "questao_central": "falta de prequestionamento e ausência de impugnação",
+        "resumo_deliberacao": "decisão mantida por falta de prequestionamento e ausência de impugnação",
+        "relator": {
+          "nome": "MINISTRO ANTONIO CARLOS FERREIRA",
+          "cargo": "ministro"
+        },
+        "orgao_julgador": "STJ",
+        "categorias": [
+          "direito civil",
+          "direito processual civil",
+          "plano de saúde"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "fundação",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "pessoa física",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "Súmula n. 282 do STF",
+            "artigo": null,
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "Súmula n. 211 do STJ",
+            "artigo": null,
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "Súmula n. 283 do STF",
+            "artigo": null,
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [],
+        "temas_fundamentacao": [
+          "falta de prequestionamento",
+          "ausência de impugnação",
+          "plano de saúde",
+          "rol taxativo"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A decisão se baseia na falta de prequestionamento e na ausência de impugnação específica dos fundamentos do acórdão recorrido, além da impossibilidade de reexame de fatos e provas em recurso especial.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Prequestionamento",
+            "tipo": "Requisito processual",
+            "resultado": "Falta de prequestionamento",
+            "peso": "Determinante",
+            "condicoes_aplicabilidade": "Indicação dos dispositivos legais tidos por violados sem que o tema tenha sido enfrentado pelo acórdão recorrido",
+            "como_demonstrar": "Análise do acórdão recorrido e das razões do recurso especial"
+          },
+          {
+            "criterio": "Impugnação específica",
+            "tipo": "Requisito processual",
+            "resultado": "Ausência de impugnação específica",
+            "peso": "Determinante",
+            "condicoes_aplicabilidade": "Necessidade de impugnação específica dos fundamentos do acórdão recorrido",
+            "como_demonstrar": "Análise das razões do recurso especial e do acórdão recorrido"
+          },
+          {
+            "criterio": "Rol da ANS",
+            "tipo": "Norma regulamentadora",
+            "resultado": "Taxatividade do rol",
+            "peso": "Relevante",
+            "condicoes_aplicabilidade": "Existência de procedimento ou tratamento não previsto no rol da ANS",
+            "como_demonstrar": "Análise do rol da ANS e da legislação aplicável"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Reexame de fatos e provas",
+            "justificativa": "Súmula 7 do STJ",
+            "fundamento_legal": "Súmula 7 do STJ"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A operadora de plano de saúde é obrigada a cobrir procedimentos ou tratamentos não previstos no rol da ANS em hipóteses excepcionais",
+            "resultado": "Não provimento do recurso especial",
+            "fundamento": "Súmula 282 do STF e Súmula 211 do STJ",
+            "tipo_rejeicao": "Falta de prequestionamento",
+            "peso": "Relevante",
+            "fonte": "EREsp n. 1.886.929/SP"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Lei n. 9.656/1998",
+            "artigo": "10",
+            "tipo_interpretacao": "Interpretação autêntica",
+            "conteudo": "Critérios para a cobertura de exames ou tratamentos de saúde não incluídos no rol da ANS",
+            "contexto": "Legislação aplicável ao plano de saúde"
+          },
+          {
+            "norma": "Lei n. 14.454/2022",
+            "artigo": null,
+            "tipo_interpretacao": "Interpretação autêntica",
+            "conteudo": "Alteração na Lei n. 9.656/1998 para estabelecer critérios para a cobertura de exames ou tratamentos de saúde não incluídos no rol da ANS",
+            "contexto": "Legislação aplicável ao plano de saúde"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 95,
+      "tribunal": "TRF4",
+      "processo": "4001361-13.2025.8.26.0000",
+      "original_model": "claude-sonnet-4-20250514",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "não conhecido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "Agravo de Instrumento",
+        "tipo_recurso": "Agravo de Instrumento",
+        "questao_central": "Competência para julgamento de ação relativa a plano de saúde",
+        "resumo_deliberacao": "Recurso não conhecido por falta de competência do órgão julgador",
+        "relator": {
+          "nome": "Desembargador LUIS FERNANDO NISHI",
+          "cargo": "Desembargador"
+        },
+        "orgao_julgador": "Tribunal de Justiça do Estado de São Paulo",
+        "categorias": [
+          "Direito Privado",
+          "Plano de Saúde"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "Pessoa Jurídica",
+            "polo": "passivo"
+          },
+          {
+            "tipo": "Pessoa Física",
+            "polo": "ativo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "Regimento Interno do TJSP",
+            "artigo": "103",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": "A competência dos órgãos fracionários do Tribunal é determinada pela matéria, conforme o pedido inicial"
+          }
+        ],
+        "precedentes_citados": [
+          {
+            "numero": "1087260-89.2023.8.26.0100",
+            "contexto_citacao": "TJSP, APELAÇÃO CÍVEL 1087260-89.2023.8.26.0100, REL. ROSANGELA TELLES, 31ª CÂMARA DE DIREITO PRIVADO, J. 22.01.2024"
+          }
+        ],
+        "temas_fundamentacao": [
+          "Competência",
+          "Plano de Saúde",
+          "Tutela de Urgência"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A competência dos órgãos fracionários do Tribunal é determinada pela matéria, conforme o pedido inicial, nos termos do art. 103 do Regimento Interno",
+        "criterios_juridicos": [
+          {
+            "criterio": "Competência dos órgãos fracionários do Tribunal",
+            "tipo": "Normativo",
+            "resultado": "NÃO CONHECER DO RECURSO",
+            "peso": "Determinante",
+            "condicoes_aplicabilidade": "Matéria relativa a plano de saúde",
+            "como_demonstrar": "Análise do pedido inicial e do art. 103 do Regimento Interno"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Requisitos para concessão da tutela de urgência",
+            "justificativa": "Ausência de laudo médico que ateste urgência e necessidade do tratamento fora da rede credenciada",
+            "fundamento_legal": "Art. 103 do Regimento Interno"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A competência para ações relativas a planos de saúde é da Primeira Subseção de Direito Privado",
+            "resultado": "NÃO CONHECER DO RECURSO",
+            "fundamento": "Art. 5º, inciso I.23, da Resolução nº 623/2013",
+            "tipo_rejeicao": "Incompetência",
+            "peso": "Determinante",
+            "fonte": "TJSP, Apelação Cível 1087260-89.2023.8.26.0100"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Regimento Interno do TJSP",
+            "artigo": "103",
+            "tipo_interpretacao": "Literal",
+            "conteudo": "A competência dos órgãos fracionários do Tribunal é determinada pela matéria, conforme o pedido inicial",
+            "contexto": "Matéria relativa a plano de saúde"
+          },
+          {
+            "norma": "Resolução nº 623/2013",
+            "artigo": "5º, inciso I.23",
+            "tipo_interpretacao": "Sistemática",
+            "conteudo": "A competência para ações relativas a planos de saúde é da Primeira Subseção de Direito Privado",
+            "contexto": "Matéria relativa a plano de saúde"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 91,
+      "tribunal": "TRF4",
+      "processo": "0001329-57.2025.8.16.0161",
+      "original_model": "claude-sonnet-4-20250514",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "improvido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "recurso em sentido estrito",
+        "tipo_recurso": "recurso em sentido estrito",
+        "questao_central": "pronuncia em processo de homicídio qualificado",
+        "resumo_deliberacao": "rejeição da preliminar de nulidade da decisão de pronúncia e não acolhimento do pleito de absolvição sumária ou despronúncia",
+        "relator": {
+          "nome": null,
+          "cargo": null
+        },
+        "orgao_julgador": "Tribunal de Justiça do Paraná",
+        "categorias": [
+          "direito penal",
+          "homicídio qualificado"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "Ministério Público",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "Fábio de Lima dos Santos",
+            "polo": "passivo"
+          },
+          {
+            "tipo": "Ivanildo de Matos",
+            "polo": "passivo"
+          },
+          {
+            "tipo": "Renan da Cruz Oliveira",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "Código Penal",
+            "artigo": "121",
+            "paragrafo": "2º",
+            "inciso": "I e IV",
+            "texto_referencia": null
+          },
+          {
+            "norma": "Lei nº 10.826/2003",
+            "artigo": "12",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "Lei nº 10.826/2003",
+            "artigo": "15",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [],
+        "temas_fundamentacao": [
+          "homicídio qualificado",
+          "pronúncia",
+          "absolvição sumária",
+          "despronúncia"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A decisão de pronúncia se baseia na existência de indícios suficientes de autoria e materialidade do delito, e não requer prova cabal.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Art. 121, § 2º, incisos I e IV, do Código Penal",
+            "tipo": "Norma penal",
+            "resultado": "Homicídio qualificado",
+            "peso": "Alta gravidade",
+            "condicoes_aplicabilidade": "Indícios de autoria e materialidade do delito",
+            "como_demonstrar": "Análise do contexto fático-probatório"
+          },
+          {
+            "criterio": "Art. 413 do Código de Processo Penal",
+            "tipo": "Norma processual",
+            "resultado": "Pronúncia",
+            "peso": "Alta relevância",
+            "condicoes_aplicabilidade": "Existência de indícios suficientes de autoria e materialidade do delito",
+            "como_demonstrar": "Análise do contexto fático-probatório"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Princípio da correlação",
+            "justificativa": "A sentença de pronúncia cuidou de observar os estritos termos da denúncia",
+            "fundamento_legal": "Art. 414 do Código de Processo Penal"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A pronúncia se baseia na existência de indícios suficientes de autoria e materialidade do delito",
+            "resultado": "Pronúncia mantida",
+            "fundamento": "Art. 413 do Código de Processo Penal",
+            "tipo_rejeicao": "Improvimento",
+            "peso": "Alta relevância",
+            "fonte": "TJPR"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Código Penal",
+            "artigo": "121",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "Homicídio qualificado",
+            "contexto": "Análise do contexto fático-probatório"
+          },
+          {
+            "norma": "Código de Processo Penal",
+            "artigo": "413",
+            "tipo_interpretacao": "Interpretação sistemática",
+            "conteudo": "Pronúncia",
+            "contexto": "Análise do contexto fático-probatório"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 97,
+      "tribunal": "TRF4",
+      "processo": "0026355-23.2023.8.16.0001",
+      "original_model": "claude-sonnet-4-20250514",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "improvido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "apelação",
+        "tipo_recurso": "recurso desprovido",
+        "questao_central": "ação declaratória de inexistência de débito c/c pedido de tutela de urgência",
+        "resumo_deliberacao": "A autora alegou desconhecimento de dívida de R$ 171,07 e pediu a tutela de urgência para cancelamento de inscrição indevida em cadastro de proteção ao crédito, além de indenização por danos morais. A sentença foi fundamentada na confissão ficta da autora.",
+        "relator": {
+          "nome": null,
+          "cargo": null
+        },
+        "orgao_julgador": "TRF4",
+        "categorias": [],
+        "perfil_partes": [
+          {
+            "tipo": "pessoa física",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "pessoa jurídica",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "385",
+            "paragrafo": "1º",
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "487",
+            "paragrafo": "I",
+            "inciso": null,
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [],
+        "temas_fundamentacao": []
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A confissão ficta da autora, aplicada devido à sua ausência injustificada em audiência, presume-se verdadeira, e as provas apresentadas pela ré, incluindo faturas e extratos de utilização de linha telefônica, demonstram a existência de relação jurídica entre as partes, tornando a inscrição no cadastro de inadimplentes legítima.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Confissão ficta",
+            "tipo": "Processual",
+            "resultado": "Presunção de veracidade das alegações de fato",
+            "peso": "Alto",
+            "condicoes_aplicabilidade": "Ausência injustificada em audiência",
+            "como_demonstrar": "Aplicação da pena de confissão, nos termos do art. 385, §1° do CPC"
+          },
+          {
+            "criterio": "Provas documentais",
+            "tipo": "Probatório",
+            "resultado": "Demonstração da existência de relação jurídica",
+            "peso": "Médio",
+            "condicoes_aplicabilidade": "Apresentação de faturas e extratos de utilização de linha telefônica",
+            "como_demonstrar": "Análise do conjunto probatório"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Alegação de fraude",
+            "justificativa": "Falta de provas idôneas",
+            "fundamento_legal": "Art. 373 do CPC"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A inscrição no cadastro de inadimplentes é legítima se houver provas da existência de relação jurídica",
+            "resultado": "Improcedência do pedido",
+            "fundamento": "Art. 385, §1° do CPC",
+            "tipo_rejeicao": "Rejeição da tese autoral",
+            "peso": "Alto",
+            "fonte": "TJPR - 10ª Câmara Cível"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "385",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "A confissão ficta presume-se verdadeira",
+            "contexto": "Aplicação da pena de confissão"
+          },
+          {
+            "norma": "Código de Processo Civil",
+            "artigo": "487",
+            "tipo_interpretacao": "Interpretação sistemática",
+            "conteudo": "Julgamento de improcedência do pedido",
+            "contexto": "Extinção do processo com resolução do mérito"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 92,
+      "tribunal": "TRF4",
+      "processo": "0090978-31.2025.8.16.0000",
+      "original_model": "claude-sonnet-4-20250514",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "improvido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "Agravo de Instrumento",
+        "tipo_recurso": "Agravo de Instrumento",
+        "questao_central": "Cobertura de tratamento de Estimulação Magnética Transcraniana para transtorno afetivo bipolar",
+        "resumo_deliberacao": "Decisão agravada mantida. Recurso não provido.",
+        "relator": {
+          "nome": null,
+          "cargo": null
+        },
+        "orgao_julgador": "TRF4",
+        "categorias": [
+          "Direito Civil",
+          "Direito da Saúde"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "Operadora de Plano de Saúde",
+            "polo": "passivo"
+          },
+          {
+            "tipo": "Paciente",
+            "polo": "ativo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "Lei 9.656/98",
+            "artigo": "10",
+            "paragrafo": "13",
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "CPC",
+            "artigo": "300",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [],
+        "temas_fundamentacao": [
+          "Tutela de Urgência",
+          "Cobertura de Tratamento",
+          "Rol da ANS"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A cobertura do tratamento de Estimulação Magnética Transcraniana para transtorno afetivo bipolar é obrigatória, pois o tratamento é eficaz à luz de evidências científicas e recomendado para pacientes com bipolaridade refratária, conforme art. 10, §13, da Lei 9.656/98",
+        "criterios_juridicos": [
+          {
+            "criterio": "Existência de comprovação da eficácia do tratamento à luz das ciências da saúde, baseada em evidências científicas e plano terapêutico",
+            "tipo": "Requisito para cobertura de tratamento",
+            "resultado": "Cobertura do tratamento",
+            "peso": "Alto",
+            "condicoes_aplicabilidade": "Tratamento não previsto no rol da ANS, mas com comprovação de eficácia",
+            "como_demonstrar": "Parecer do NatJus, recomendações da Comissão Nacional de Incorporação de Tecnologias no Sistema Único de Saúde (Conitec) ou órgão de avaliação de tecnologias em saúde com renome internacional"
+          },
+          {
+            "criterio": "Risco de dano ou ao resultado útil do processo",
+            "tipo": "Requisito para tutela de urgência",
+            "resultado": "Concessão da tutela de urgência",
+            "peso": "Alto",
+            "condicoes_aplicabilidade": "Necessidade imediata do tratamento para evitar o agravamento do quadro de saúde mental do paciente",
+            "como_demonstrar": "Declaração médica, histórico de refratariedade aos tratamentos farmacológicos e risco de dano irreparável"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Previsão do tratamento no rol da ANS",
+            "justificativa": "O tratamento não está previsto no rol da ANS, mas a lei permite a cobertura em casos de comprovação de eficácia",
+            "fundamento_legal": "Art. 10, §13, da Lei 9.656/98"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A cobertura do tratamento de Estimulação Magnética Transcraniana para transtorno afetivo bipolar é obrigatória",
+            "resultado": "Cobertura do tratamento",
+            "fundamento": "Art. 10, §13, da Lei 9.656/98 e jurisprudência do Tribunal",
+            "tipo_rejeicao": null,
+            "peso": "Alto",
+            "fonte": "TJPR - 9ª Câmara Cível - 0012974-82 .2022.8.16.0000"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Lei 9.656/98",
+            "artigo": "10",
+            "tipo_interpretacao": "Interpretação extensiva",
+            "conteudo": "A cobertura do tratamento de Estimulação Magnética Transcraniana para transtorno afetivo bipolar é obrigatória, pois o tratamento é eficaz à luz de evidências científicas e recomendado para pacientes com bipolaridade refratária",
+            "contexto": "Tratamento não previsto no rol da ANS, mas com comprovação de eficácia"
+          },
+          {
+            "norma": "CPC",
+            "artigo": "300",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "A tutela de urgência é cabível quando há risco de dano ou ao resultado útil do processo",
+            "contexto": "Necessidade imediata do tratamento para evitar o agravamento do quadro de saúde mental do paciente"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 94,
+      "tribunal": "TRF4",
+      "processo": "5025794-04.2015.4.04.7100",
+      "original_model": "claude-sonnet-4-20250514",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "provido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "decisão de segunda instância",
+        "tipo_recurso": "apelação cível",
+        "questao_central": "responsabilidade da empresa em ressarcir o INSS por benefícios previdenciários pagos em decorrência de acidente de trabalho",
+        "resumo_deliberacao": "O INSS possui legitimidade para propor ação regressiva contra a empresa responsável pelo acidente de trabalho, e a empresa é obrigada a ressarcir o INSS pelos valores pagos a título de benefício previdenciário",
+        "relator": {
+          "nome": "Desembargador Federal ROGERIO FAVRETO",
+          "cargo": "Desembargador Federal"
+        },
+        "orgao_julgador": "TRIBUNAL REGIONAL FEDERAL DA 4ª REGIÃO",
+        "categorias": [
+          "direito administrativo",
+          "direito previdenciário"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "autarquia",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "empresa",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "Lei nº 8.213/91",
+            "artigo": "120",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": "ressarcimento de valores pagos a título de benefício previdenciário"
+          }
+        ],
+        "precedentes_citados": [],
+        "temas_fundamentacao": [
+          "acidente de trabalho",
+          "responsabilidade da empresa",
+          "ressarcimento ao INSS"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A empresa ré é responsável por ressarcir o INSS pelos valores pagos a título de benefício previdenciário ao segurado, em decorrência de acidente de trabalho, pois houve negligência da empresa quanto às normas padrão de segurança e higiene do trabalho.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Art. 120 da Lei nº 8.213/91",
+            "tipo": "Norma legal",
+            "resultado": "Responsabilidade da empresa em ressarcir o INSS",
+            "peso": "Fundamental",
+            "condicoes_aplicabilidade": "Negligência da empresa quanto às normas padrão de segurança e higiene do trabalho",
+            "como_demonstrar": "Prova da ocorrência do acidente de trabalho e da negligência da empresa"
+          },
+          {
+            "criterio": "Art. 121 da Lei nº 8.213/91",
+            "tipo": "Norma legal",
+            "resultado": "Responsabilidade civil da empresa",
+            "peso": "Importante",
+            "condicoes_aplicabilidade": "Pagamento de benefício previdenciário pelo INSS",
+            "como_demonstrar": "Prova do pagamento do benefício previdenciário"
+          },
+          {
+            "criterio": "Art. 19, § 1º, da Lei de Benefícios",
+            "tipo": "Norma legal",
+            "resultado": "Responsabilidade da empresa em adotar medidas de proteção à segurança do trabalhador",
+            "peso": "Relevante",
+            "condicoes_aplicabilidade": "Existência de risco de acidente de trabalho",
+            "como_demonstrar": "Prova da existência de risco de acidente de trabalho e da não adoção de medidas de proteção"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Inconstitucionalidade do art. 120 da Lei nº 8.213/91",
+            "justificativa": "A Corte Especial do TRF 4ª Região declarou constitucional o art. 120 da Lei nº 8.213/91",
+            "fundamento_legal": "Arguição de Inconstitucionalidade nº 1998.04.01.023654-8"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A empresa ré é responsável por ressarcir o INSS pelos valores pagos a título de benefício previdenciário ao segurado",
+            "resultado": "Procedente",
+            "fundamento": "Art. 120 da Lei nº 8.213/91",
+            "tipo_rejeicao": null,
+            "peso": "Fundamental",
+            "fonte": "TRF 4ª Região"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Lei nº 8.213/91",
+            "artigo": "120",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "A Previdência Social proporá ação regressiva contra os responsáveis nos casos de negligência quanto às normas padrão de segurança e higiene do trabalho",
+            "contexto": "Acidente de trabalho"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 93,
+      "tribunal": "TRF4",
+      "processo": "5061073-17.2016.4.04.7100",
+      "original_model": "claude-sonnet-4-20250514",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "improvido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "embargos de declaração",
+        "tipo_recurso": "embargos de declaração",
+        "questao_central": "inexistência de omissão, ambiguidade, obscuridade ou contradição na decisão recorrida",
+        "resumo_deliberacao": "Os embargos de declaração têm lugar exclusivamente nas hipóteses de ambiguidade, omissão, contradição ou obscuridade da decisão recorrida",
+        "relator": {
+          "nome": "Desembargador Federal JOÃO PEDRO GEBRAN NETO",
+          "cargo": "Desembargador Federal"
+        },
+        "orgao_julgador": "TRIBUNAL REGIONAL FEDERAL DA 4ª REGIÃO",
+        "categorias": [
+          "Direito Penal",
+          "Processo Penal"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "defesa",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "Ministério Público",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "Código de Processo Penal",
+            "artigo": "619",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": "art. 619 do CPP"
+          },
+          {
+            "norma": "Código Penal",
+            "artigo": "22",
+            "paragrafo": "parágrafo único",
+            "inciso": null,
+            "texto_referencia": "art. 22, parágrafo único, da Lei 7.492/86"
+          },
+          {
+            "norma": "Código Penal",
+            "artigo": "49",
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": "art. 49 do Código Penal"
+          },
+          {
+            "norma": "Lei 7.492/86",
+            "artigo": "22",
+            "paragrafo": "parágrafo único",
+            "inciso": null,
+            "texto_referencia": "art. 22, parágrafo único, da Lei 7.492/86"
+          }
+        ],
+        "precedentes_citados": [
+          {
+            "numero": "AI 616427 AgR",
+            "contexto_citacao": "STF, AI 616427 AgR, Rel. Min. Ricardo Lewandowski, Primeira Turma, julgado em 09/09/2008"
+          }
+        ],
+        "temas_fundamentacao": [
+          "embargos de declaração",
+          "omissão",
+          "ambiguidade",
+          "obscuridade",
+          "contradição",
+          "livre apreciação da prova",
+          "prequestionamento"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "Os embargos de declaração têm lugar exclusivamente nas hipóteses de ambiguidade, omissão, contradição ou obscuridade da decisão recorrida, não se prestando para fazer prevalecer tese diferente daquela adotada pelo órgão julgador ou para reavaliação das conclusões surgidas da livre apreciação da prova.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Art. 619 do Código de Processo Penal",
+            "tipo": "Norma processual",
+            "resultado": "Negar provimento aos embargos de declaração",
+            "peso": "Preponderante",
+            "condicoes_aplicabilidade": "Inexistência de omissão, ambiguidade, obscuridade ou contradição na decisão recorrida",
+            "como_demonstrar": "Análise da decisão recorrida e dos embargos de declaração"
+          },
+          {
+            "criterio": "Princípio do livre convencimento motivado",
+            "tipo": "Princípio processual",
+            "resultado": "Negar provimento aos embargos de declaração",
+            "peso": "Preponderante",
+            "condicoes_aplicabilidade": "Inexistência de omissão, ambiguidade, obscuridade ou contradição na decisão recorrida",
+            "como_demonstrar": "Análise da decisão recorrida e dos embargos de declaração"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Prequestionamento expresso",
+            "justificativa": "Não é necessário para a decisão",
+            "fundamento_legal": "Art. 619 do Código de Processo Penal"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "Os embargos de declaração são cabíveis apenas em casos de omissão, ambiguidade, obscuridade ou contradição na decisão recorrida",
+            "resultado": "Negar provimento aos embargos de declaração",
+            "fundamento": "Art. 619 do Código de Processo Penal",
+            "tipo_rejeicao": "Improvimento",
+            "peso": "Preponderante",
+            "fonte": "Decisão do Tribunal Regional Federal da 4ª Região"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Código de Processo Penal",
+            "artigo": "619",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "Os embargos de declaração têm lugar exclusivamente nas hipóteses de ambiguidade, omissão, contradição ou obscuridade da decisão recorrida",
+            "contexto": "Decisão do Tribunal Regional Federal da 4ª Região"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 96,
+      "tribunal": "TRF4",
+      "processo": "4001209-25.2025.8.26.0271",
+      "original_model": "claude-sonnet-4-20250514",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "provido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "apelação",
+        "tipo_recurso": "apelação",
+        "questao_central": "usucapião",
+        "resumo_deliberacao": "análise da necessidade de cadastro no sistema informatizado dos titulares do domínio do imóvel usucapiendo",
+        "relator": {
+          "nome": "Desembargador James Alberto Siano",
+          "cargo": "Desembargador"
+        },
+        "orgao_julgador": "Tribunal de Justiça do Estado de São Paulo",
+        "categorias": [
+          "direito civil",
+          "usucapião"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "apelante",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "réu",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [],
+        "precedentes_citados": [],
+        "temas_fundamentacao": [
+          "acesso à justiça",
+          "princípio da primazia do julgamento do mérito"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "O princípio da primazia do julgamento do mérito deve ser observado, evitando excessos de formalismos, especialmente em momentos de transição dos sistemas informatizados.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Princípio da primazia do julgamento do mérito",
+            "tipo": null,
+            "resultado": "Deve ser observado para evitar excessos de formalismos",
+            "peso": null,
+            "condicoes_aplicabilidade": "Em momentos de transição dos sistemas informatizados",
+            "como_demonstrar": "Analisando a necessidade de priorizar o julgamento do mérito em detrimento de formalidades excessivas"
+          },
+          {
+            "criterio": "Acesso à Justiça",
+            "tipo": null,
+            "resultado": "Deve ser garantido",
+            "peso": null,
+            "condicoes_aplicabilidade": null,
+            "como_demonstrar": "Verificando se as partes tiveram oportunidade de apresentar suas alegações e provas"
+          }
+        ],
+        "criterios_dispensados": [],
+        "teses": [
+          {
+            "conteudo": "A ação de usucapião pode ser proposta sem o cadastro no sistema informatizado dos titulares do domínio do imóvel usucapiendo, dos confrontantes tabulares e de fato e das Fazendas Públicas",
+            "resultado": "Provido",
+            "fundamento": "Princípio da primazia do julgamento do mérito",
+            "tipo_rejeicao": null,
+            "peso": null,
+            "fonte": "Tribunal de Justiça do Estado de São Paulo"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Lei 11.419, de 19 de dezembro de 2006",
+            "artigo": "1º, inciso III",
+            "tipo_interpretacao": null,
+            "conteudo": "Dispõe sobre a utilização de meio eletrônico para a prática de atos processuais",
+            "contexto": "Sistema informatizado dos titulares do domínio do imóvel usucapiendo"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 98,
+      "tribunal": "TRF4",
+      "processo": "2158435",
+      "original_model": "claude-sonnet-4-20250514",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "improvido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "Agravo Interno",
+        "tipo_recurso": "Recurso Especial",
+        "questao_central": "Cobertura obrigatória de medicamento injetável (Clexane) prescrito a gestante com diagnóstico de trombofilia e gravidez de alto risco",
+        "resumo_deliberacao": "Recurso desprovido com base na jurisprudência consolidada do STJ",
+        "relator": {
+          "nome": "MINISTRA DANIELA TEIXEIRA",
+          "cargo": "Relatora"
+        },
+        "orgao_julgador": "STJ",
+        "categorias": [
+          "Direito do Consumidor",
+          "Plano de Saúde"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "Cooperativa de Trabalho Médico",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "Pessoa Física",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "CPC",
+            "artigo": "932",
+            "paragrafo": null,
+            "inciso": "III e IV",
+            "texto_referencia": null
+          },
+          {
+            "norma": "Súmula 568/STJ",
+            "artigo": null,
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          },
+          {
+            "norma": "Súmula 83/STJ",
+            "artigo": null,
+            "paragrafo": null,
+            "inciso": null,
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [
+          {
+            "numero": "AgInt nos EREsp 1.895.659/PR",
+            "contexto_citacao": "Julgamento da Segunda Seção do STJ"
+          }
+        ],
+        "temas_fundamentacao": [
+          "Plano de Saúde",
+          "Cobertura Obrigatória",
+          "Medicamento Injetável",
+          "Gravidez de Alto Risco"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A cobertura obrigatória de medicamento injetável (Clexane) prescrito a gestante com diagnóstico de trombofilia e gravidez de alto risco é de responsabilidade do plano de saúde, pois o medicamento é de uso ambulatorial e não domiciliar, exigindo aplicação assistida por profissional habilitado.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Cobertura obrigatória de medicamento injetável",
+            "tipo": "Norma",
+            "resultado": "Cobertura obrigatória",
+            "peso": "Alto",
+            "condicoes_aplicabilidade": "Uso ambulatorial e não domiciliar",
+            "como_demonstrar": "Prescrição médica e comprovação de uso ambulatorial"
+          },
+          {
+            "criterio": "Exclusão de fornecimento de medicamentos para tratamento domiciliar",
+            "tipo": "Exceção",
+            "resultado": "Exclusão",
+            "peso": "Baixo",
+            "condicoes_aplicabilidade": "Medicamentos para uso domiciliar, exceto antineoplásicos orais, medicação assistida e incluídos no rol da ANS",
+            "como_demonstrar": "Comprovação de que o medicamento é para uso domiciliar e não se enquadra nas exceções"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Impugnação específica dos fundamentos da decisão agravada",
+            "justificativa": "A parte agravante não apresentou impugnação específica",
+            "fundamento_legal": "Art. 1.021, §1º, do CPC"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A cobertura obrigatória de medicamento injetável prescrito a gestante com diagnóstico de trombofilia e gravidez de alto risco é de responsabilidade do plano de saúde",
+            "resultado": "Cobertura obrigatória",
+            "fundamento": "Jurisprudência do STJ e Súmula 83/STJ",
+            "tipo_rejeicao": "Não aplicável",
+            "peso": "Alto",
+            "fonte": "STJ"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Lei 9.656/1998",
+            "artigo": "10",
+            "tipo_interpretacao": "Interpretação",
+            "conteudo": "A cobertura de medicamentos para tratamento domiciliar é facultativa, exceto para antineoplásicos orais, medicação assistida e incluídos no rol da ANS",
+            "contexto": "Saúde suplementar"
+          },
+          {
+            "norma": "RN-ANS nº 338/2013",
+            "artigo": "19",
+            "tipo_interpretacao": "Interpretação",
+            "conteudo": "A cobertura de medicamentos para tratamento domiciliar é facultativa, exceto para antineoplásicos orais, medicação assistida e incluídos no rol da ANS",
+            "contexto": "Saúde suplementar"
+          }
+        ]
+      },
+      "stage_b_error": null
+    },
+    {
+      "decision_num": 99,
+      "tribunal": "TRF4",
+      "processo": "2160534",
+      "original_model": "claude-sonnet-4-20250514",
+      "controlled_model": "llama-3.3-70b-versatile",
+      "stage_a": {
+        "resultado": "improvido",
+        "unanimidade": null,
+        "placar": null,
+        "tipo_decisao": "agramento interno",
+        "tipo_recurso": "recurso especial",
+        "questao_central": "cabimento de ação de prestação de contas para fiscalizar administração de valores de pensão alimentícia",
+        "resumo_deliberacao": "A jurisprudência do STJ estabelece que a prestação de contas dos valores pagos a título de pensão alimentícia só se justifica quando constatada malversação da quantia pelo guardião",
+        "relator": {
+          "nome": "JOÃO OTÁVIO DE NORONHA",
+          "cargo": "MINISTRO"
+        },
+        "orgao_julgador": "STJ",
+        "categorias": [
+          "direito civil",
+          "pensão alimentícia"
+        ],
+        "perfil_partes": [
+          {
+            "tipo": "agravante",
+            "polo": "ativo"
+          },
+          {
+            "tipo": "agravado",
+            "polo": "passivo"
+          }
+        ],
+        "dispositivos_legais_mencionados": [
+          {
+            "norma": "CPC",
+            "artigo": "487",
+            "paragrafo": "I",
+            "inciso": null,
+            "texto_referencia": null
+          }
+        ],
+        "precedentes_citados": [
+          {
+            "numero": "Súmula n. 7 do STJ",
+            "contexto_citacao": "vedação ao reexame de elementos fático-probatórios"
+          }
+        ],
+        "temas_fundamentacao": [
+          "malversação",
+          "administração de verba alimentar"
+        ]
+      },
+      "stage_a_error": null,
+      "stage_b": {
+        "ratio_decidendi": "A prestação de contas dos valores pagos a título de pensão alimentícia só se justifica quando constatada malversação da quantia pelo guardião.",
+        "criterios_juridicos": [
+          {
+            "criterio": "Malversação da quantia pelo guardião",
+            "tipo": "Requisito necessário",
+            "resultado": "Prestação de contas justificada",
+            "peso": "Fundamental",
+            "condicoes_aplicabilidade": "Ausência de fundada suspeita ou prova de inadimplemento das obrigações referentes ao alimentando",
+            "como_demonstrar": "Prova de malversação da quantia pelo guardião"
+          }
+        ],
+        "criterios_dispensados": [
+          {
+            "criterio": "Reexame de elementos fático-probatórios",
+            "justificativa": "Vedado pela Súmula n. 7 do STJ",
+            "fundamento_legal": "Súmula n. 7 do STJ"
+          }
+        ],
+        "teses": [
+          {
+            "conteudo": "A prestação de contas dos valores pagos a título de pensão alimentícia só se justifica quando constatada malversação da quantia pelo guardião.",
+            "resultado": "Agravo interno desprovido",
+            "fundamento": "Jurisprudência do STJ",
+            "tipo_rejeicao": "Rejeição do recurso",
+            "peso": "Precedente",
+            "fonte": "STJ, AgInt no AREsp n. 2.343.997/SP"
+          }
+        ],
+        "interpretacoes_dispositivos": [
+          {
+            "norma": "Código Civil",
+            "artigo": "1.583, § 5º",
+            "tipo_interpretacao": "Interpretação literal",
+            "conteudo": "Prestação de contas dos valores pagos a título de pensão alimentícia",
+            "contexto": "Proteção integral da criança e do adolescente"
+          }
+        ]
+      },
+      "stage_b_error": null
+    }
+  ]
+}

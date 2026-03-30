@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "auditor": "Diego Sens (OAB/PR)",
+    "date": "2026-03-25",
+    "tribunal": "TJPR",
+    "controlled_model": "llama-3.3-70b-versatile",
+    "prompt_version": "SIMPLIFIED (4 rules) — needs re-run with exact Valter prompts",
+    "n_decisions": 10
+  },
+  "audit_items": [
+    {"decision": 33, "field": "resultado", "verdict": "OK"},
+    {"decision": 33, "field": "dispositivo_legal", "idx": "1-3", "verdict": "OK"},
+    {"decision": 33, "field": "dispositivo_legal", "idx": 0, "verdict": "OMI", "reason": "Faltam CPC 558, 563, CC 1.211"},
+    {"decision": 33, "field": "criterio_juridico", "idx": 1, "verdict": "OK"},
+    {"decision": 33, "field": "criterio_juridico", "idx": 2, "verdict": "DUP", "reason": "Idêntico ao Crit 1, reformula 561 sob 562"},
+    {"decision": 33, "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 33, "field": "interpretacao_dispositivo", "idx": 1, "verdict": "OK"},
+
+    {"decision": 49, "field": "resultado", "verdict": "QUA", "reason": "Inverteu perspectiva: agravante foi PROVIDA, extração diz 'não provido'"},
+    {"decision": 49, "field": "dispositivo_legal", "idx": "1-3", "verdict": "OK"},
+    {"decision": 49, "field": "dispositivo_legal", "idx": 0, "verdict": "OMI", "reason": "Falta Lei 14.063/2020 art. 4° II, CPC 411 I"},
+    {"decision": 49, "field": "criterio_juridico", "idx": "1-2", "verdict": "OK"},
+    {"decision": 49, "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 49, "field": "interpretacao_dispositivo", "idx": "1-2", "verdict": "OK"},
+
+    {"decision": 44, "field": "resultado", "verdict": "OK"},
+    {"decision": 44, "field": "dispositivo_legal", "idx": 1, "verdict": "QUA", "reason": "Art. 290 é cancelamento da distribuição; centrais são arts. 98, 99 §§2°/3°"},
+    {"decision": 44, "field": "criterio_juridico", "idx": "1-2", "verdict": "OK"},
+    {"decision": 44, "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 44, "field": "interpretacao_dispositivo", "idx": 1, "verdict": "OK"},
+
+    {"decision": 32, "field": "resultado", "verdict": "QUA", "reason": "Diz 'parcialmente provido' mas foi conhecido em parte e na parte conhecida NEGADO"},
+    {"decision": 32, "field": "dispositivo_legal", "idx": 1, "verdict": "OK"},
+    {"decision": 32, "field": "dispositivo_legal", "idx": 0, "verdict": "OMI", "reason": "Faltam CPC 85 §11, CPC 1.012 §3° I"},
+    {"decision": 32, "field": "criterio_juridico", "idx": "1-3", "verdict": "OK"},
+    {"decision": 32, "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 32, "field": "interpretacao_dispositivo", "idx": "1-3", "verdict": "OK"},
+
+    {"decision": 31, "field": "resultado", "verdict": "OK"},
+    {"decision": 31, "field": "dispositivo_legal", "idx": 1, "verdict": "GRA", "reason": "'Código Civil' sem artigo específico"},
+    {"decision": 31, "field": "dispositivo_legal", "idx": 0, "verdict": "OMI", "reason": "Faltam CPC 85 §11, Súm. 297/382 STJ"},
+    {"decision": 31, "field": "criterio_juridico", "idx": "1-2", "verdict": "OK"},
+    {"decision": 31, "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 31, "field": "interpretacao_dispositivo", "idx": 1, "verdict": "GRA", "reason": "Genérico — 'revisada sob o pálio do CDC'"},
+    {"decision": 31, "field": "interpretacao_dispositivo", "idx": 2, "verdict": "OK"},
+
+    {"decision": 60, "field": "resultado", "verdict": "QUA", "reason": "'provido' omite que foi provido COM EMENDA DA INICIAL"},
+    {"decision": 60, "field": "dispositivo_legal", "idx": 1, "verdict": "OK"},
+    {"decision": 60, "field": "dispositivo_legal", "idx": 0, "verdict": "OMI", "reason": "Faltam CPC 784, 801, Lei Duplicatas art. 15 II"},
+    {"decision": 60, "field": "criterio_juridico", "idx": "1-3", "verdict": "OK"},
+    {"decision": 60, "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 60, "field": "interpretacao_dispositivo", "idx": 1, "verdict": "TYP", "reason": "Conteúdo descreve exceção de pré-executividade, não art. 1.013"},
+    {"decision": 60, "field": "interpretacao_dispositivo", "idx": 2, "verdict": "OK"},
+
+    {"decision": 37, "field": "resultado", "verdict": "OK"},
+    {"decision": 37, "field": "dispositivo_legal", "idx": 0, "verdict": "OMI", "reason": "ZERO dispositivos extraídos. Faltam CC 1.345, 1.368-B, CPC 835 XII, Lei 9.514/97 art. 27 §8°"},
+    {"decision": 37, "field": "criterio_juridico", "idx": "1-3", "verdict": "OK"},
+    {"decision": 37, "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 37, "field": "interpretacao_dispositivo", "idx": "1-2", "verdict": "OK"},
+
+    {"decision": 38, "field": "resultado", "verdict": "QUA", "reason": "'parcialmente provido' INCORRETO — recurso foi PROVIDO integralmente"},
+    {"decision": 38, "field": "dispositivo_legal", "idx": "1-6", "verdict": "OK"},
+    {"decision": 38, "field": "criterio_juridico", "idx": "1-2", "verdict": "OK"},
+    {"decision": 38, "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 38, "field": "interpretacao_dispositivo", "idx": 1, "verdict": "OK"},
+
+    {"decision": 47, "field": "resultado", "verdict": "OK"},
+    {"decision": 47, "field": "dispositivo_legal", "idx": "1-2", "verdict": "OK"},
+    {"decision": 47, "field": "criterio_juridico", "idx": "1-2", "verdict": "OK"},
+    {"decision": 47, "field": "tese", "idx": "1-2", "verdict": "OK"},
+    {"decision": 47, "field": "interpretacao_dispositivo", "idx": "1-2", "verdict": "OK"},
+
+    {"decision": 50, "field": "resultado", "verdict": "OK"},
+    {"decision": 50, "field": "dispositivo_legal", "idx": 1, "verdict": "OK"},
+    {"decision": 50, "field": "dispositivo_legal", "idx": 0, "verdict": "OMI", "reason": "Faltam CPC 300, 109, 674"},
+    {"decision": 50, "field": "criterio_juridico", "idx": 1, "verdict": "OK"},
+    {"decision": 50, "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 50, "field": "interpretacao_dispositivo", "idx": 1, "verdict": "OK"}
+  ]
+}

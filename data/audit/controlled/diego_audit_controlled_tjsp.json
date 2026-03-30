@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "auditor": "Diego Sens (OAB/PR)",
+    "date": "2026-03-25",
+    "tribunal": "TJSP",
+    "controlled_model": "llama-3.3-70b-versatile",
+    "n_decisions": 10
+  },
+  "audit_items": [
+    {"decision": 61, "field": "resultado", "verdict": "OK"},
+    {"decision": 61, "field": "dispositivo_legal", "idx": "1-5", "verdict": "OK"},
+    {"decision": 61, "field": "dispositivo_legal", "idx": 0, "verdict": "OMI", "reason": "Falta CPC 558"},
+    {"decision": 61, "field": "criterio_juridico", "idx": "1-4", "verdict": "OK"},
+    {"decision": 61, "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 61, "field": "tese", "idx": 2, "verdict": "MIS", "reason": "Diz rejeitada mas tribunal CONCORDOU com a tese; rejeitou por falta de posse anterior"},
+    {"decision": 61, "field": "interpretacao_dispositivo", "idx": "1-2", "verdict": "OK"},
+    {"decision": 61, "field": "interpretacao_dispositivo", "idx": 3, "verdict": "GRA", "reason": "Simplificação excessiva do art. 1.196 CC"},
+    {"decision": 61, "field": "interpretacao_dispositivo", "idx": 4, "verdict": "MIS", "reason": "Argumento da AGRAVANTE, não interpretação do TRIBUNAL"},
+
+    {"decision": 78, "field": "resultado", "verdict": "OK"},
+    {"decision": 78, "field": "dispositivo_legal", "idx": 1, "verdict": "OK"},
+    {"decision": 78, "field": "dispositivo_legal", "idx": 0, "verdict": "OMI", "reason": "Falta art. 2° §2° DL 911/69 — dispositivo central"},
+    {"decision": 78, "field": "criterio_juridico", "idx": "1-2", "verdict": "OK"},
+    {"decision": 78, "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 78, "field": "interpretacao_dispositivo", "idx": "1-2", "verdict": "OK"},
+
+    {"decision": 67, "field": "resultado", "verdict": "OK"},
+    {"decision": 67, "field": "dispositivo_legal", "idx": 1, "verdict": "OK"},
+    {"decision": 67, "field": "dispositivo_legal", "idx": 0, "verdict": "OMI", "reason": "Falta CPC 678 — dispositivo CENTRAL. Também falta CPC 373 I"},
+    {"decision": 67, "field": "criterio_juridico", "idx": "1-2", "verdict": "OK"},
+    {"decision": 67, "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 67, "field": "interpretacao_dispositivo", "idx": 1, "verdict": "OK"},
+
+    {"decision": 83, "field": "resultado", "verdict": "OK"},
+    {"decision": 83, "field": "dispositivo_legal", "idx": "1-2", "verdict": "OK"},
+    {"decision": 83, "field": "criterio_juridico", "idx": 1, "verdict": "OK"},
+    {"decision": 83, "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 83, "field": "interpretacao_dispositivo", "idx": 1, "verdict": "OK"},
+    {"decision": 83, "field": "interpretacao_dispositivo", "idx": 2, "verdict": "TYP", "reason": "Conteúdo sobre preparo (art. 1.007) atribuído ao art. 1.015 (rol do agravo)"},
+
+    {"decision": 81, "field": "resultado", "verdict": "OK"},
+    {"decision": 81, "field": "dispositivo_legal", "idx": "1-2", "verdict": "OK"},
+    {"decision": 81, "field": "dispositivo_legal", "idx": 0, "verdict": "OMI", "reason": "Falta art. 3° DL 911/69, art. 489 VI CPC"},
+    {"decision": 81, "field": "criterio_juridico", "idx": 1, "verdict": "OK"},
+    {"decision": 81, "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 81, "field": "interpretacao_dispositivo", "idx": 1, "verdict": "OK"},
+
+    {"decision": 87, "field": "resultado", "verdict": "QUA", "reason": "'provido' omite que provimento foi para ANULAR sentença, não reformar no mérito"},
+    {"decision": 87, "field": "dispositivo_legal", "idx": "1-5", "verdict": "OK"},
+    {"decision": 87, "field": "criterio_juridico", "idx": "1-2", "verdict": "OK"},
+    {"decision": 87, "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 87, "field": "tese", "idx": 2, "verdict": "QUA", "reason": "'Improcedente' sugere julgamento de mérito, mas tribunal ANULOU sentença sem decidir mérito"},
+    {"decision": 87, "field": "interpretacao_dispositivo", "idx": "1-3", "verdict": "OK"},
+
+    {"decision": 89, "field": "resultado", "verdict": "OK"},
+    {"decision": 89, "field": "dispositivo_legal", "idx": "1-3", "verdict": "OK"},
+    {"decision": 89, "field": "criterio_juridico", "idx": "1-3", "verdict": "GRA", "reason": "Probabilidade do direito, Perigo de dano, Razoabilidade do prazo — genéricos sem conteúdo do caso"},
+    {"decision": 89, "field": "tese", "idx": "1-2", "verdict": "OK"},
+    {"decision": 89, "field": "interpretacao_dispositivo", "idx": 1, "verdict": "OMI", "reason": "4 palavras, não descreve COMO tribunal interpretou"},
+    {"decision": 89, "field": "interpretacao_dispositivo", "idx": 2, "verdict": "OMI", "reason": "Lacônico"},
+    {"decision": 89, "field": "interpretacao_dispositivo", "idx": 3, "verdict": "OMI", "reason": "Apenas etiqueta"},
+
+    {"decision": 74, "field": "resultado", "verdict": "OK"},
+    {"decision": 74, "field": "dispositivo_legal", "idx": "1-2", "verdict": "OK"},
+    {"decision": 74, "field": "criterio_juridico", "idx": "1-2", "verdict": "OK"},
+    {"decision": 74, "field": "tese", "idx": "1-2", "verdict": "OK"},
+    {"decision": 74, "field": "interpretacao_dispositivo", "idx": "1-2", "verdict": "OK"},
+
+    {"decision": 68, "field": "resultado", "verdict": "OK"},
+    {"decision": 68, "field": "dispositivo_legal", "idx": 1, "verdict": "OK"},
+    {"decision": 68, "field": "criterio_juridico", "idx": 1, "verdict": "OK"},
+    {"decision": 68, "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 68, "field": "interpretacao_dispositivo", "idx": 1, "verdict": "OK"},
+
+    {"decision": 75, "field": "resultado", "verdict": "OK"},
+    {"decision": 75, "field": "dispositivo_legal", "idx": 1, "verdict": "OK"},
+    {"decision": 75, "field": "criterio_juridico", "idx": "1-2", "verdict": "OK"},
+    {"decision": 75, "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 75, "field": "interpretacao_dispositivo", "idx": 1, "verdict": "OK"}
+  ]
+}

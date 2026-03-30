@@ -1,0 +1,297 @@
+{
+  "metadata": {
+    "auditor": "Diego Sens (OAB/PR)",
+    "date": "2026-03-24",
+    "version": 2,
+    "decisions_audited": 20,
+    "tribunal": "STJ",
+    "batch": "011-030"
+  },
+  "calibration": {
+    "check_3": [
+      {"decision": 11, "processo": "1849236", "status": "N/A", "verdict": "CONCORDA"},
+      {"decision": 12, "processo": "1834182", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 13, "processo": "2159296", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 14, "processo": "2595324", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 15, "processo": "2702739", "status": "N/A", "verdict": "CONCORDA"},
+      {"decision": 16, "processo": "REsp 1353016", "status": "N/A", "verdict": "CONCORDA"},
+      {"decision": 17, "processo": "1811170", "status": "N/A", "verdict": "CONCORDA"},
+      {"decision": 18, "processo": "REsp 1704520", "status": "FAIL", "verdict": "DISCORDA", "reason": "Critério de urgência é válido ('urgência' 39x no texto). Falso negativo lexical.", "causa_raiz": "check_limitation"},
+      {"decision": 19, "processo": "2540446", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 20, "processo": "REsp 1111157", "status": "FAIL", "verdict": "DISCORDA_PARCIAL", "reason": "Critério 2 ('natureza especial da norma') é válido — 'arts. 20 e 21' aparece 4x. Subsunção incompleta.", "causa_raiz": "Stage C"},
+      {"decision": 21, "processo": "2596824", "status": "N/A", "verdict": "CONCORDA"},
+      {"decision": 22, "processo": "REsp 1133690", "status": "N/A", "verdict": "CONCORDA"},
+      {"decision": 23, "processo": "947427", "status": "N/A", "verdict": "CONCORDA"},
+      {"decision": 24, "processo": "1539389", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 25, "processo": "2490911", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 26, "processo": "AgInt REsp 1961882", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 27, "processo": "2484450", "status": "N/A", "verdict": "CONCORDA"},
+      {"decision": 28, "processo": "2591267", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 29, "processo": "AgInt REsp 1837435", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 30, "processo": "EREsp 1910729", "status": "PASS", "verdict": "CONCORDA"}
+    ],
+    "check_4": [
+      {"decision": 11, "processo": "1849236", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 12, "processo": "1834182", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 13, "processo": "2159296", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 14, "processo": "2595324", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 15, "processo": "2702739", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 16, "processo": "REsp 1353016", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 17, "processo": "1811170", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 18, "processo": "REsp 1704520", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 19, "processo": "2540446", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 20, "processo": "REsp 1111157", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 21, "processo": "2596824", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 22, "processo": "REsp 1133690", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 23, "processo": "947427", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 24, "processo": "1539389", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 25, "processo": "2490911", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 26, "processo": "AgInt REsp 1961882", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 27, "processo": "2484450", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 28, "processo": "2591267", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 29, "processo": "AgInt REsp 1837435", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 30, "processo": "EREsp 1910729", "status": "PASS", "verdict": "CONCORDA"}
+    ]
+  },
+  "audit_items": [
+    {"decision": 11, "processo": "1849236", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": "1-12", "item": "CF 105 III; CPC/2015 489 §1º IV; CPC/2015 1.022; CPC/2015 1.026 §2º; Lei 11.101 arts. 47, 53 II, 58 §2º, 168, 171, 172, 173, 174", "verdict": "OK"},
+    {"decision": 11, "processo": "1849236", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 11, "processo": "1849236", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+    {"decision": 11, "processo": "1849236", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 1, "item": "Tese 1", "verdict": "OK"},
+    {"decision": 11, "processo": "1849236", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 2, "item": "Tese 2", "verdict": "GRA", "reason": "Resultado 'rejeitada' inverte a perspectiva. Tribunal acolheu que repetir argumentos é insuficiente."},
+
+    {"decision": 12, "processo": "1834182", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "CPC 1.022", "verdict": "OK"},
+    {"decision": 12, "processo": "1834182", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 2, "item": "CPC art. 85 §11", "verdict": "OK"},
+    {"decision": 12, "processo": "1834182", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 3, "item": "Súmula 7/STJ", "verdict": "OK"},
+    {"decision": 12, "processo": "1834182", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "provido", "verdict": "MIS", "reason": "EDcl acolhidos com efeitos infringentes para superar intempestividade e conhecer do agravo para não conhecer do REsp. Não é 'provido'."},
+    {"decision": 12, "processo": "1834182", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+    {"decision": 12, "processo": "1834182", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Comprovação de feriado local", "verdict": "OK"},
+    {"decision": 12, "processo": "1834182", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 1, "item": "Juntada de cópia de página de site é documento idôneo", "verdict": "OK"},
+
+    {"decision": 13, "processo": "2159296", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "Súmula 283/STF", "verdict": "OK"},
+    {"decision": 13, "processo": "2159296", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 2, "item": "Súmula 83/STJ", "verdict": "OK"},
+    {"decision": 13, "processo": "2159296", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 3, "item": "CF art. 105 III", "verdict": "OK"},
+    {"decision": 13, "processo": "2159296", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 13, "processo": "2159296", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+    {"decision": 13, "processo": "2159296", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Crit 1", "verdict": "OK"},
+    {"decision": 13, "processo": "2159296", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 2, "item": "Crit 2", "verdict": "GRA", "reason": "Requisito genérico processual, não específico desta decisão."},
+    {"decision": 13, "processo": "2159296", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 3, "item": "Crit 3", "verdict": "OK"},
+    {"decision": 13, "processo": "2159296", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": "1-3", "item": "Teses 1-3", "verdict": "OK"},
+    {"decision": 13, "processo": "2159296", "tribunal": "STJ", "stage": "B", "field": "interpretacao_dispositivo", "idx": 1, "item": "CDC", "verdict": "OMI", "reason": "Sem conteúdo interpretativo."},
+    {"decision": 13, "processo": "2159296", "tribunal": "STJ", "stage": "B", "field": "interpretacao_dispositivo", "idx": 2, "item": "Lei Uniforme de Genebra art. 70", "verdict": "OMI", "reason": "Sem conteúdo."},
+
+    {"decision": 14, "processo": "2595324", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "CPC 1.022", "verdict": "OK"},
+    {"decision": 14, "processo": "2595324", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 2, "item": "Lei 8.906/1994 art. 22 §2", "verdict": "OK"},
+    {"decision": 14, "processo": "2595324", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 3, "item": "CPC art. 85 §11", "verdict": "OK"},
+    {"decision": 14, "processo": "2595324", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "(resultado)", "verdict": "QUA", "reason": "Dois agravos com desfechos parcialmente distintos. Falta qualifier."},
+    {"decision": 14, "processo": "2595324", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+    {"decision": 14, "processo": "2595324", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Crit 1", "verdict": "OK"},
+    {"decision": 14, "processo": "2595324", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 1, "item": "Tese 1", "verdict": "OK"},
+    {"decision": 14, "processo": "2595324", "tribunal": "STJ", "stage": "B", "field": "interpretacao_dispositivo", "idx": 1, "item": "CPC art. 85", "verdict": "OMI", "reason": "Sem conteúdo."},
+
+    {"decision": 15, "processo": "2702739", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": "1-5", "item": "Súmula 83; Súmula 7; CPC 17; CPC 485; CC 265", "verdict": "OK"},
+    {"decision": 15, "processo": "2702739", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 15, "processo": "2702739", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+    {"decision": 15, "processo": "2702739", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Crit 1", "verdict": "GRA", "reason": "Mistura Súmula 83 com teoria da asserção de forma imprecisa."},
+    {"decision": 15, "processo": "2702739", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 1, "item": "Tese 1", "verdict": "OK"},
+    {"decision": 15, "processo": "2702739", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 2, "item": "Tese 2", "verdict": "DUP", "reason": "Duplicação de Tese 1."},
+
+    {"decision": 16, "processo": "REsp 1353016", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "MP 2.048/2000 art. 59", "verdict": "OK"},
+    {"decision": 16, "processo": "REsp 1353016", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 2, "item": "MP 2.048/2000 art. 41", "verdict": "OK"},
+    {"decision": 16, "processo": "REsp 1353016", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 3, "item": "Lei Delegada 13/1992", "verdict": "OK"},
+    {"decision": 16, "processo": "REsp 1353016", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "(resultado)", "verdict": "QUA", "reason": "Parcialmente conhecido e, nessa parte, não provido. Falta qualifier."},
+    {"decision": 16, "processo": "REsp 1353016", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+    {"decision": 16, "processo": "REsp 1353016", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Prequestionamento", "verdict": "OK"},
+    {"decision": 16, "processo": "REsp 1353016", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 1, "item": "Tese 1", "verdict": "OK"},
+    {"decision": 16, "processo": "REsp 1353016", "tribunal": "STJ", "stage": "B", "field": "interpretacao_dispositivo", "idx": 1, "item": "MP 2.048/2000 arts. 41 e 59", "verdict": "OMI", "reason": "Sem conteúdo."},
+
+    {"decision": 17, "processo": "1811170", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": "1-5", "item": "Lei 9.069/1995 art. 28; CPC/2015 489 §1º; CPC/2015 994; CPC/2015 1022 I/II; Lei 10.931/2004 art. 46", "verdict": "OK"},
+    {"decision": 17, "processo": "1811170", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 17, "processo": "1811170", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+    {"decision": 17, "processo": "1811170", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 1, "item": "Tese 1", "verdict": "GRA", "reason": "Não é uma tese; é listagem genérica de artigos alegados como violados."},
+    {"decision": 17, "processo": "1811170", "tribunal": "STJ", "stage": "B", "field": "interpretacao_dispositivo", "idx": 1, "item": "Enunciados Administrativos STJ 2 e 3", "verdict": "OK"},
+
+    {"decision": 18, "processo": "REsp 1704520", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "CPC/2015 art. 1.015", "verdict": "OK"},
+    {"decision": 18, "processo": "REsp 1704520", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 2, "item": "CPC/2015 art. 1.036", "verdict": "OK"},
+    {"decision": 18, "processo": "REsp 1704520", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "(resultado)", "verdict": "QUA", "reason": "Provimento em parte ao recurso especial. Falta 'parcial'."},
+    {"decision": 18, "processo": "REsp 1704520", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+    {"decision": 18, "processo": "REsp 1704520", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Verificação de urgência", "verdict": "OK"},
+    {"decision": 18, "processo": "REsp 1704520", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 1, "item": "Taxatividade mitigada", "verdict": "OK"},
+    {"decision": 18, "processo": "REsp 1704520", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 2, "item": "Tese 2", "verdict": "OK"},
+    {"decision": 18, "processo": "REsp 1704520", "tribunal": "STJ", "stage": "B", "field": "interpretacao_dispositivo", "idx": 1, "item": "CPC/2015 art. 1015", "verdict": "OMI", "reason": "Sem conteúdo."},
+
+    {"decision": 19, "processo": "2540446", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": "1-5", "item": "CPC 11; CPC 369; CPC 477; CPC 489 §1º; Súmula 254/STF", "verdict": "OK"},
+    {"decision": 19, "processo": "2540446", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "QUA", "reason": "AgInt provido + REsp desprovido. 'Improvido' captura apenas o REsp."},
+    {"decision": 19, "processo": "2540446", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+    {"decision": 19, "processo": "2540446", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Laudo pericial", "verdict": "OK"},
+    {"decision": 19, "processo": "2540446", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 2, "item": "Juros moratórios", "verdict": "OK"},
+    {"decision": 19, "processo": "2540446", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": "1-2", "item": "Teses 1-2", "verdict": "OK"},
+    {"decision": 19, "processo": "2540446", "tribunal": "STJ", "stage": "B", "field": "interpretacao_dispositivo", "idx": 1, "item": "Súmula 254/STF", "verdict": "OMI", "reason": "Sem conteúdo."},
+
+    {"decision": 20, "processo": "REsp 1111157", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "Lei 8.036/90 art. 29-C", "verdict": "OK"},
+    {"decision": 20, "processo": "REsp 1111157", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": "2-3", "item": "CPC arts. 20 e 21", "verdict": "OK"},
+    {"decision": 20, "processo": "REsp 1111157", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 4, "item": "CPC art. 543-C", "verdict": "OK"},
+    {"decision": 20, "processo": "REsp 1111157", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 20, "processo": "REsp 1111157", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "QUA", "reason": "'Direito do Trabalho' deveria ser 'Direito Público/Administrativo' (FGTS é matéria pública no STJ)."},
+    {"decision": 20, "processo": "REsp 1111157", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": "1-2", "item": "Crits 1-2", "verdict": "OK"},
+    {"decision": 20, "processo": "REsp 1111157", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": "1-2", "item": "Teses 1-2", "verdict": "OK"},
+    {"decision": 20, "processo": "REsp 1111157", "tribunal": "STJ", "stage": "B", "field": "interpretacao_dispositivo", "idx": 1, "item": "Interp 1", "verdict": "OMI", "reason": "Sem conteúdo."},
+    {"decision": 20, "processo": "REsp 1111157", "tribunal": "STJ", "stage": "B", "field": "interpretacao_dispositivo", "idx": 2, "item": "Interp 2", "verdict": "OMI", "reason": "Sem conteúdo."},
+
+    {"decision": 21, "processo": "2596824", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": "1-7", "item": "CPC 489; CPC 1.022; CPC 370; CPC 371; Súmula 7; Súmula 83; Súmula 568", "verdict": "OK"},
+    {"decision": 21, "processo": "2596824", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 21, "processo": "2596824", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+
+    {"decision": 22, "processo": "REsp 1133690", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "CF art. 105 III", "verdict": "OK"},
+    {"decision": 22, "processo": "REsp 1133690", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 2, "item": "CPC art. 543-C", "verdict": "OK"},
+    {"decision": 22, "processo": "REsp 1133690", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "não conhecido", "verdict": "OK"},
+    {"decision": 22, "processo": "REsp 1133690", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+    {"decision": 22, "processo": "REsp 1133690", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Interesse recursal", "verdict": "OK"},
+    {"decision": 22, "processo": "REsp 1133690", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 1, "item": "Intempestividade", "verdict": "OK"},
+    {"decision": 22, "processo": "REsp 1133690", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 2, "item": "Tese 2", "verdict": "OK"},
+    {"decision": 22, "processo": "REsp 1133690", "tribunal": "STJ", "stage": "B", "field": "interpretacao_dispositivo", "idx": 1, "item": "CPC art. 543-C", "verdict": "OMI", "reason": "Sem conteúdo."},
+
+    {"decision": 23, "processo": "947427", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": "1-6", "item": "Súmula 83; CPC/1973 458; CPC/1973 473; CPC/1973 474; CPC/1973 535; CPC/2015 1.026 §2", "verdict": "OK"},
+    {"decision": 23, "processo": "947427", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 23, "processo": "947427", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+    {"decision": 23, "processo": "947427", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Aplicação do CPC/2015", "verdict": "GRA", "reason": "Critério genérico demais."},
+    {"decision": 23, "processo": "947427", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 1, "item": "Súmula 182/STJ", "verdict": "OK"},
+
+    {"decision": 24, "processo": "1539389", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": "1-4", "item": "CPC 489; CPC 1.022; CPC 85 §11; Súmula 7", "verdict": "OK"},
+    {"decision": 24, "processo": "1539389", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "não conhecido", "verdict": "OK"},
+    {"decision": 24, "processo": "1539389", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+    {"decision": 24, "processo": "1539389", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Crit 1", "verdict": "OK"},
+    {"decision": 24, "processo": "1539389", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 1, "item": "Tese 1", "verdict": "OK"},
+
+    {"decision": 25, "processo": "2490911", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "Súmula 83/STJ", "verdict": "OK"},
+    {"decision": 25, "processo": "2490911", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 25, "processo": "2490911", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+    {"decision": 25, "processo": "2490911", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Crit 1", "verdict": "OK"},
+    {"decision": 25, "processo": "2490911", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 1, "item": "Erro material", "verdict": "OK"},
+    {"decision": 25, "processo": "2490911", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 2, "item": "Tese 2", "verdict": "OK"},
+
+    {"decision": 26, "processo": "AgInt REsp 1961882", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "CPC art. 1.030 II", "verdict": "OK"},
+    {"decision": 26, "processo": "AgInt REsp 1961882", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 2, "item": "CPC 1.022", "verdict": "OK"},
+    {"decision": 26, "processo": "AgInt REsp 1961882", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "provido", "verdict": "QUA", "reason": "Dois agravos com desfechos diferentes. Falta qualifier."},
+    {"decision": 26, "processo": "AgInt REsp 1961882", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+    {"decision": 26, "processo": "AgInt REsp 1961882", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Tema 955, modulação", "verdict": "OK"},
+    {"decision": 26, "processo": "AgInt REsp 1961882", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 2, "item": "Legitimidade", "verdict": "OK"},
+    {"decision": 26, "processo": "AgInt REsp 1961882", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": "1-2", "item": "Teses 1-2", "verdict": "OK"},
+
+    {"decision": 27, "processo": "2484450", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "CP art. 91 I", "verdict": "OK"},
+    {"decision": 27, "processo": "2484450", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 2, "item": "Súmula 83/STJ", "verdict": "OK"},
+    {"decision": 27, "processo": "2484450", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 3, "item": "Súmula 7/STJ", "verdict": "OK"},
+    {"decision": 27, "processo": "2484450", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 27, "processo": "2484450", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+
+    {"decision": 28, "processo": "2591267", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": "1-5", "item": "Súmula 5; Súmula 7; Lei 6.024/1974 art. 18; CPC/2015 489; CPC/2015 927", "verdict": "OK"},
+    {"decision": 28, "processo": "2591267", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 28, "processo": "2591267", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+    {"decision": 28, "processo": "2591267", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Liquidação extrajudicial", "verdict": "OK"},
+    {"decision": 28, "processo": "2591267", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 1, "item": "Tese 1", "verdict": "OK"},
+    {"decision": 28, "processo": "2591267", "tribunal": "STJ", "stage": "B", "field": "interpretacao_dispositivo", "idx": 1, "item": "Lei 6.024/1974 art. 18", "verdict": "OMI", "reason": "Sem conteúdo."},
+
+    {"decision": 29, "processo": "AgInt REsp 1837435", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "CPC art. 941 §3", "verdict": "OK"},
+    {"decision": 29, "processo": "AgInt REsp 1837435", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 29, "processo": "AgInt REsp 1837435", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+    {"decision": 29, "processo": "AgInt REsp 1837435", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Sucessão empresarial/comodato", "verdict": "OK"},
+    {"decision": 29, "processo": "AgInt REsp 1837435", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 1, "item": "Trespasse", "verdict": "OK"},
+
+    {"decision": 30, "processo": "EREsp 1910729", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "CPC/1973 art. 485 V", "verdict": "OK"},
+    {"decision": 30, "processo": "EREsp 1910729", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 2, "item": "CPC/2015 art. 966 V", "verdict": "OK"},
+    {"decision": 30, "processo": "EREsp 1910729", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 3, "item": "Súmula 343/STF", "verdict": "OK"},
+    {"decision": 30, "processo": "EREsp 1910729", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "None", "verdict": "OMI", "reason": "Pipeline não extraiu resultado. Deveria ser 'afetado a recurso repetitivo'."},
+    {"decision": 30, "processo": "EREsp 1910729", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "(categorias)", "verdict": "OK"},
+    {"decision": 30, "processo": "EREsp 1910729", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Art. 1.043", "verdict": "OK"},
+    {"decision": 30, "processo": "EREsp 1910729", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 2, "item": "Súmula 343/STF", "verdict": "OK"},
+    {"decision": 30, "processo": "EREsp 1910729", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 1, "item": "28,86%", "verdict": "OK"},
+    {"decision": 30, "processo": "EREsp 1910729", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 2, "item": "Tese 2", "verdict": "OK"},
+    {"decision": 30, "processo": "EREsp 1910729", "tribunal": "STJ", "stage": "B", "field": "interpretacao_dispositivo", "idx": 1, "item": "Interp 1", "verdict": "OMI", "reason": "Sem conteúdo."},
+    {"decision": 30, "processo": "EREsp 1910729", "tribunal": "STJ", "stage": "B", "field": "interpretacao_dispositivo", "idx": 2, "item": "Interp 2", "verdict": "OMI", "reason": "Sem conteúdo."}
+  ],
+  "omissions": [
+    {"decision": 11, "items": [
+      {"stage": "B", "description": "Soberania da assembleia de credores e limites do controle judicial (itens 4-6) — holding central"},
+      {"stage": "B", "description": "Subclasses de credores com critérios objetivos (item 7)"},
+      {"stage": "B", "description": "Denúncia criminal não impede homologação (item 8)"},
+      {"stage": "A", "description": "Súmulas 5 e 7/STJ (item 9), Súmulas 283 e 284/STF (item 10)"},
+      {"stage": "B", "description": "5 teses fixadas no item 'IV. DISPOSITIVO E TESE' — nenhuma extraída"}
+    ]},
+    {"decision": 12, "items": [
+      {"stage": "B", "description": "Efeito infringente excepcional dos EDcl (item 1)"},
+      {"stage": "B", "description": "Legitimidade concorrente parte/advogado para honorários (item 3)"},
+      {"stage": "A", "description": "EAREsp 1.927.268/RJ (precedente citado)"}
+    ]},
+    {"decision": 13, "items": [
+      {"stage": "A", "description": "Súmulas 282 e 356/STF expressamente (item 4)"},
+      {"stage": "A", "description": "Art. 70 da Lei Uniforme de Genebra não extraído como dispositivo Stage A"}
+    ]},
+    {"decision": 14, "items": [
+      {"stage": "B", "description": "Cabimento da ação de arbitramento quando contrato rescindido sem justa causa (item 3)"},
+      {"stage": "B", "description": "Distinção com Tema 1.076/STJ (item 4, 5x)"},
+      {"stage": "A", "description": "Súmula 7/STJ (implícita no item 5)"},
+      {"stage": "B", "description": "Julgamento extra/ultra petita rejeitado (item 2)"}
+    ]},
+    {"decision": 15, "items": [
+      {"stage": "B", "description": "Teoria da asserção como critério autônomo (REsp 1.749.223/CE)"},
+      {"stage": "B", "description": "Vedação de reexame sobre responsabilidade solidária (item 2)"}
+    ]},
+    {"decision": 16, "items": [
+      {"stage": "A", "description": "Súmula 211/STJ expressamente (3x)"},
+      {"stage": "A", "description": "CPC art. 543-C expressamente (4x)"},
+      {"stage": "A", "description": "MP 2.229-43/2001 expressamente (10x) — norma central"},
+      {"stage": "B", "description": "GDAJ como gratificação substitutiva da GAE (conceito central)"},
+      {"stage": "B", "description": "Ausência de decréscimo remuneratório (item 6)"}
+    ]},
+    {"decision": 17, "items": [
+      {"stage": "B", "description": "Periodicidade mínima anual para correção monetária pós-Real (item 2, holding com precedente)"},
+      {"stage": "A", "description": "Súmula 83/STJ expressamente (5x)"},
+      {"stage": "B", "description": "Mero inconformismo não configura negativa de prestação jurisdicional (item 1)"}
+    ]},
+    {"decision": 18, "items": [
+      {"stage": "B", "description": "Regime de transição/modulação de efeitos (item 7)"},
+      {"stage": "B", "description": "Rejeição da tese exemplificativa (item 5)"},
+      {"stage": "B", "description": "Rejeição da tese de interpretação extensiva/analógica (item 4)"}
+    ]},
+    {"decision": 19, "items": [
+      {"stage": "B", "description": "Juros moratórios como matéria de ordem pública (holding expressa)"}
+    ]},
+    {"decision": 20, "items": [
+      {"stage": "A", "description": "MP 2.164-40/2001 expressamente (10x)"},
+      {"stage": "A", "description": "Resolução STJ 08/08 expressamente"}
+    ]},
+    {"decision": 21, "items": [
+      {"stage": "B", "description": "Stage B completamente vazia — 0 critérios, 0 teses. Decisão tem ementa estruturada com razões de decidir. Recall = 0%"}
+    ]},
+    {"decision": 22, "items": [
+      {"stage": "A", "description": "Súmula 182/STJ expressamente (4x)"}
+    ]},
+    {"decision": 23, "items": [
+      {"stage": "A", "description": "Súmula 182/STJ expressamente — não extraída como dispositivo"}
+    ]},
+    {"decision": 24, "items": [
+      {"stage": "B", "description": "Nexo de causalidade e responsabilidade da concessionária (tema central)"}
+    ]},
+    {"decision": 25, "items": [
+      {"stage": "A", "description": "Dispositivos processuais sobre cumprimento de sentença não extraídos"}
+    ]},
+    {"decision": 26, "items": [
+      {"stage": "A", "description": "Tema 955/STJ expressamente (4x) — não extraído como dispositivo"}
+    ]},
+    {"decision": 27, "items": [
+      {"stage": "B", "description": "Efeito da sentença penal condenatória sobre ação cível (holding central, 'sentença penal' 7x)"},
+      {"stage": "B", "description": "Stage B completamente vazia — 0 critérios, 0 teses apesar de conteúdo suficiente"}
+    ]},
+    {"decision": 28, "items": [
+      {"stage": "A", "description": "Súmula 83/STJ expressamente (4x)"},
+      {"stage": "A", "description": "Súmula 284/STF expressamente (3x)"},
+      {"stage": "A", "description": "Súmula 382/STJ expressamente"}
+    ]},
+    {"decision": 29, "items": [
+      {"stage": "A", "description": "Súmula 7/STJ expressamente (5x) — não extraída"}
+    ]},
+    {"decision": 30, "items": [
+      {"stage": "A", "description": "CPC/2015 art. 1.043 — citado 5x mas não extraído como dispositivo Stage A"}
+    ]}
+  ]
+}

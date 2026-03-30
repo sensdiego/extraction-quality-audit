@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "auditor": "Diego Sens (OAB/PR)",
+    "date": "2026-03-25",
+    "note": "File labeled TRF4 but contains mixed tribunals",
+    "controlled_model": "llama-3.3-70b-versatile",
+    "tribunal_mapping": {
+      "STJ": [100, 98, 99],
+      "TJPR": [91, 97],
+      "TJSP": [95, 96, 92],
+      "TRF4": [94, 93]
+    }
+  },
+  "audit_items": [
+    {"decision": 100, "tribunal": "STJ", "field": "resultado", "verdict": "OK"},
+    {"decision": 100, "tribunal": "STJ", "field": "dispositivo_legal", "idx": "1-3", "verdict": "OK"},
+    {"decision": 100, "tribunal": "STJ", "field": "dispositivo_legal", "idx": 0, "verdict": "OMI", "reason": "Faltam Súm. 5/7 STJ, Lei 9.656 art. 10, Lei 14.454, CPC 85 §11"},
+    {"decision": 100, "tribunal": "STJ", "field": "criterio_juridico", "idx": "1-3", "verdict": "OK"},
+    {"decision": 100, "tribunal": "STJ", "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 100, "tribunal": "STJ", "field": "interpretacao_dispositivo", "idx": "1-2", "verdict": "GRA", "reason": "Tipo 'Interpretação autêntica' incorreto; conteúdo genérico"},
+
+    {"decision": 95, "tribunal": "TJSP", "field": "resultado", "verdict": "OK"},
+    {"decision": 95, "tribunal": "TJSP", "field": "dispositivo_legal", "idx": 1, "verdict": "OK"},
+    {"decision": 95, "tribunal": "TJSP", "field": "criterio_juridico", "idx": 1, "verdict": "OK"},
+    {"decision": 95, "tribunal": "TJSP", "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 95, "tribunal": "TJSP", "field": "interpretacao_dispositivo", "idx": "1-2", "verdict": "OK"},
+
+    {"decision": 91, "tribunal": "TJPR", "field": "resultado", "verdict": "OK"},
+    {"decision": 91, "tribunal": "TJPR", "field": "dispositivo_legal", "idx": "1-3", "verdict": "OK"},
+    {"decision": 91, "tribunal": "TJPR", "field": "dispositivo_legal", "idx": 0, "verdict": "OMI", "reason": "Faltam CPP 413, 414, 415, 385, 589"},
+    {"decision": 91, "tribunal": "TJPR", "field": "criterio_juridico", "idx": "1-2", "verdict": "OK"},
+    {"decision": 91, "tribunal": "TJPR", "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 91, "tribunal": "TJPR", "field": "interpretacao_dispositivo", "idx": 1, "verdict": "GRA", "reason": "'Homicídio qualificado' (2 palavras)"},
+    {"decision": 91, "tribunal": "TJPR", "field": "interpretacao_dispositivo", "idx": 2, "verdict": "GRA", "reason": "'Pronúncia' (1 palavra)"},
+
+    {"decision": 97, "tribunal": "TJPR", "field": "resultado", "verdict": "OK"},
+    {"decision": 97, "tribunal": "TJPR", "field": "dispositivo_legal", "idx": "1-2", "verdict": "OK"},
+    {"decision": 97, "tribunal": "TJPR", "field": "criterio_juridico", "idx": "1-2", "verdict": "OK"},
+    {"decision": 97, "tribunal": "TJPR", "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 97, "tribunal": "TJPR", "field": "interpretacao_dispositivo", "idx": 1, "verdict": "GRA", "reason": "Confissão ficta gera presunção relativa, não absoluta como implica"},
+    {"decision": 97, "tribunal": "TJPR", "field": "interpretacao_dispositivo", "idx": 2, "verdict": "GRA", "reason": "Genérico sobre extinção com mérito"},
+
+    {"decision": 92, "tribunal": "TJSP", "field": "resultado", "verdict": "OK"},
+    {"decision": 92, "tribunal": "TJSP", "field": "dispositivo_legal", "idx": "1-2", "verdict": "OK"},
+    {"decision": 92, "tribunal": "TJSP", "field": "criterio_juridico", "idx": "1-2", "verdict": "OK"},
+    {"decision": 92, "tribunal": "TJSP", "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 92, "tribunal": "TJSP", "field": "interpretacao_dispositivo", "idx": "1-2", "verdict": "OK"},
+
+    {"decision": 94, "tribunal": "TRF4", "field": "resultado", "verdict": "QUA", "reason": "'provido' INCORRETO — apelação da ré DESPROVIDA"},
+    {"decision": 94, "tribunal": "TRF4", "field": "dispositivo_legal", "idx": 1, "verdict": "OK"},
+    {"decision": 94, "tribunal": "TRF4", "field": "dispositivo_legal", "idx": 0, "verdict": "OMI", "reason": "Faltam art. 121 Lei 8.213, arts. 186/927 CC, NRs 9/18/6/25, Decreto 20.910, art. 157 CLT"},
+    {"decision": 94, "tribunal": "TRF4", "field": "criterio_juridico", "idx": "1-3", "verdict": "OK"},
+    {"decision": 94, "tribunal": "TRF4", "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 94, "tribunal": "TRF4", "field": "interpretacao_dispositivo", "idx": 1, "verdict": "OK"},
+
+    {"decision": 93, "tribunal": "TRF4", "field": "resultado", "verdict": "OK"},
+    {"decision": 93, "tribunal": "TRF4", "field": "dispositivo_legal", "idx": "1-4", "verdict": "OK"},
+    {"decision": 93, "tribunal": "TRF4", "field": "criterio_juridico", "idx": "1-2", "verdict": "OK"},
+    {"decision": 93, "tribunal": "TRF4", "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 93, "tribunal": "TRF4", "field": "interpretacao_dispositivo", "idx": 1, "verdict": "OK"},
+
+    {"decision": 96, "tribunal": "TJSP", "field": "resultado", "verdict": "OK"},
+    {"decision": 96, "tribunal": "TJSP", "field": "dispositivo_legal", "idx": 0, "verdict": "OMI", "reason": "NENHUM dispositivo extraído"},
+    {"decision": 96, "tribunal": "TJSP", "field": "criterio_juridico", "idx": "1-2", "verdict": "OK"},
+    {"decision": 96, "tribunal": "TJSP", "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 96, "tribunal": "TJSP", "field": "interpretacao_dispositivo", "idx": 1, "verdict": "HAL", "reason": "Lei 11.419 art. 1° III NÃO discutida no texto — aparece na assinatura digital"},
+
+    {"decision": 98, "tribunal": "STJ", "field": "resultado", "verdict": "OK"},
+    {"decision": 98, "tribunal": "STJ", "field": "dispositivo_legal", "idx": "1-3", "verdict": "OK"},
+    {"decision": 98, "tribunal": "STJ", "field": "dispositivo_legal", "idx": 0, "verdict": "OMI", "reason": "Faltam Lei 9.656 art. 10 VI, RN-ANS 338 art. 19, CPC 1.021 §1°"},
+    {"decision": 98, "tribunal": "STJ", "field": "criterio_juridico", "idx": "1-2", "verdict": "OK"},
+    {"decision": 98, "tribunal": "STJ", "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 98, "tribunal": "STJ", "field": "interpretacao_dispositivo", "idx": "1-2", "verdict": "DUP", "reason": "Conteúdo IDÊNTICO para dois artigos diferentes"},
+
+    {"decision": 99, "tribunal": "STJ", "field": "resultado", "verdict": "OK"},
+    {"decision": 99, "tribunal": "STJ", "field": "dispositivo_legal", "idx": 1, "verdict": "OK"},
+    {"decision": 99, "tribunal": "STJ", "field": "dispositivo_legal", "idx": 0, "verdict": "OMI", "reason": "Faltam CC 1.583 §5°, Súm. 7 STJ"},
+    {"decision": 99, "tribunal": "STJ", "field": "criterio_juridico", "idx": 1, "verdict": "OK"},
+    {"decision": 99, "tribunal": "STJ", "field": "tese", "idx": 1, "verdict": "OK"},
+    {"decision": 99, "tribunal": "STJ", "field": "interpretacao_dispositivo", "idx": 1, "verdict": "OK"}
+  ]
+}

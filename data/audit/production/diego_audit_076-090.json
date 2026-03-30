@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "auditor": "Diego Sens (OAB/PR)",
+    "date": "2026-03-24",
+    "version": 2,
+    "decisions_audited": 15,
+    "tribunal": "TJSP",
+    "model": "mixed (sonnet/sonnet/gpt-5-4)",
+    "batch": "076-090"
+  },
+  "calibration": {
+    "check_3": [
+      {"decision": 76, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 77, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 78, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 79, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 80, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 81, "status": "FAIL", "verdict": "DISCORDA", "reason": "Crit 2 'recebimento efetivo' overlap=0.25 mas Tema 1.132 aparece 5x. Falso negativo lexical.", "causa_raiz": "check_limitation"},
+      {"decision": 82, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 83, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 84, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 85, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 86, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 87, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 88, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 89, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 90, "status": "PASS", "verdict": "CONCORDA"}
+    ],
+    "check_4": [
+      {"decision": 76, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 77, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 78, "status": "FAIL", "verdict": "DISCORDA", "reason": "Lei 10.931/2004 existe na Stage A como Disp 2. UNMATCHED é bug de matching.", "causa_raiz": "check_limitation"},
+      {"decision": 79, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 80, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 81, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 82, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 83, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 84, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 85, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 86, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 87, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 88, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 89, "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 90, "status": "PASS", "verdict": "CONCORDA"}
+    ]
+  },
+  "audit_items": [
+    {"decision": 76, "tribunal": "TJSP", "stage": "A", "field": "dispositivo_legal", "idx": "1-4", "item": "CPC 917 §3º/§4º II; CPC 487 I; CPC 85 §2º; CPC 98 §3º", "verdict": "OK"},
+    {"decision": 76, "tribunal": "TJSP", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 76, "tribunal": "TJSP", "stage": "A", "field": "categorias", "idx": 1, "item": "Direito Bancário, Processo Civil, Contratos, Execução", "verdict": "OK"},
+    {"decision": 76, "tribunal": "TJSP", "stage": "B", "field": "criterio_juridico", "idx": "1-3", "item": "CPC 917 §3º demonstrativo; valor correto na PI; prova de abusividade", "verdict": "OK"},
+    {"decision": 76, "tribunal": "TJSP", "stage": "B", "field": "tese", "idx": 1, "item": "Cerceamento por falta de perícia contábil", "verdict": "OK"},
+    {"decision": 76, "tribunal": "TJSP", "stage": "B", "field": "tese", "idx": 2, "item": "Mitigação do rigor formal do CPC 917 §3º", "verdict": "GRA", "reason": "Tribunal não 'mitigou' — rejeitou o pedido por falta de demonstrativo. Redação atribui holding mais ampla que o texto sustenta."},
+    {"decision": 76, "tribunal": "TJSP", "stage": "B", "field": "tese", "idx": "3-4", "item": "Teses 3-4 (excesso/juros)", "verdict": "OK"},
+    {"decision": 76, "tribunal": "TJSP", "stage": "B", "field": "interpretacao_dispositivo", "idx": "1-3", "item": "CPC 917; Lei 4.595/64; MP 2.170-36 art. 5º", "verdict": "OMI", "reason": "Sem conteúdo (x3)."},
+
+    {"decision": 77, "tribunal": "TJSP", "stage": "A", "field": "dispositivo_legal", "idx": "1-3", "item": "CC 50; MP 881/2019; Lei 13.874/19", "verdict": "OK"},
+    {"decision": 77, "tribunal": "TJSP", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 77, "tribunal": "TJSP", "stage": "A", "field": "categorias", "idx": 1, "item": "Dir. Empresarial, Proc. Civil, Execução, Desconsideração PJ", "verdict": "OK"},
+    {"decision": 77, "tribunal": "TJSP", "stage": "B", "field": "criterio_juridico", "idx": "1-3", "item": "Desvio finalidade doloso; confusão patrimonial; fraude/má-fé", "verdict": "OK"},
+    {"decision": 77, "tribunal": "TJSP", "stage": "B", "field": "tese", "idx": "1-2", "item": "Ausência bens + encerramento irregular insuficiente; INAPTA RF insuficiente", "verdict": "OK"},
+    {"decision": 77, "tribunal": "TJSP", "stage": "B", "field": "interpretacao_dispositivo", "idx": "1-3", "item": "CC 50; CC 50 §1º; CC 1.110", "verdict": "OMI", "reason": "Sem conteúdo (x3)."},
+
+    {"decision": 78, "tribunal": "TJSP", "stage": "A", "field": "dispositivo_legal", "idx": "1-2", "item": "DL 911/69 art. 2º §2º; Lei 10.931/2004", "verdict": "OK"},
+    {"decision": 78, "tribunal": "TJSP", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 78, "tribunal": "TJSP", "stage": "A", "field": "categorias", "idx": 1, "item": "Dir. Civil, Contratos, Garantias, Proc. Civil", "verdict": "OK"},
+    {"decision": 78, "tribunal": "TJSP", "stage": "B", "field": "criterio_juridico", "idx": "1-3", "item": "Notificação endereço contratual; dispensabilidade recebimento; integralidade purgação", "verdict": "OK"},
+    {"decision": 78, "tribunal": "TJSP", "stage": "B", "field": "tese", "idx": "1-3", "item": "Irregularidade mora; abusividade cláusulas; purgação parcelas vencidas", "verdict": "OK"},
+    {"decision": 78, "tribunal": "TJSP", "stage": "B", "field": "interpretacao_dispositivo", "idx": "1-2", "item": "DL 911/69 art. 2º §2º; Lei 10.931", "verdict": "OMI", "reason": "Sem conteúdo (x2)."},
+
+    {"decision": 79, "tribunal": "TJSP", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "CDC (genérico)", "verdict": "OK", "note": "Sem artigo específico — genérico mas aceitável como norma-base."},
+    {"decision": 79, "tribunal": "TJSP", "stage": "A", "field": "resultado", "idx": 1, "item": "parcialmente provido", "verdict": "OK"},
+    {"decision": 79, "tribunal": "TJSP", "stage": "A", "field": "categorias", "idx": 1, "item": "Dir. Bancário, Consumidor, Contratos, Financiamento Veículos", "verdict": "OK"},
+    {"decision": 79, "tribunal": "TJSP", "stage": "B", "field": "criterio_juridico", "idx": "1-3", "item": "Abusividade juros (1,5x média); registro efetivo; avaliação efetiva", "verdict": "OK"},
+    {"decision": 79, "tribunal": "TJSP", "stage": "B", "field": "tese", "idx": "1-3", "item": "Juros não abusivos; registro não abusivo; avaliação abusiva", "verdict": "OK"},
+    {"decision": 79, "tribunal": "TJSP", "stage": "B", "field": "interpretacao_dispositivo", "idx": "1-2", "item": "CDC 51 §1º III; CDC 42 parágrafo único", "verdict": "OK", "note": "Identificação correta mas OMI no conteúdo narrativo."},
+
+    {"decision": 80, "tribunal": "TJSP", "stage": "A", "field": "dispositivo_legal", "idx": "1-4", "item": "CPC 85 §11; RN ANS 195 art. 17; RN ANS 455/2020; RN ANS 557/2022 art. 40 I", "verdict": "OK"},
+    {"decision": 80, "tribunal": "TJSP", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 80, "tribunal": "TJSP", "stage": "A", "field": "categorias", "idx": 1, "item": "Dir. Civil, Consumidor, Planos de Saúde, Rescisão", "verdict": "OK"},
+    {"decision": 80, "tribunal": "TJSP", "stage": "B", "field": "criterio_juridico", "idx": "1-2", "item": "Validade aviso prévio 60d; efeito erga omnes ACP", "verdict": "OK"},
+    {"decision": 80, "tribunal": "TJSP", "stage": "B", "field": "tese", "idx": 1, "item": "Cobrança aviso prévio é válida", "verdict": "OK"},
+
+    {"decision": 81, "tribunal": "TJSP", "stage": "A", "field": "dispositivo_legal", "idx": "1-2", "item": "CPC 927 III; DL 911/69 art. 2º §2º", "verdict": "OK"},
+    {"decision": 81, "tribunal": "TJSP", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 81, "tribunal": "TJSP", "stage": "A", "field": "categorias", "idx": 1, "item": "Dir. Civil, Contratos Bancários, Alienação Fiduciária, Proc. Civil", "verdict": "OK"},
+    {"decision": 81, "tribunal": "TJSP", "stage": "B", "field": "criterio_juridico", "idx": "1-2", "item": "Envio endereço contratual; dispensabilidade recebimento (Tema 1.132)", "verdict": "OK"},
+    {"decision": 81, "tribunal": "TJSP", "stage": "B", "field": "tese", "idx": "1-3", "item": "Mora inválida; abusividade; basta envio endereço contratual", "verdict": "OK"},
+    {"decision": 81, "tribunal": "TJSP", "stage": "B", "field": "interpretacao_dispositivo", "idx": "1-2", "item": "DL 911/69 art. 2º §2º; CPC 927 III", "verdict": "OMI", "reason": "Sem conteúdo."},
+
+    {"decision": 82, "tribunal": "TJSP", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "CC 1.228", "verdict": "OK"},
+    {"decision": 82, "tribunal": "TJSP", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 82, "tribunal": "TJSP", "stage": "A", "field": "categorias", "idx": 1, "item": "Dir. Civil, Reais, Imissão Posse, Execução Extrajudicial", "verdict": "OK"},
+    {"decision": 82, "tribunal": "TJSP", "stage": "B", "field": "criterio_juridico", "idx": "1-2", "item": "Inoponibilidade irregularidades ao adquirente; direito imissão", "verdict": "OK"},
+    {"decision": 82, "tribunal": "TJSP", "stage": "B", "field": "tese", "idx": "1-2", "item": "Nulidade execução impede imissão; anulatória impede imissão", "verdict": "OK"},
+    {"decision": 82, "tribunal": "TJSP", "stage": "B", "field": "interpretacao_dispositivo", "idx": 1, "item": "CC 1.228", "verdict": "OMI", "reason": "Sem conteúdo."},
+
+    {"decision": 83, "tribunal": "TJSP", "stage": "A", "field": "dispositivo_legal", "idx": "1-3", "item": "CPC 1.007 §2º; CPC 1.015 V; CPC 101 §1º/§2º", "verdict": "OK"},
+    {"decision": 83, "tribunal": "TJSP", "stage": "A", "field": "resultado", "idx": 1, "item": "não conhecido", "verdict": "OK"},
+    {"decision": 83, "tribunal": "TJSP", "stage": "A", "field": "categorias", "idx": 1, "item": "Proc. Civil, Gratuidade, Deserção", "verdict": "OK"},
+    {"decision": 83, "tribunal": "TJSP", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Recolhimento preparo após indeferimento gratuidade", "verdict": "OK"},
+    {"decision": 83, "tribunal": "TJSP", "stage": "B", "field": "tese", "idx": 1, "item": "Gratuidade sem documentos", "verdict": "OK"},
+
+    {"decision": 84, "tribunal": "TJSP", "stage": "A", "field": "dispositivo_legal", "idx": "1-6", "item": "MCI art. 5º VI; MCI art. 5º VIII; MCI art. 10 §1º; MCI art. 10 §3º; MCI art. 15; MCI art. 22", "verdict": "OK"},
+    {"decision": 84, "tribunal": "TJSP", "stage": "A", "field": "resultado", "idx": 1, "item": "parcialmente provido", "verdict": "OK"},
+    {"decision": 84, "tribunal": "TJSP", "stage": "A", "field": "categorias", "idx": 1, "item": "Dir. Digital, MCI, Produção Antecipada Provas, Resp. Civil", "verdict": "OK"},
+    {"decision": 84, "tribunal": "TJSP", "stage": "B", "field": "criterio_juridico", "idx": "1-4", "item": "Fundado receio; obrigação guarda registros; porta lógica CGNAT; IMEI fora do escopo", "verdict": "OK"},
+    {"decision": 84, "tribunal": "TJSP", "stage": "B", "field": "tese", "idx": "1-4", "item": "Já cumpriu; sem obrigação porta lógica; sucumbência; honorários equidade", "verdict": "OK"},
+    {"decision": 84, "tribunal": "TJSP", "stage": "B", "field": "interpretacao_dispositivo", "idx": "1-2", "item": "MCI art. 10 §1º; MCI art. 15", "verdict": "OMI", "reason": "Sem conteúdo."},
+
+    {"decision": 85, "tribunal": "TJSP", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "CPC 562", "verdict": "OK"},
+    {"decision": 85, "tribunal": "TJSP", "stage": "A", "field": "resultado", "idx": 1, "item": "provido", "verdict": "OK"},
+    {"decision": 85, "tribunal": "TJSP", "stage": "A", "field": "categorias", "idx": 1, "item": "Dir. Civil, Proc. Civil, Condominial, Possessórias", "verdict": "OK"},
+    {"decision": 85, "tribunal": "TJSP", "stage": "B", "field": "criterio_juridico", "idx": "1-2", "item": "Esbulho <1 ano e dia; prova prima facie", "verdict": "OK"},
+    {"decision": 85, "tribunal": "TJSP", "stage": "B", "field": "tese", "idx": "1-2", "item": "Acordo descumprido=esbulho; ausência requisitos liminar", "verdict": "OK"},
+    {"decision": 85, "tribunal": "TJSP", "stage": "B", "field": "interpretacao_dispositivo", "idx": 1, "item": "CPC 562", "verdict": "OMI", "reason": "Sem conteúdo."},
+
+    {"decision": 86, "tribunal": "TJSP", "stage": "A", "field": "dispositivo_legal", "idx": 0, "item": "NENHUM EXTRAÍDO", "verdict": "OMI", "reason": "Stage A vazia apesar de CDC arts. 14 e 42 parágrafo único expressamente no texto."},
+    {"decision": 86, "tribunal": "TJSP", "stage": "A", "field": "resultado", "idx": 1, "item": "parcialmente provido", "verdict": "OK"},
+    {"decision": 86, "tribunal": "TJSP", "stage": "A", "field": "categorias", "idx": 1, "item": "Dir. Civil, Resp. Civil, Bancário, Proc. Civil", "verdict": "OK"},
+    {"decision": 86, "tribunal": "TJSP", "stage": "B", "field": "criterio_juridico", "idx": "1-4", "item": "Resp. objetiva CDC 14; legitimidade passiva; repetição exige desembolso; dano moral in re ipsa", "verdict": "OK"},
+    {"decision": 86, "tribunal": "TJSP", "stage": "B", "field": "tese", "idx": "1-5", "item": "Banco responde; majoração R$50k; repetição dobro; ilegitimidade exclusão; coisa julgada", "verdict": "OK"},
+    {"decision": 86, "tribunal": "TJSP", "stage": "B", "field": "interpretacao_dispositivo", "idx": "1-2", "item": "CDC 42 par. único; CDC 14", "verdict": "OMI", "reason": "Sem conteúdo."},
+
+    {"decision": 87, "tribunal": "TJSP", "stage": "A", "field": "dispositivo_legal", "idx": "1-6", "item": "CC 1.336 III; CC 1.342; CPC 355; CPC 370; CPC 371; CPC 1.026 §2º/§3º", "verdict": "OK"},
+    {"decision": 87, "tribunal": "TJSP", "stage": "A", "field": "resultado", "idx": 1, "item": "provido", "verdict": "OK"},
+    {"decision": 87, "tribunal": "TJSP", "stage": "A", "field": "categorias", "idx": 1, "item": "Dir. Civil, Condominial, Proc. Civil", "verdict": "OK"},
+    {"decision": 87, "tribunal": "TJSP", "stage": "B", "field": "criterio_juridico", "idx": "1-3", "item": "Risco elétrico técnico; perícia para questão fática; julgamento antecipado indevido", "verdict": "OK"},
+    {"decision": 87, "tribunal": "TJSP", "stage": "B", "field": "tese", "idx": "1-3", "item": "Laudo genérico; 62k BTUs risco; reconvenção improcedente por cerceamento", "verdict": "OK"},
+    {"decision": 87, "tribunal": "TJSP", "stage": "B", "field": "interpretacao_dispositivo", "idx": "1-2", "item": "CPC 355; CPC 370", "verdict": "OMI", "reason": "Sem conteúdo."},
+
+    {"decision": 88, "tribunal": "TJSP", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "CPC 98", "verdict": "OK"},
+    {"decision": 88, "tribunal": "TJSP", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 88, "tribunal": "TJSP", "stage": "A", "field": "categorias", "idx": 1, "item": "Proc. Civil, Gratuidade, PJ", "verdict": "OK"},
+    {"decision": 88, "tribunal": "TJSP", "stage": "B", "field": "criterio_juridico", "idx": "1-2", "item": "Comprovação impossibilidade PJ; documentação quando determinada", "verdict": "OK"},
+    {"decision": 88, "tribunal": "TJSP", "stage": "B", "field": "tese", "idx": "1-3", "item": "Ausência receita; dívidas; despesas processuais custo atividade", "verdict": "OK"},
+    {"decision": 88, "tribunal": "TJSP", "stage": "B", "field": "interpretacao_dispositivo", "idx": "1-2", "item": "CPC 98; CPC 99 §3º", "verdict": "OMI", "reason": "Sem conteúdo."},
+
+    {"decision": 89, "tribunal": "TJSP", "stage": "A", "field": "dispositivo_legal", "idx": "1-3", "item": "CC 476; CC 490; CC 1.245 §1º", "verdict": "OK"},
+    {"decision": 89, "tribunal": "TJSP", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 89, "tribunal": "TJSP", "stage": "A", "field": "categorias", "idx": 1, "item": "Dir. Civil, Reais, Tutela Urgência, Proc. Civil", "verdict": "OK"},
+    {"decision": 89, "tribunal": "TJSP", "stage": "B", "field": "criterio_juridico", "idx": "1-3", "item": "Propriedade registrada; perigo de dano; prazo 15d", "verdict": "OK"},
+    {"decision": 89, "tribunal": "TJSP", "stage": "B", "field": "tese", "idx": "1-4", "item": "Nota devolução; exceção contrato; pais idosos; risco titularidade", "verdict": "OK"},
+    {"decision": 89, "tribunal": "TJSP", "stage": "B", "field": "interpretacao_dispositivo", "idx": "1-3", "item": "CC 476; CC 490; CC 1.245", "verdict": "OMI", "reason": "Sem conteúdo (x3)."},
+
+    {"decision": 90, "tribunal": "TJSP", "stage": "A", "field": "dispositivo_legal", "idx": 0, "item": "NENHUM EXTRAÍDO", "verdict": "OMI", "reason": "Stage A vazia apesar de CPC 99 §2º/§3º (3x) e Súmula 481/STJ (4x) no texto."},
+    {"decision": 90, "tribunal": "TJSP", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 90, "tribunal": "TJSP", "stage": "A", "field": "categorias", "idx": 1, "item": "Proc. Civil, Gratuidade, PJ, Acesso à Justiça", "verdict": "OK"},
+    {"decision": 90, "tribunal": "TJSP", "stage": "B", "field": "criterio_juridico", "idx": "1-2", "item": "Demonstração impossibilidade PJ; documentação atual", "verdict": "OK"},
+    {"decision": 90, "tribunal": "TJSP", "stage": "B", "field": "criterio_juridico", "idx": 3, "item": "Fundamentação da decisão judicial", "verdict": "GRA", "reason": "Critério genérico demais — dever geral do juiz (CF 93 IX), não critério específico desta decisão."},
+    {"decision": 90, "tribunal": "TJSP", "stage": "B", "field": "tese", "idx": "1-3", "item": "Nulidade fundamentação; demonstrativos suficientes; dificuldade/crise", "verdict": "OK"},
+    {"decision": 90, "tribunal": "TJSP", "stage": "B", "field": "interpretacao_dispositivo", "idx": "1-3", "item": "CPC 99 §2º; CPC 99 §3º; Súmula 481/STJ", "verdict": "OMI", "reason": "Sem conteúdo (x3)."}
+  ],
+  "omissions": [
+    {"decision": 76, "items": [
+      {"stage": "A", "description": "Lei 4.595/64 e MP 2.170-36/01 — citadas no texto mas extraídas apenas como interpretação, não dispositivo Stage A"},
+      {"stage": "B", "description": "Legalidade da capitalização de juros com previsão expressa no contrato — holding implícita na Tese 3"}
+    ]},
+    {"decision": 77, "items": [
+      {"stage": "A", "description": "CC art. 50 §1º — citado mas não extraído como dispositivo separado"},
+      {"stage": "B", "description": "Encerramento irregular não configura abuso como holding autônoma (parcialmente na Tese 1)"}
+    ]},
+    {"decision": 78, "items": [
+      {"stage": "A", "description": "Tema Repetitivo 1.132/STJ — 5 ocorrências, fundamento central, não extraído"}
+    ]},
+    {"decision": 79, "items": [
+      {"stage": "B", "description": "Parâmetro 1,5x taxa média mercado para abusividade — critério quantitativo não capturado"},
+      {"stage": "A", "description": "REsp 1.578.553/SP (Tema 958/STJ) — precedente para tarifas"}
+    ]},
+    {"decision": 80, "items": [
+      {"stage": "B", "description": "Critério temporal: contrato após RN 557 sujeito ao novo regramento"},
+      {"stage": "A", "description": "ACP 0136265-83.2013.4.02.5101 — precedente citado"}
+    ]},
+    {"decision": 81, "items": [
+      {"stage": "A", "description": "Tema Repetitivo 1.132/STJ — 5 ocorrências, fundamento central, não extraído"}
+    ]},
+    {"decision": 82, "items": []},
+    {"decision": 83, "items": [
+      {"stage": "A", "description": "CPC art. 1.007 §4º — expressamente citado, não extraído"},
+      {"stage": "B", "description": "Inércia do agravante como fundamento autônomo"}
+    ]},
+    {"decision": 84, "items": [
+      {"stage": "B", "description": "Distinção provedor aplicação vs provedor conexão — conceito central parcialmente capturado"}
+    ]},
+    {"decision": 85, "items": [
+      {"stage": "A", "description": "CPC art. 561 — norma-base ações possessórias, não extraída"}
+    ]},
+    {"decision": 86, "items": [
+      {"stage": "A", "description": "CDC art. 14 e art. 42 par. único — no texto e nas interpretações mas não como dispositivo Stage A"},
+      {"stage": "A", "description": "CPC art. 85 §11 — mencionado para majoração honorários"}
+    ]},
+    {"decision": 87, "items": []},
+    {"decision": 88, "items": [
+      {"stage": "A", "description": "CPC art. 99 §3º — expressamente citado, não extraído como dispositivo"},
+      {"stage": "B", "description": "Movimentação financeira incompatível com alegação incapacidade — fundamento fático-jurídico central"}
+    ]},
+    {"decision": 89, "items": []},
+    {"decision": 90, "items": [
+      {"stage": "A", "description": "Súmula 481/STJ — 4 ocorrências, fundamento central, não extraída"},
+      {"stage": "A", "description": "CPC art. 99 §2º e §3º — 3 ocorrências, não extraídos"},
+      {"stage": "B", "description": "PJ sem fins lucrativos sujeita ao mesmo ônus de comprovação que PJ com fins lucrativos"}
+    ]}
+  ],
+  "quality_notes": [
+    {"decision": 84, "note": "Uma das decisões mais bem extraídas do lote. Pipeline funciona bem em decisões técnicas com dispositivos específicos e holdings claras."},
+    {"decision": 86, "note": "Boa extração na Stage B (5 teses variadas e corretas, 4 critérios pertinentes). Falha é Stage A vazia."},
+    {"decision": 89, "note": "Decisão bem extraída — 4 teses variadas com resultados corretos."}
+  ]
+}

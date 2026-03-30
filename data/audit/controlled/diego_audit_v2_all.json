@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "auditor": "Diego Sens (OAB/PR)",
+    "date": "2026-03-27",
+    "version": "v3 — corrected HAL→OMI reclassification + GRA/QUA merge",
+    "controlled_model": "llama-3.3-70b-versatile",
+    "total_decisions": 40,
+    "total_items": 323,
+    "total_errors": 38,
+    "error_rate": 0.118,
+    "changelog": [
+      "v2 (2026-03-25): exact Valter prompts (22 rules Stage A, 54 rules Stage B)",
+      "v3 (2026-03-27): HAL reclassification (STJ 3 resultado=None → OMI, TRF4 2 phantom HAL removed, TJSP 1 HAL added from D96). QUA merged into GRA."
+    ]
+  },
+  "by_tribunal": {
+    "STJ": {"items": 77, "errors": 15, "rate": 0.195, "decisions": 10, "perfect": 2,
+            "verdicts": {"GRA": 4, "OMI": 10, "TYP": 1, "HAL": 0},
+            "note": "3 former HAL (D8/D18/D29 resultado=None) reclassified as OMI; 2 phantom HAL removed; former QUA merged into GRA"},
+    "TJPR": {"items": 76, "errors": 13, "rate": 0.171, "decisions": 10, "perfect": 2,
+             "verdicts": {"GRA": 5, "OMI": 5, "TYP": 2, "DUP": 1},
+             "note": "former QUA merged into GRA"},
+    "TJSP": {"items": 83, "errors": 6, "rate": 0.072, "decisions": 10, "perfect": 5,
+             "verdicts": {"GRA": 3, "DUP": 2, "HAL": 1},
+             "note": "HAL is D96 (Lei 11.419 from digital signature block); former QUA merged into GRA"},
+    "TRF4": {"items": 87, "errors": 4, "rate": 0.046, "decisions": 10, "perfect": 5,
+             "verdicts": {"GRA": 1, "OMI": 3, "HAL": 0},
+             "note": "2 former HAL were phantom (not in detailed audit files); removed"}
+  },
+  "comparison_with_original": {
+    "STJ":  {"original_rate": 0.093, "original_model": "Grok-3-mini",       "controlled_rate": 0.195, "delta": "+10.2pp"},
+    "TJPR": {"original_rate": 0.036, "original_model": "Llama-3.3-70b",     "controlled_rate": 0.171, "delta": "+13.5pp"},
+    "TJSP": {"original_rate": 0.006, "original_model": "Sonnet 4.6/GPT-5-4","controlled_rate": 0.072, "delta": "+6.6pp"},
+    "TRF4": {"original_rate": 0.017, "original_model": "Sonnet 4.6",        "controlled_rate": 0.046, "delta": "+2.9pp"}
+  },
+  "prompt_evolution": {
+    "v1_simplified": {"stj": 0.295, "tjsp": 0.138, "note": "4 rules Stage B"},
+    "v2_exact": {"stj": 0.221, "tjsp": 0.060, "note": "54 rules Stage B"},
+    "improvement": "Exact prompt reduces error by 7-8pp across tribunals"
+  }
+}

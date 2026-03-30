@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "auditor": "Diego Sens (OAB/PR)",
+    "date": "2026-03-24",
+    "version": 2,
+    "note": "Refeito com texto integral completo (v1 usava texto truncado a 5000 chars)",
+    "decisions_audited": 10,
+    "tribunal": "STJ",
+    "batch": "001-010"
+  },
+  "calibration": {
+    "check_3": [
+      {"decision": 1, "processo": "2379853", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 2, "processo": "1810205", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 3, "processo": "6347", "status": "N/A", "verdict": "CONCORDA"},
+      {"decision": 4, "processo": "2754216", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 5, "processo": "2633124", "status": "N/A", "verdict": "CONCORDA"},
+      {"decision": 6, "processo": "2453641", "status": "N/A", "verdict": "CONCORDA"},
+      {"decision": 7, "processo": "2324110", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 8, "processo": "REsp 1657156", "status": "FAIL", "verdict": "DISCORDA", "reason": "Critério 'Registro na ANVISA' é válido (ANVISA aparece 54 vezes no texto). Overlap 0.25 é limitação lexical. Falso negativo.", "causa_raiz": "check_limitation"},
+      {"decision": 9, "processo": "2126709", "status": "N/A", "verdict": "CONCORDA"},
+      {"decision": 10, "processo": "REsp 1112416", "status": "N/A", "verdict": "CONCORDA"}
+    ],
+    "check_4": [
+      {"decision": 1, "processo": "2379853", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 2, "processo": "1810205", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 3, "processo": "6347", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 4, "processo": "2754216", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 5, "processo": "2633124", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 6, "processo": "2453641", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 7, "processo": "2324110", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 8, "processo": "REsp 1657156", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 9, "processo": "2126709", "status": "PASS", "verdict": "CONCORDA"},
+      {"decision": 10, "processo": "REsp 1112416", "status": "PASS", "verdict": "CONCORDA"}
+    ]
+  },
+  "audit_items": [
+    {"decision": 1, "processo": "2379853", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "CPC art. 1030 §2", "verdict": "OK"},
+    {"decision": 1, "processo": "2379853", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 2, "item": "CPC art. 98", "verdict": "OK", "note": "Expresso na decisão Presidência TJRO (linhas 177, 210, 233, 358)."},
+    {"decision": 1, "processo": "2379853", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 3, "item": "CC art. 186", "verdict": "OK", "note": "Expresso (linhas 177, 233, 457)."},
+    {"decision": 1, "processo": "2379853", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 4, "item": "Súmula 7/STJ", "verdict": "OK"},
+    {"decision": 1, "processo": "2379853", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 5, "item": "Tema 970/STJ", "verdict": "OK", "note": "Expresso e numerado (9 ocorrências)."},
+    {"decision": 1, "processo": "2379853", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 1, "processo": "2379853", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "Processual Civil, Recursos, Gratuidade de Justiça, Recuperação Judicial", "verdict": "OK"},
+    {"decision": 1, "processo": "2379853", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Comprovação de insuficiência financeira para gratuidade", "verdict": "OK"},
+    {"decision": 1, "processo": "2379853", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 1, "item": "Inexistência de dano moral em razão do atraso na entrega de imóvel", "verdict": "QUA", "reason": "Tese existe no texto (linha 198), mas resultado 'rejeitada' é impreciso: STJ não rejeitou no mérito, declarou preclusa por uso de recurso inadequado. Falta qualifier de preclusão."},
+    {"decision": 1, "processo": "2379853", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 2, "item": "Violação ao art. 98 do CPC e Tema 970/STJ", "verdict": "QUA", "reason": "Essência existe, redação genérica. Fundamento real é Súmula 7 para gratuidade e preclusão para Tema 970."},
+
+    {"decision": 2, "processo": "1810205", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "CPC art. 1.003 §5º", "verdict": "OK"},
+    {"decision": 2, "processo": "1810205", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": "2-11", "item": "CPC arts. 3, 6, 9, 10, 240, 278, 280, 281, 282, 493", "verdict": "OK", "note": "Todos expressos. STJ os cita ao constatar que recorrente listou sem fundamentação."},
+    {"decision": 2, "processo": "1810205", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 12, "item": "CPC art. 903 §1º", "verdict": "OK"},
+    {"decision": 2, "processo": "1810205", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": "13-16", "item": "CC arts. 138, 139, 330, 422", "verdict": "OK"},
+    {"decision": 2, "processo": "1810205", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 17, "item": "Lei 11.101/2005 art. 108 §1º", "verdict": "OK"},
+    {"decision": 2, "processo": "1810205", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "não conhecido", "verdict": "OK"},
+    {"decision": 2, "processo": "1810205", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "Direito Falimentar, Processual Civil, Arrematação Judicial", "verdict": "OK"},
+    {"decision": 2, "processo": "1810205", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Demonstração de argumentação que sustente a ofensa à lei federal", "verdict": "OK"},
+    {"decision": 2, "processo": "1810205", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 1, "item": "A simples referência a dispositivos legais sem argumentação não é suficiente", "verdict": "OK"},
+
+    {"decision": 3, "processo": "6347", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "CPC/2015 art. 966 IV e V", "verdict": "OK"},
+    {"decision": 3, "processo": "6347", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 2, "item": "CRFB art. 5 XXXVI", "verdict": "OK"},
+    {"decision": 3, "processo": "6347", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 3, "item": "CPC/2015 art. 502", "verdict": "OK"},
+    {"decision": 3, "processo": "6347", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 4, "item": "CPC/2015 art. 503", "verdict": "OK"},
+    {"decision": 3, "processo": "6347", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 5, "item": "LINDB art. 6 §3º", "verdict": "OK"},
+    {"decision": 3, "processo": "6347", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "MIS", "reason": "Ação rescisória julgada improcedente ≠ 'improvido'."},
+    {"decision": 3, "processo": "6347", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "Processual Civil, Ação Rescisória, Coisa Julgada, Decadência", "verdict": "OK"},
+    {"decision": 3, "processo": "6347", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Prequestionamento da matéria para conhecimento do recurso", "verdict": "QUA", "reason": "Periférico. Critério central são hipóteses taxativas do art. 966."},
+    {"decision": 3, "processo": "6347", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 1, "item": "Decisão que não conhece por falta de prequestionamento não produz coisa julgada", "verdict": "OK"},
+
+    {"decision": 4, "processo": "2754216", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "CPC art. 841 §1º", "verdict": "OK", "note": "Expresso no texto integral."},
+    {"decision": 4, "processo": "2754216", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 2, "item": "Súmula 83/STJ", "verdict": "OK"},
+    {"decision": 4, "processo": "2754216", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 3, "item": "Súmula 7/STJ", "verdict": "OK"},
+    {"decision": 4, "processo": "2754216", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "provido", "verdict": "MIS", "reason": "AgInt provido para reconsiderar, mas REsp não conhecido. 'Provido' captura a forma, não a substância."},
+    {"decision": 4, "processo": "2754216", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "Direito Processual Civil, Penhora de Faturamento, Nulidades Processuais, Recursos", "verdict": "OK"},
+    {"decision": 4, "processo": "2754216", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Demonstração de prejuízo para declarar nulidade processual", "verdict": "OK"},
+    {"decision": 4, "processo": "2754216", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 1, "item": "É imprescindível demonstrar prejuízo para anular ato processual", "verdict": "OK"},
+    {"decision": 4, "processo": "2754216", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 2, "item": "Impugnação à penhora deve ser rejeitada sem demonstração de prejuízo", "verdict": "GRA", "reason": "Mistura nulidade + penhora de forma imprecisa."},
+    {"decision": 4, "processo": "2754216", "tribunal": "STJ", "stage": "B", "field": "interpretacao_dispositivo", "idx": 1, "item": "Súmula 83 art. 83", "verdict": "OMI", "reason": "Sem conteúdo interpretativo."},
+
+    {"decision": 5, "processo": "2633124", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "CPC art. 1.003 §5º", "verdict": "OK"},
+    {"decision": 5, "processo": "2633124", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 2, "item": "CPC art. 1.007 §4º", "verdict": "OK", "note": "Expresso (5 ocorrências)."},
+    {"decision": 5, "processo": "2633124", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 3, "item": "Súmula 187/STJ", "verdict": "OK"},
+    {"decision": 5, "processo": "2633124", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 5, "processo": "2633124", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "Direito Processual Civil, Recursos, Deserção, Preparo de Recursos", "verdict": "OK"},
+    {"decision": 5, "processo": "2633124", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Comprovação do preparo do recurso", "verdict": "OK"},
+    {"decision": 5, "processo": "2633124", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 1, "item": "Ausência de comprovação do preparo implica deserção", "verdict": "OK"},
+
+    {"decision": 6, "processo": "2453641", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "CPC art. 489", "verdict": "OK"},
+    {"decision": 6, "processo": "2453641", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 2, "item": "CPC art. 1022", "verdict": "OK"},
+    {"decision": 6, "processo": "2453641", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 3, "item": "CC art. 109", "verdict": "OK"},
+    {"decision": 6, "processo": "2453641", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 4, "item": "Súmula 7/STJ", "verdict": "OK"},
+    {"decision": 6, "processo": "2453641", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 5, "item": "Súmula 211/STJ", "verdict": "OK"},
+    {"decision": 6, "processo": "2453641", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 6, "processo": "2453641", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "Processual Civil, Execução, Penhora, Recursos", "verdict": "OK"},
+    {"decision": 6, "processo": "2453641", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "O Tribunal deve enfrentar efetivamente as questões apresentadas", "verdict": "OK"},
+    {"decision": 6, "processo": "2453641", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 2, "item": "A penhora torna o bem indisponível", "verdict": "OK", "note": "CPC arts. 838/839 confirmados (6 ocorrências)."},
+    {"decision": 6, "processo": "2453641", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 1, "item": "Ineficácia do acordo realizado após penhora", "verdict": "OK"},
+    {"decision": 6, "processo": "2453641", "tribunal": "STJ", "stage": "B", "field": "interpretacao_dispositivo", "idx": 1, "item": "CPC arts. 838 e 839", "verdict": "OMI", "reason": "Norma confirmada no texto, mas conteúdo interpretativo ausente."},
+
+    {"decision": 7, "processo": "2324110", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "Lei 13.043/2014", "verdict": "OK"},
+    {"decision": 7, "processo": "2324110", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 2, "item": "CPC/2015 art. 1.026 §2º", "verdict": "OK", "note": "Expresso no voto."},
+    {"decision": 7, "processo": "2324110", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 7, "processo": "2324110", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "Recuperação Judicial, Direito Tributário, Processo Civil", "verdict": "OK"},
+    {"decision": 7, "processo": "2324110", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Certidões negativas de débitos tributários para recuperação judicial", "verdict": "OK"},
+    {"decision": 7, "processo": "2324110", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 2, "item": "Julgamento monocrático de recurso inadmissível", "verdict": "OK"},
+    {"decision": 7, "processo": "2324110", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 1, "item": "Legislação permite relator julgar monocraticamente recurso inadmissível", "verdict": "OK"},
+    {"decision": 7, "processo": "2324110", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 2, "item": "Certidões negativas não são obrigatórias", "verdict": "OK"},
+
+    {"decision": 8, "processo": "REsp 1657156", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "CPC/2015 art. 1036", "verdict": "OK"},
+    {"decision": 8, "processo": "REsp 1657156", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 2, "item": "Lei 8.080/1990 art. 19-M I", "verdict": "OK"},
+    {"decision": 8, "processo": "REsp 1657156", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 8, "processo": "REsp 1657156", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "Dir. Administrativo, Saúde, ACP, Repetitivos", "verdict": "QUA", "reason": "'Ação Civil Pública' não aparece no texto (0 ocorrências). Deveria ser 'Fornecimento de Medicamentos' ou 'SUS'."},
+    {"decision": 8, "processo": "REsp 1657156", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Comprovação por laudo médico fundamentado", "verdict": "OK"},
+    {"decision": 8, "processo": "REsp 1657156", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 2, "item": "Incapacidade financeira do paciente", "verdict": "OK"},
+    {"decision": 8, "processo": "REsp 1657156", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 3, "item": "Registro do medicamento na ANVISA", "verdict": "OK"},
+    {"decision": 8, "processo": "REsp 1657156", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 1, "item": "Não há violação à separação dos poderes com fornecimento de medicamentos", "verdict": "OK", "note": "Separação de poderes discutida extensamente (13 ocorrências). HAL anterior (v1) corrigido."},
+    {"decision": 8, "processo": "REsp 1657156", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 2, "item": "Fornecimento de medicamentos fora do SUS com requisitos cumulativos", "verdict": "OK"},
+    {"decision": 8, "processo": "REsp 1657156", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 3, "item": "Laudo pode ser de profissional particular ou público", "verdict": "GRA", "reason": "Texto diz 'médico que assiste o paciente' sem fazer distinção particular/público como holding."},
+    {"decision": 8, "processo": "REsp 1657156", "tribunal": "STJ", "stage": "B", "field": "interpretacao_dispositivo", "idx": 1, "item": "Lei 8.080/1990 art. 19-M", "verdict": "OMI", "reason": "Sem conteúdo."},
+    {"decision": 8, "processo": "REsp 1657156", "tribunal": "STJ", "stage": "B", "field": "interpretacao_dispositivo", "idx": 2, "item": "Lei 8.080/1990 art. 19-T", "verdict": "OMI", "reason": "Sem conteúdo. Art. 19-T aparece 6 vezes."},
+    {"decision": 8, "processo": "REsp 1657156", "tribunal": "STJ", "stage": "B", "field": "interpretacao_dispositivo", "idx": 3, "item": "CPC/2015 art. 1036", "verdict": "TYP", "reason": "Dispositivo processual, não interpretação material."},
+
+    {"decision": 9, "processo": "2126709", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "Súmula 5/STJ", "verdict": "OK"},
+    {"decision": 9, "processo": "2126709", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 2, "item": "Súmula 7/STJ", "verdict": "OK"},
+    {"decision": 9, "processo": "2126709", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 3, "item": "Lei 13.786/2018", "verdict": "OK"},
+    {"decision": 9, "processo": "2126709", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "OK"},
+    {"decision": 9, "processo": "2126709", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "Direito Civil, Contratos, Rescisão Contratual, Cláusula Penal", "verdict": "OK"},
+    {"decision": 9, "processo": "2126709", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 1, "item": "Retenção de percentual deve ser revisada com base em peculiaridades", "verdict": "QUA", "reason": "Resultado 'rejeitada' é impreciso. STJ manteve redução para 10%. Tese da construtora é que foi rejeitada, mas redação ambígua."},
+
+    {"decision": 10, "processo": "REsp 1112416", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 1, "item": "CPC art. 131", "verdict": "OK"},
+    {"decision": 10, "processo": "REsp 1112416", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 2, "item": "CPC art. 165", "verdict": "OK"},
+    {"decision": 10, "processo": "REsp 1112416", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 3, "item": "CPC art. 458 II", "verdict": "OK"},
+    {"decision": 10, "processo": "REsp 1112416", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 4, "item": "CPC art. 535", "verdict": "OK"},
+    {"decision": 10, "processo": "REsp 1112416", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 5, "item": "CPC art. 543-C", "verdict": "OK"},
+    {"decision": 10, "processo": "REsp 1112416", "tribunal": "STJ", "stage": "A", "field": "dispositivo_legal", "idx": 6, "item": "Lei 6.830/1980 art. 16 III", "verdict": "OK"},
+    {"decision": 10, "processo": "REsp 1112416", "tribunal": "STJ", "stage": "A", "field": "resultado", "idx": 1, "item": "improvido", "verdict": "QUA", "reason": "Parcialmente conhecido e, nessa parte, não provido. Falta qualifier de conhecimento parcial."},
+    {"decision": 10, "processo": "REsp 1112416", "tribunal": "STJ", "stage": "A", "field": "categorias", "idx": 1, "item": "Processual Civil, Execução Fiscal, Embargos à Execução, Prazos Processuais", "verdict": "OK"},
+    {"decision": 10, "processo": "REsp 1112416", "tribunal": "STJ", "stage": "B", "field": "criterio_juridico", "idx": 1, "item": "Prazo de 30 dias para embargos à execução fiscal", "verdict": "OK"},
+    {"decision": 10, "processo": "REsp 1112416", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 1, "item": "Decisão não foi adequadamente fundamentada", "verdict": "OK"},
+    {"decision": 10, "processo": "REsp 1112416", "tribunal": "STJ", "stage": "B", "field": "tese", "idx": 2, "item": "Acórdão foi omisso quanto ao art. 535 CPC", "verdict": "OK"},
+    {"decision": 10, "processo": "REsp 1112416", "tribunal": "STJ", "stage": "B", "field": "interpretacao_dispositivo", "idx": 1, "item": "Lei 6.830/1980 art. 16 III", "verdict": "OMI", "reason": "Sem conteúdo. Deveria dizer: prazo conta da data da efetiva intimação da penhora."},
+    {"decision": 10, "processo": "REsp 1112416", "tribunal": "STJ", "stage": "B", "field": "interpretacao_dispositivo", "idx": 2, "item": "Lei 6.830/1980 art. 1º", "verdict": "OK", "note": "Confirmado no texto integral ('art. 1º, in fine')."}
+  ],
+  "omissions": [
+    {"decision": 1, "items": [
+      {"stage": "B", "description": "Preclusão por uso de recurso inadequado (voto, holding central)"},
+      {"stage": "B", "description": "PJ em recuperação judicial não tem presunção de hipossuficiência (item 2 ementa + precedentes)"},
+      {"stage": "A", "description": "Súmula 5/STJ (linha 295/328), Súmula 481/STJ (linha 416), CPC art. 1.042 (linha 340), CPC art. 1.030, I, 'b' (linhas 230, 316)"}
+    ]},
+    {"decision": 2, "items": [
+      {"stage": "A", "description": "Súmula 7/STJ (10 ocorrências)"},
+      {"stage": "A", "description": "Súmula 283/STF"},
+      {"stage": "B", "description": "Natureza vinculante do edital de leilão (holding, itens 3-6)"},
+      {"stage": "B", "description": "Boa-fé objetiva e segurança jurídica da arrematação (item 6)"}
+    ]},
+    {"decision": 3, "items": [
+      {"stage": "A", "description": "CPC/2015 arts. 505 e 507 (citados múltiplas vezes)"},
+      {"stage": "A", "description": "Súmula 401/STJ"},
+      {"stage": "B", "description": "Preclusão consumativa de matéria de ordem pública (itens 6-7, holding central)"},
+      {"stage": "B", "description": "Hipóteses taxativas de rescindibilidade como critério (item 3)"}
+    ]},
+    {"decision": 4, "items": [
+      {"stage": "B", "description": "Dialeticidade recursal (reconsideração do óbice)"},
+      {"stage": "B", "description": "Penhora de faturamento — requisitos cumulativos e viabilidade empresarial (item 3)"},
+      {"stage": "A", "description": "CPC arts. 805 e 866 §1º (expressamente citados)"}
+    ]},
+    {"decision": 5, "items": [
+      {"stage": "A", "description": "CPC art. 1.021 §2º (expresso)"},
+      {"stage": "B", "description": "Intimação pessoal desnecessária quando advogado foi intimado (item 4 ementa)"},
+      {"stage": "A", "description": "Súmula 115/STJ (no texto integral)"}
+    ]},
+    {"decision": 6, "items": [
+      {"stage": "B", "description": "Prequestionamento ficto art. 1.025 CPC (item 7, holding expressa)"},
+      {"stage": "A", "description": "CPC art. 1.025 (expresso)"}
+    ]},
+    {"decision": 7, "items": [
+      {"stage": "B", "description": "Reclamação 43.169/SP no STF (item 3 ementa)"},
+      {"stage": "A", "description": "Lei 11.101/2005 (Lei de Recuperação Judicial, norma-base)"},
+      {"stage": "A", "description": "Súmula 83/STJ (na decisão monocrática recorrida)"}
+    ]},
+    {"decision": 8, "items": [
+      {"stage": "A", "description": "Lei 8.080/1990 art. 19-T, I (6 ocorrências, vedação de medicamentos sem registro ANVISA)"},
+      {"stage": "A", "description": "CF art. 196 (direito à saúde)"},
+      {"stage": "B", "description": "Tese do Estado sobre vinculação aos protocolos clínicos (item 2)"}
+    ]},
+    {"decision": 9, "items": [
+      {"stage": "B", "description": "Parâmetro de 25% de retenção (EAg 1.138.183/PE, REsp 1.723.519/SP) — holding central"},
+      {"stage": "B", "description": "Peculiaridades do caso justificam desvio do parâmetro"},
+      {"stage": "A", "description": "CC art. 413 (redução equitativa da cláusula penal)"},
+      {"stage": "A", "description": "CDC art. 47 (interpretação favorável ao consumidor)"},
+      {"stage": "A", "description": "Lei 4.591/1964"}
+    ]},
+    {"decision": 10, "items": [
+      {"stage": "A", "description": "CPC art. 241 (1973, recorrente cita como fundamento)"},
+      {"stage": "A", "description": "CPC art. 738 (1973)"},
+      {"stage": "A", "description": "Súmula 284/STF"},
+      {"stage": "A", "description": "CPC art. 184"},
+      {"stage": "A", "description": "Lei 6.830/1980 art. 16 §2º"},
+      {"stage": "B", "description": "Tese fixada (repetitivo): termo a quo é data da efetiva intimação da penhora — holding central"},
+      {"stage": "A", "description": "Resolução STJ 08/08"}
+    ]}
+  ]
+}
